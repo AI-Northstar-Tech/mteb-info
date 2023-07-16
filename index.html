@@ -40,12 +40,53 @@
                 text-decoration: underline;
             }
         }
-
-        /* Right-align numerical columns */
-        .right-align {
-            text-align: right;
-        }
     </style>
+    <script>
+        // Create an object to store the sort direction for each column
+        var sortDirections = {};
+
+        function sortTable(n) {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("myTable");
+            switching = true;
+
+            // If this is the first time sorting this column, default to descending.
+            // Otherwise, flip the sort direction.
+            if (sortDirections[n] === undefined) {
+                sortDirections[n] = false;
+            } else {
+                sortDirections[n] = !sortDirections[n];
+            }
+
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+
+                    if (sortDirections[n]) {
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else {
+                        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                }
+            }
+        }
+    </script>
 </head>
 <div>
     <div>
@@ -53,8 +94,10 @@
             <div>
                 <p><strong>Overall MTEB English leaderboard 🔮</strong></p>
                 <ul>
-                    <li><strong>Metric:</strong> Various, refer to task tabs</li>
-                    <li><strong>Languages:</strong> English, refer to task tabs for others</li>
+                    <li><strong>Metric:</strong> Various, refer to task tabs
+                    </li>
+                    <li><strong>Languages:</strong> English, refer to task tabs
+                        for others</li>
                 </ul>
             </div>
         </div>
@@ -64,98 +107,199 @@
                 <div>
                     <div>
                         <div>
-                            <table
+                            <table id="myTable"
                                 class="table-auto font-mono w-full text-gray-900 text-sm transition-opacity overflow-hidden">
-                                <thead class="sticky top-0 left-0 right-0 bg-white shadow-sm z-10">
+                                <thead
+                                    class="sticky top-0 left-0 right-0 bg-white shadow-sm z-10">
                                     <tr>
-                                        <th>
+                                        <th onclick="sortTable(0)">
                                             <div> <span>Rank</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
+                                        <th onclick="sortTable(1)">
                                             <div> <span>Model</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
+                                        <th onclick="sortTable(2)">
                                             <div> <span>Model Size (GB)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Embedding Dimensions</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(3)">
+                                            <div> <span>Embedding
+                                                    Dimensions</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
+                                        <th onclick="sortTable(4)">
                                             <div> <span>Sequence Length</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Average (56 datasets)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(5)">
+                                            <div> <span>Average (56
+                                                    datasets)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Classification Average (12 datasets)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(6)">
+                                            <div> <span>Classification Average
+                                                    (12 datasets)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Clustering Average (11 datasets)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(7)">
+                                            <div> <span>Clustering Average (11
+                                                    datasets)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Pair Classification Average (3 datasets)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(8)">
+                                            <div> <span>Pair Classification
+                                                    Average (3 datasets)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Reranking Average (4 datasets)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(9)">
+                                            <div> <span>Reranking Average (4
+                                                    datasets)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Retrieval Average (15 datasets)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(10)">
+                                            <div> <span>Retrieval Average (15
+                                                    datasets)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>STS Average (10 datasets)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(11)">
+                                            <div> <span>STS Average (10
+                                                    datasets)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
-                                        <th>
-                                            <div> <span>Summarization Average (1 dataset)</span>
-                                                <div> <svg>
-                                                        <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
+                                        <th onclick="sortTable(12)">
+                                            <div> <span>Summarization Average (1
+                                                    dataset)</span>
+                                                <div> <svg width="1em"
+                                                        height="1em"
+                                                        class="fill-current text-[10px]"
+                                                        viewBox="0 0 9 7"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z">
+                                                        </path>
                                                     </svg></div>
                                             </div>
                                         </th>
@@ -168,7 +312,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/e5-large-v2">e5-large-v2</a>
                                                     </p>
                                                 </span></div>
@@ -213,7 +358,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/hkunlp/instructor-xl">instructor-xl</a>
                                                     </p>
                                                 </span></div>
@@ -258,7 +404,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/hkunlp/instructor-large">instructor-large</a>
                                                     </p>
                                                 </span></div>
@@ -303,7 +450,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/e5-base-v2">e5-base-v2</a>
                                                     </p>
                                                 </span></div>
@@ -348,7 +496,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/multilingual-e5-large">multilingual-e5-large</a>
                                                     </p>
                                                 </span></div>
@@ -393,7 +542,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/e5-large">e5-large</a>
                                                     </p>
                                                 </span></div>
@@ -438,7 +588,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-embedding-ada-002</a>
                                                     </p>
                                                 </span></div>
@@ -483,7 +634,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/e5-base">e5-base</a>
                                                     </p>
                                                 </span></div>
@@ -528,7 +680,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/e5-small-v2">e5-small-v2</a>
                                                     </p>
                                                 </span></div>
@@ -573,7 +726,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/hkunlp/instructor-base">instructor-base</a>
                                                     </p>
                                                 </span></div>
@@ -618,7 +772,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/sentence-t5-xxl">sentence-t5-xxl</a>
                                                     </p>
                                                 </span></div>
@@ -663,7 +818,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/multilingual-e5-base">multilingual-e5-base</a>
                                                     </p>
                                                 </span></div>
@@ -708,7 +864,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/gtr-t5-xxl">gtr-t5-xxl</a>
                                                     </p>
                                                 </span></div>
@@ -753,7 +910,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-msmarco-specb-bitfit">SGPT-5.8B-weightedmean-msmarco-specb-bitfit</a>
                                                     </p>
                                                 </span></div>
@@ -798,7 +956,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/e5-small">e5-small</a>
                                                     </p>
                                                 </span></div>
@@ -843,7 +1002,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/gtr-t5-xl">gtr-t5-xl</a>
                                                     </p>
                                                 </span></div>
@@ -888,7 +1048,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/gtr-t5-large">gtr-t5-large</a>
                                                     </p>
                                                 </span></div>
@@ -933,7 +1094,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/intfloat/multilingual-e5-small">multilingual-e5-small</a>
                                                     </p>
                                                 </span></div>
@@ -978,7 +1140,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/sentence-t5-xl">sentence-t5-xl</a>
                                                     </p>
                                                 </span></div>
@@ -1023,7 +1186,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/all-mpnet-base-v2">all-mpnet-base-v2</a>
                                                     </p>
                                                 </span></div>
@@ -1068,7 +1232,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco">sgpt-bloom-7b1-msmarco</a>
                                                     </p>
                                                 </span></div>
@@ -1113,7 +1278,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Muennighoff/SGPT-2.7B-weightedmean-msmarco-specb-bitfit">SGPT-2.7B-weightedmean-msmarco-specb-bitfit</a>
                                                     </p>
                                                 </span></div>
@@ -1158,7 +1324,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/sentence-t5-large">sentence-t5-large</a>
                                                     </p>
                                                 </span></div>
@@ -1203,7 +1370,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2">all-MiniLM-L12-v2</a>
                                                     </p>
                                                 </span></div>
@@ -1248,7 +1416,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">all-MiniLM-L6-v2</a>
                                                     </p>
                                                 </span></div>
@@ -1293,7 +1462,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Muennighoff/SGPT-1.3B-weightedmean-msmarco-specb-bitfit">SGPT-1.3B-weightedmean-msmarco-specb-bitfit</a>
                                                     </p>
                                                 </span></div>
@@ -1338,7 +1508,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/gtr-t5-base">gtr-t5-base</a>
                                                     </p>
                                                 </span></div>
@@ -1383,7 +1554,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/nthakur/contriever-base-msmarco">contriever-base-msmarco</a>
                                                     </p>
                                                 </span></div>
@@ -1428,7 +1600,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/sentence-t5-base">sentence-t5-base</a>
                                                     </p>
                                                 </span></div>
@@ -1473,7 +1646,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2">paraphrase-multilingual-mpnet-base-v2</a>
                                                     </p>
                                                 </span></div>
@@ -1518,7 +1692,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-nli-bitfit">SGPT-5.8B-weightedmean-nli-bitfit</a>
                                                     </p>
                                                 </span></div>
@@ -1563,7 +1738,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2">paraphrase-multilingual-MiniLM-L12-v2</a>
                                                     </p>
                                                 </span></div>
@@ -1608,7 +1784,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/msmarco-bert-co-condensor">msmarco-bert-co-condensor</a>
                                                     </p>
                                                 </span></div>
@@ -1653,7 +1830,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-msmarco-specb-bitfit">SGPT-125M-weightedmean-msmarco-specb-bitfit</a>
                                                     </p>
                                                 </span></div>
@@ -1698,7 +1876,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-similarity-ada-001</a>
                                                     </p>
                                                 </span></div>
@@ -1743,7 +1922,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/princeton-nlp/sup-simcse-bert-base-uncased">sup-simcse-bert-base-uncased</a>
                                                     </p>
                                                 </span></div>
@@ -1788,7 +1968,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-nli-bitfit">SGPT-125M-weightedmean-nli-bitfit</a>
                                                     </p>
                                                 </span></div>
@@ -1833,7 +2014,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/princeton-nlp/unsup-simcse-bert-base-uncased">unsup-simcse-bert-base-uncased</a>
                                                     </p>
                                                 </span></div>
@@ -1878,7 +2060,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/LaBSE">LaBSE</a>
                                                     </p>
                                                 </span></div>
@@ -1923,7 +2106,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/average_word_embeddings_komninos">komninos</a>
                                                     </p>
                                                 </span></div>
@@ -1968,7 +2152,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/average_word_embeddings_glove.6B.300d">glove.6B.300d</a>
                                                     </p>
                                                 </span></div>
@@ -2013,7 +2198,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/allenai-specter">allenai-specter</a>
                                                     </p>
                                                 </span></div>
@@ -2058,7 +2244,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/bert-base-uncased">bert-base-uncased</a>
                                                     </p>
                                                 </span></div>
@@ -2103,7 +2290,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://github.com/facebookresearch/LASER">LASER2</a>
                                                     </p>
                                                 </span></div>
@@ -2148,7 +2336,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer">cross-en-de-roberta-sentence-transformer</a>
                                                     </p>
                                                 </span></div>
@@ -2193,7 +2382,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/deepset/gbert-base">gbert-base</a>
                                                     </p>
                                                 </span></div>
@@ -2238,7 +2428,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/deepset/gbert-large">gbert-large</a>
                                                     </p>
                                                 </span></div>
@@ -2283,7 +2474,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/deepset/gelectra-base">gelectra-base</a>
                                                     </p>
                                                 </span></div>
@@ -2328,7 +2520,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/deepset/gelectra-large">gelectra-large</a>
                                                     </p>
                                                 </span></div>
@@ -2373,7 +2566,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/uklfr/gottbert-base">gottbert-base</a>
                                                     </p>
                                                 </span></div>
@@ -2418,7 +2612,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-similarity-babbage-001</a>
                                                     </p>
                                                 </span></div>
@@ -2463,7 +2658,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-similarity-curie-001</a>
                                                     </p>
                                                 </span></div>
@@ -2508,7 +2704,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-similarity-davinci-001</a>
                                                     </p>
                                                 </span></div>
@@ -2553,7 +2750,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-search-ada-doc-001</a>
                                                     </p>
                                                 </span></div>
@@ -2598,7 +2796,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-search-ada-001</a>
                                                     </p>
                                                 </span></div>
@@ -2643,7 +2842,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-search-babbage-001</a>
                                                     </p>
                                                 </span></div>
@@ -2688,7 +2888,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-search-curie-001</a>
                                                     </p>
                                                 </span></div>
@@ -2733,7 +2934,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models">text-search-davinci-001</a>
                                                     </p>
                                                 </span></div>
@@ -2778,7 +2980,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sentence-transformers/use-cmlm-multilingual">use-cmlm-multilingual</a>
                                                     </p>
                                                 </span></div>
@@ -2823,7 +3026,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/xlm-roberta-large">xlm-roberta-large</a>
                                                     </p>
                                                 </span></div>
@@ -2868,7 +3072,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/sh0416/random_embedding">random_embedding</a>
                                                     </p>
                                                 </span></div>
@@ -2913,7 +3118,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/dmlls/all-mpnet-base-v2-negation">all-mpnet-base-v2-negation</a>
                                                     </p>
                                                 </span></div>
@@ -2958,7 +3164,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/dmlls/all-mpnet-base-v2">all-mpnet-base-v2</a>
                                                     </p>
                                                 </span></div>
@@ -3003,7 +3210,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-large-3">universal-sentence-encoder-multilingual-large-3</a>
                                                     </p>
                                                 </span></div>
@@ -3048,7 +3256,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-3">universal-sentence-encoder-multilingual-3</a>
                                                     </p>
                                                 </span></div>
@@ -3093,7 +3302,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/vprelovac/universal-sentence-encoder-4">universal-sentence-encoder-4</a>
                                                     </p>
                                                 </span></div>
@@ -3138,7 +3348,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/vprelovac/universal-sentence-encoder-large-5">universal-sentence-encoder-large-5</a>
                                                     </p>
                                                 </span></div>
@@ -3183,7 +3394,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/ManiShankar-AlpesAi/paraphrase-multilingual-mpnet-base-v2-KE_Sieve">paraphrase-multilingual-mpnet-base-v2-KE_Sieve</a>
                                                     </p>
                                                 </span></div>
@@ -3228,7 +3440,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Shimin/LLaMA-embeeding">LLaMA-embeeding</a>
                                                     </p>
                                                 </span></div>
@@ -3273,7 +3486,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/Forbu14/openai_clip_embeddings">openai_clip_embeddings</a>
                                                     </p>
                                                 </span></div>
@@ -3318,7 +3532,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/shibing624/text2vec-base-multilingual">text2vec-base-multilingual</a>
                                                     </p>
                                                 </span></div>
@@ -3363,7 +3578,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/consciousAI/cai-lunaris-text-embeddings">cai-lunaris-text-embeddings</a>
                                                     </p>
                                                 </span></div>
@@ -3408,7 +3624,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/consciousAI/cai-stellaris-text-embeddings">cai-stellaris-text-embeddings</a>
                                                     </p>
                                                 </span></div>
@@ -3453,7 +3670,8 @@
                                         </td>
                                         <td>
                                             <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
+                                                    <p><a target="_blank"
+                                                            style="text-decoration: underline"
                                                             href="https://huggingface.co/jinaai/jina-embedding-s-en-v1">jina-embedding-s-en-v1</a>
                                                     </p>
                                                 </span></div>
@@ -3493,101 +3711,117 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
-                                            <div> <span>75</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
-                                                            href="https://huggingface.co/jinaai/jina-embedding-b-en-v1">jina-embedding-b-en-v1</a>
-                                                    </p>
-                                                </span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>0.44</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>768</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>512</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span></span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>65.89</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>36.54</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>81.51</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>56.04</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span></span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>78.65</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>30.08</span></div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div> <span>76</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>
-                                                    <p><a target="_blank" style="text-decoration: underline"
-                                                            href="https://huggingface.co/jinaai/jina-embedding-l-en-v1">jina-embedding-l-en-v1</a>
-                                                    </p>
-                                                </span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>1.34</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>1024</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>512</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span></span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>64.48</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>40.32</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>81.23</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>56.94</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span></span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>80.85</span></div>
-                                        </td>
-                                        <td>
-                                            <div> <span>30.61</span></div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div><span>75</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span><a
+                                                                    target="_blank"
+                                                                    style="text-decoration: underline"
+                                                                    href="https://huggingface.co/jinaai/jina-embedding-b-en-v1">jina-embedding-b-en-v1</a></span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>0.44</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>768</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>512</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span></span></div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>65.89</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>36.54</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>81.51</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>56.04</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span></span></div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>78.65</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>30.08</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div><span>76</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span><a
+                                                                    target="_blank"
+                                                                    style="text-decoration: underline"
+                                                                    href="https://huggingface.co/jinaai/jina-embedding-l-en-v1">jina-embedding-l-en-v1</a></span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>1.34</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>1024</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>512</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span></span></div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>64.48</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>40.32</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>81.23</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>56.94</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span></span></div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>80.85</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div><span>30.61</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
