@@ -3,44 +3,49 @@
     <style>
         /* Light mode styles */
         body {
-          background-color: #ffffff;
-          color: #000000;
+            background-color: #ffffff;
+            color: #000000;
         }
-    
+
         /* Light mode link styles */
         body a:link {
-          color: #0000FF;
+            color: #0000FF;
         }
-    
+
         body a:visited {
-          color: purple;
+            color: purple;
         }
-    
+
         body a:hover {
-          text-decoration: underline;
+            text-decoration: underline;
         }
-    
+
         /* Dark mode styles */
         @media (prefers-color-scheme: dark) {
-          body {
-            background-color: #222222;
-            color: #ffffff;
-          }
-    
-          /* Dark mode link styles */
-          body a:link {
-            color: #FF00FF;
-          }
-    
-          body a:visited {
-            color: #FF99FF;
-          }
-    
-          body a:hover {
-            text-decoration: underline;
-          }
+            body {
+                background-color: #222222;
+                color: #ffffff;
+            }
+
+            /* Dark mode link styles */
+            body a:link {
+                color: #FF00FF;
+            }
+
+            body a:visited {
+                color: #FF99FF;
+            }
+
+            body a:hover {
+                text-decoration: underline;
+            }
         }
-      </style>
+
+        /* Right-align numerical columns */
+        .right-align {
+            text-align: right;
+        }
+    </style>
 </head>
 <div>
     <div>
@@ -65,117 +70,91 @@
                                     <tr>
                                         <th>
                                             <div> <span>Rank</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Model</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Model Size (GB)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Embedding Dimensions</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Sequence Length</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Average (56 datasets)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Classification Average (12 datasets)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Clustering Average (11 datasets)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Pair Classification Average (3 datasets)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Reranking Average (4 datasets)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Retrieval Average (15 datasets)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>STS Average (10 datasets)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
                                         </th>
                                         <th>
                                             <div> <span>Summarization Average (1 dataset)</span>
-                                                <div> <svg width="1em" height="1em" class="fill-current text-[10px]"
-                                                        viewBox="0 0 9 7" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
+                                                <div> <svg>
                                                         <path d="M4.49999 0L8.3971 6.75H0.602875L4.49999 0Z"></path>
                                                     </svg></div>
                                             </div>
