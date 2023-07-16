@@ -3,18 +3,44 @@
     <style>
         /* Light mode styles */
         body {
-            background-color: #ffffff;
-            color: #000000;
+          background-color: #ffffff;
+          color: #000000;
         }
-
+    
+        /* Light mode link styles */
+        body a:link {
+          color: #0000FF;
+        }
+    
+        body a:visited {
+          color: purple;
+        }
+    
+        body a:hover {
+          text-decoration: underline;
+        }
+    
         /* Dark mode styles */
         @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #222222;
-                color: #ffffff;
-            }
+          body {
+            background-color: #222222;
+            color: #ffffff;
+          }
+    
+          /* Dark mode link styles */
+          body a:link {
+            color: #FF00FF;
+          }
+    
+          body a:visited {
+            color: #FF99FF;
+          }
+    
+          body a:hover {
+            text-decoration: underline;
+          }
         }
-    </style>
+      </style>
 </head>
 <div>
     <div>
