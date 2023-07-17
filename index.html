@@ -51,74 +51,30 @@
 	<script>
 		// Create an object to store the sort direction for each column
 		var sortDirections = {};
-
 		function sortTable(n) {
-			var table, rows, switching, i, x, y, shouldSwitch;
-			table = document.getElementById("myTable");
-			switching = true;
+			const table = document.getElementById("myTable");
+			const rows = Array.from(table.rows).slice(1); // Exclude the header row
 
-			// If this is the first time sorting this column, default to descending.
-			// Otherwise, flip the sort direction.
-			if (sortDirections[n] === undefined) {
-				sortDirections[n] = false;
-			} else {
-				sortDirections[n] = !sortDirections[n];
-			}
+			rows.sort((a, b) => {
+				const x = a.cells[n].textContent.trim().toLowerCase();
+				const y = b.cells[n].textContent.trim().toLowerCase();
 
-			while (switching) {
-				switching = false;
-				rows = table.rows;
-
-				for (i = 1; i < (rows.length - 1); i++) {
-					shouldSwitch = false;
-					x = rows[i].getElementsByTagName("TD")[n];
-					y = rows[i + 1].getElementsByTagName("TD")[n];
-
-					if (sortDirections[n]) {
-						if (!isNaN(parseFloat(x.innerHTML)) && !isNaN(parseFloat(y.innerHTML))) {
-							if (parseFloat(x.innerHTML) < parseFloat(y.innerHTML)) {
-								shouldSwitch = true;
-								break;
-							}
-						} else if (!isNaN(parseFloat(x.innerHTML))) {
-							shouldSwitch = true;
-							break;
-						} else if (!isNaN(parseFloat(y.innerHTML))) {
-							shouldSwitch = false;
-							break;
-						} else {
-							if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-								shouldSwitch = true;
-								break;
-							}
-						}
-					} else {
-						if (!isNaN(parseFloat(x.innerHTML)) && !isNaN(parseFloat(y.innerHTML))) {
-							if (parseFloat(x.innerHTML) > parseFloat(y.innerHTML)) {
-								shouldSwitch = true;
-								break;
-							}
-						} else if (!isNaN(parseFloat(x.innerHTML))) {
-							shouldSwitch = false;
-							break;
-						} else if (!isNaN(parseFloat(y.innerHTML))) {
-							shouldSwitch = true;
-							break;
-						} else {
-							if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-								shouldSwitch = true;
-								break;
-							}
-						}
-					}
+				if (!isNaN(parseFloat(x)) && !isNaN(parseFloat(y))) {
+					return sortDirections[n] ? parseFloat(x) - parseFloat(y) : parseFloat(y) - parseFloat(x);
+				} else if (!isNaN(parseFloat(x))) {
+					return sortDirections[n] ? 1 : -1;
+				} else if (!isNaN(parseFloat(y))) {
+					return sortDirections[n] ? -1 : 1;
+				} else {
+					return sortDirections[n] ? x.localeCompare(y) : y.localeCompare(x);
 				}
+			});
 
-				if (shouldSwitch) {
-					rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-					switching = true;
-				}
-			}
+			rows.forEach(row => table.appendChild(row));
+
+			sortDirections[n] = !sortDirections[n];
 		}
+
 	</script>
 </head>
 
