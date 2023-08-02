@@ -1,14 +1,13 @@
 <script>
 	import Table from '$lib/components/Table.svelte';
 	export let data;
-	console.log(data);
 </script>
 
 <div>
 	{@html data.headerHtml}
 	<div class="flex flex-wrap mt-4">
 		{#each data.primaryTabs as primaryTabs}
-			<a href={`/${encodeURI(primaryTabs.name)}`}>
+			<a href={`/${encodeURI(primaryTabs.name)}`} data-sveltekit-noscroll>
 				<div
 					class={`px-3 py-2 text-gray-400 translate-y-[0.115rem] ${
 						primaryTabs.active
@@ -26,7 +25,10 @@
 			{#if data.secondaryTabs.length > 0}
 				<div class="flex flex-wrap mt-4">
 					{#each data.secondaryTabs as secondaryTabs}
-						<a href={`/${encodeURI(data.activePrimaryTabName)}/${encodeURI(secondaryTabs.name)}`}>
+						<a
+							href={`/${encodeURI(data.activePrimaryTabName)}/${encodeURI(secondaryTabs.name)}`}
+							data-sveltekit-noscroll
+						>
 							<div
 								class={`px-3 py-2 text-gray-400 bg-white ${
 									secondaryTabs.active

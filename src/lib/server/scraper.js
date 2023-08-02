@@ -31,7 +31,6 @@ const getData = async (slug) => {
 	let activeSeconderyTabName;
 
 	for (let i = 0; i < components.length; i++) {
-		console.log(components[i]);
 		if (components[i].type === 'tabitem') {
 			if (!insidePrimary) {
 				currentPrimaryName = components[i].props.label;
@@ -102,5 +101,5 @@ const getData = async (slug) => {
 	//console.log(data);
 	return data;
 };
-getData('Bitext Mining/Danish');
+//getData("Bitext Mining/Danish");
 export default getData;
