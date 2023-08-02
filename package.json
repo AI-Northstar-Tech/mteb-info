@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^3.0.3",
 		"cheerio": "1.0.0-rc.12"
 	}
 }
