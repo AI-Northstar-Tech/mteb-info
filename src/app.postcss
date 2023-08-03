@@ -1,0 +1,30 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+	body {
+		@apply text-gray-800 dark:text-gray-300 dark:bg-gray-900 text-[.95rem];
+	}
+	p {
+		@apply leading-loose p-1;
+	}
+	ul {
+		@apply ml-4 py-3;
+	}
+	li:before {
+		/* the custom styled bullets */
+		background-color: #d0d7d6;
+		border-radius: 50%;
+		content: '';
+		display: inline-block;
+		margin-right: 1rem;
+		margin-bottom: 0.15rem;
+		height: 0.4rem;
+		width: 0.4rem;
+		@apply dark:bg-gray-700;
+	}
+	li {
+		@apply py-1.5;
+	}
+}
