@@ -1,18 +1,12 @@
-# create-svelte
+# mteb-info
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Static copy of the MTEB Leaderboard on huggingface
 
-## Creating a project
+It can be found at mteb.info (or https://ai-northstar-tech.github.io/mteb-info).
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is meant to be a way to quickly look up the MTEB benchmark for text embeddings model (since the source of truth page - https://huggingface.co/spaces/mteb/leaderboard - is a huggingface space that loads slowly).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+To make corrections and improvements to the page, please send a PR to this repository.
 
 ## Developing
 
