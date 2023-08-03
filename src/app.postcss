@@ -4,7 +4,7 @@
 @tailwind utilities;
 @layer components {
 	body {
-		@apply text-gray-800 text-[.95rem];
+		@apply text-gray-800 dark:text-gray-300 dark:bg-gray-900 text-[.95rem];
 	}
 	p {
 		@apply leading-loose p-1;
@@ -22,6 +22,7 @@
 		margin-bottom: 0.15rem;
 		height: 0.4rem;
 		width: 0.4rem;
+		@apply dark:bg-gray-700;
 	}
 	li {
 		@apply py-1.5;

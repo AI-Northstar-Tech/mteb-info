@@ -37,12 +37,15 @@
 	}
 </script>
 
-<div class="relative overflow-x-auto border border-0.5 rounded-lg">
+<div class="relative overflow-x-auto border dark:border-gray-700 border-0.5 rounded-lg">
 	<table class="table-auto w-full border-collapse font-mono text-sm">
 		<thead class="font-bold">
 			<tr class="">
 				{#each data.headers as header, index}
-					<td on:click={() => sortTable(index)} class="w-fit px-3 py-2 border border-0.5">
+					<td
+						on:click={() => sortTable(index)}
+						class="w-fit px-3 py-3 border dark:border-gray-700 border-0.5"
+					>
 						<div class="flex justify-between items-center gap-4">
 							<div>
 								{header}
@@ -66,9 +69,9 @@
 		</thead>
 		<tbody>
 			{#each $sortedItems as data}
-				<tr class="even:bg-white odd:bg-gray-50">
+				<tr class="odd:bg-gray-50 dark:odd:bg-slate-800">
 					{#each data as value}
-						<td class="w-fit px-5 py-1 border border-0.5">
+						<td class="w-fit px-5 py-1 border dark:border-gray-700 border-0.5">
 							{@html value}
 						</td>
 					{/each}

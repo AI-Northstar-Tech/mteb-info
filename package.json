@@ -27,6 +27,8 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^3.0.3",
-		"cheerio": "1.0.0-rc.12"
+		"cheerio": "1.0.0-rc.12",
+		"esm-env": "^1.0.0",
+		"lucide-svelte": "^0.263.0"
 	}
 }
