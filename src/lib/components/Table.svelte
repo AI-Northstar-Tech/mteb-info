@@ -1,39 +1,34 @@
 <script>
-	import { writable } from 'svelte/store';
 	export let data;
 
-	let items = data.data;
-
-	let sortKeyIndex = writable();
-	let sortDirection = writable(1);
-	let sortedItems = writable(items.slice());
+	$: sortedItems = data.data;
+	let sortKeyIndex;
+	let sortDirection = 1;
 
 	// Define a function to sort the items
 	const sortTable = (key) => {
 		// If the same key is clicked, reverse the sort direction
-		if ($sortKeyIndex === key) {
-			sortDirection.update((val) => -val);
+		if (sortKeyIndex === key) {
+			sortDirection = -sortDirection;
 		} else {
-			sortKeyIndex.set(key);
-			sortDirection.set(1);
+			sortKeyIndex = key;
+			sortDirection = 1;
 		}
 	};
 
 	$: {
-		const keyIndex = $sortKeyIndex;
-		const direction = $sortDirection;
-		const sorted = [...$sortedItems].sort((a, b) => {
-			const aVal = a[keyIndex];
-			const bVal = b[keyIndex];
+		const sorted = [...sortedItems].sort((a, b) => {
+			const aVal = a[sortKeyIndex];
+			const bVal = b[sortKeyIndex];
 
 			if (aVal < bVal) {
-				return -direction;
+				return -sortDirection;
 			} else if (aVal > bVal) {
-				return direction;
+				return sortDirection;
 			}
 			return 0;
 		});
-		sortedItems.set(sorted);
+		sortedItems = sorted;
 	}
 </script>
 
@@ -58,8 +53,8 @@
               border-b-[.40rem]
               border-b-gray-200
               border-r-transparent
-              ${$sortKeyIndex === index ? '!border-b-orange-500' : ''} ${
-									$sortDirection === -1 ? 'rotate-180' : ''
+              ${sortKeyIndex === index ? '!border-b-orange-500' : ''} ${
+									sortKeyIndex === index && sortDirection === -1 ? 'rotate-180' : ''
 								}`}
 							/>
 						</div>
@@ -68,7 +63,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			{#each $sortedItems as data}
+			{#each sortedItems as data}
 				<tr class="odd:bg-gray-50 dark:odd:bg-slate-800">
 					{#each data as value}
 						<td class="w-fit px-5 py-1 border dark:border-gray-700 border-0.5">

@@ -54,8 +54,6 @@
 
 <svelte:head>
 	<!-- set dark mode class based on user preference / device settings (in head to avoid FOUC) -->
-	<!-- set dark mode class based on user preference / device settings (in head to avoid FOUC) -->
-	<!-- set dark mode class based on user preference / device settings (in head to avoid FOUC) -->
 	<script>
 		if (
 			localStorage.theme === 'dark' ||
