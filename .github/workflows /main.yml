@@ -1,0 +1,16 @@
+name:
+  Scraper Cron Job
+on:
+  # Triggers the workflow every 5 minutes
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  Data-Update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Updating Data
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: ${{ vars.UPDATE_URL }}
+        method: 'GET'
