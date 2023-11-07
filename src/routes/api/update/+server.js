@@ -1,4 +1,3 @@
-import { json } from '@sveltejs/kit'
 import gitSync from "$lib/server/gitSync.js";
 import scrape from "$lib/server/scrape.js"
 
