@@ -1,13 +1,10 @@
 <script>
 	import Table from '$lib/components/Table.svelte';
-	import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
+	import Changelogs from '$lib/components/Changelogs.svelte';
 	export let data;
 </script>
 
 <div>
-	<div class="fixed top-2 right-4 md:right-[10%] z-50">
-		<ThemeSwitch />
-	</div>
 	{@html data.headerHtml}
 	<div class="flex flex-wrap mt-4">
 		{#each data.primaryTabs as primaryTabs}
@@ -48,11 +45,13 @@
 				<div class="p-2 border dark:border-gray-700 border-2 rounded-b-lg">
 					{@html data.tableData.html}
 					<Table data={data.tableData} />
+					<Changelogs data={data.changelogs} />
 				</div>
 			{:else}
 				<div>
 					{@html data.tableData.html}
 					<Table data={data.tableData} />
+					<Changelogs data={data.changelogs} />
 				</div>
 				<div class="" />
 			{/if}
