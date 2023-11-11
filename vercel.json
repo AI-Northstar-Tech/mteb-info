@@ -1,3 +1,3 @@
 {
-    "ignoreCommand": "! git diff --quiet HEAD^ HEAD ./data"
+    "ignoreCommand": "! git diff --quiet HEAD^ HEAD ./data && git diff --quiet HEAD^ HEAD ./src"
 }
