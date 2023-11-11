@@ -8,9 +8,10 @@ export async function load({ params }) {
 		const slug1 = params.slugs.split('/')[0];
 		const slug2 = params.slugs.split('/')[1];
 
-		const dataRes = await fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/data.json`)
+		const dataResPromise = fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/data.json`)
+		const changelogsResPromise = fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelogs.json`)
+		const [dataRes,changelogsRes] = await Promise.all([dataResPromise,changelogsResPromise])
 		const data = await dataRes.json()
-		const changelogsRes = await fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelogs.json`)
 		const changelogs = await changelogsRes.json()
 		
 		const table = data.table;
