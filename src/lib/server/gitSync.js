@@ -19,17 +19,17 @@ const gitSync = async (data) => {
 		});
 	}
 
-	const [dataFileRes, logsFileRes] = await Promise.all([
+	const [dataFileRes, logFileRes] = await Promise.all([
 		gitFileRes('data/data.json'),
-		gitFileRes('data/changelogs.json')
+		gitFileRes('data/changelog.json')
 	]);
 
 	const dataFileSha = dataFileRes.data.sha;
-	const logsFileSha = logsFileRes.data.sha;
+	const logFileSha = logFileRes.data.sha;
 	const prevDataStr = Buffer.from(dataFileRes.data.content, 'base64').toString('utf8');
-	const prevLogsStr = Buffer.from(logsFileRes.data.content, 'base64').toString('utf8');
+	const prevLogStr = Buffer.from(logFileRes.data.content, 'base64').toString('utf8');
 	const prevData = prevDataStr ? JSON.parse(prevDataStr) : {};
-	const prevLogs = prevLogsStr ? JSON.parse(prevLogsStr) : [];
+	const prevLog = prevLogStr ? JSON.parse(prevLogStr) : [];
 	const isDataChanged = prevDataStr !== JSON.stringify(data, null, 2);
 	const changes = [];
 	let fullChanges;
@@ -86,16 +86,16 @@ const gitSync = async (data) => {
 			});
 		}
 
-		fullChanges = [...changes, ...prevLogs];
+		fullChanges = [...changes, ...prevLog];
 
-		// pushing changelogs
-		const updatedLogsFileRes = await octokit.rest.repos.createOrUpdateFileContents({
+		// pushing changelog
+		const updatedLogFileRes = await octokit.rest.repos.createOrUpdateFileContents({
 			owner: process.env.GITHUB_OWNER,
 			repo: process.env.GITHUB_REPO,
-			path: 'data/changelogs.json',
+			path: 'data/changelog.json',
 			branch: process.env.BRANCH,
-			sha: logsFileSha,
-			message: 'Update changelogs file @ ' + new Date(Date.now()).toUTCString(),
+			sha: logFileSha,
+			message: 'Update changelog file @ ' + new Date(Date.now()).toUTCString(),
 			content: Buffer.from(JSON.stringify(fullChanges, null, 2)).toString('base64'),
 			committer: {
 				name: 'data-update-bot',
@@ -103,7 +103,7 @@ const gitSync = async (data) => {
 			}
 		});
 	}
-	return { changelogs: fullChanges };
+	return { changelog: fullChanges };
 };
 
 function getModelsPerSlug(data) {

@@ -9,10 +9,10 @@ export async function load({ params }) {
 		const slug2 = params.slugs.split('/')[1];
 
 		const dataResPromise = fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/data.json`)
-		const changelogsResPromise = fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelogs.json`)
-		const [dataRes,changelogsRes] = await Promise.all([dataResPromise,changelogsResPromise])
+		const changelogResPromise = fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelog.json`)
+		const [dataRes,changelogRes] = await Promise.all([dataResPromise,changelogResPromise])
 		const data = await dataRes.json()
-		const changelogs = await changelogsRes.json()
+		const changelog = await changelogRes.json()
 		
 		const table = data.table;
 		const pageData = {
@@ -54,9 +54,9 @@ export async function load({ params }) {
 			? `${pageData.activePrimaryTabName}/${pageData.activeSeconderyTabName}`
 			: pageData.activePrimaryTabName;
 
-		const filteredChangelogs = changelogs.filter((item) => item.slug === slug);
+		const filteredChangelog = changelog.filter((item) => item.slug === slug);
 	
-		return { ...pageData, changelogs: filteredChangelogs };
+		return { ...pageData, changelog: filteredChangelog };
 	} catch (e) {
 		console.log(e);
 		throw new error(404, 'Not found');

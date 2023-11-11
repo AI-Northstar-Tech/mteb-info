@@ -1,6 +1,6 @@
 <script>
 	import Table from '$lib/components/Table.svelte';
-	import Changelogs from '$lib/components/Changelogs.svelte';
+	import Changelog from '$lib/components/Changelog.svelte';
 	export let data;
 </script>
 
@@ -45,13 +45,13 @@
 				<div class="p-2 border dark:border-gray-700 border-2 rounded-b-lg">
 					{@html data.tableData.html}
 					<Table data={data.tableData} />
-					<Changelogs data={data.changelogs} />
+					<Changelog data={data.changelog} />
 				</div>
 			{:else}
 				<div>
 					{@html data.tableData.html}
 					<Table data={data.tableData} />
-					<Changelogs data={data.changelogs} />
+					<Changelog data={data.changelog} />
 				</div>
 				<div class="" />
 			{/if}

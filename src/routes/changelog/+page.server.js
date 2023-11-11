@@ -2,9 +2,9 @@ import { error } from '@sveltejs/kit';
 
 export async function load() {
 	try {
-        const changelogsRes = await fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelogs.json`)
-		const changelogs = await changelogsRes.json()
-        return { changelogs };
+        const changelogRes = await fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelog.json`)
+		const changelog = await changelogRes.json()
+        return { changelog };
 	} catch (e) {
 		console.log(e);
 		throw new error(500);

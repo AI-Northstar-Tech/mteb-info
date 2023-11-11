@@ -6,7 +6,7 @@ import scrape from "$lib/server/scrape.js"
 export async function GET(event) {
     try {
         const data = await scrape();
-        const { changelogs } = await gitSync(data);
+        const { changelog } = await gitSync(data);
         
           const options = {
             status: 200

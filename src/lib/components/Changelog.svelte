@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	<h3 class="mt-6 text-lg">Changelogs :</h3>
+	<h3 class="mt-6 text-lg">Changelog :</h3>
 	<ul>
 		{#each data as item}
 			<li class={`${item.type === '+' ? 'li-plus' : 'li-minus'}`}>
