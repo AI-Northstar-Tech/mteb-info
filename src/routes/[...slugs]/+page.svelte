@@ -65,5 +65,6 @@
 				>https://github.com/AI-Northstar-Tech/mteb-info/tree/main</a
 			>.
 		</p>
+		<p>View full <a class="text-blue-500 underline" href="/changelog">changelog</a></p>
 	</div>
 </div>
