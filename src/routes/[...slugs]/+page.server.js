@@ -27,8 +27,10 @@ export async function load({ params }) {
 
 		for (let i = 0; i < table.length; i++) {
 			const isActivePrimary = slug1 ? table[i].name === slug1 : i === 0;
+			const currentPrimary = table[i].name
 			pageData.primaryTabs.push({
-				name: table[i].name,
+				name: currentPrimary,
+				url: `/${encodeURI(currentPrimary)}`,
 				active: isActivePrimary
 			});
 			if (isActivePrimary) {
@@ -36,12 +38,14 @@ export async function load({ params }) {
 				if (table[i].table.length > 0) {
 					table[i].table.forEach((table, i) => {
 						const isActiveSecondery = slug2 ? table.name === slug2 : i === 0;
+						const currentSecondery = table.name
 						if (isActiveSecondery) {
 							pageData.activeSeconderyTabName = table.name;
 							pageData.tableData = table;
 						}
 						pageData.secondaryTabs.push({
 							name: table.name,
+							url: `/${encodeURI(currentPrimary)}/${encodeURI(currentSecondery)}`,
 							active: isActiveSecondery
 						});
 					});
