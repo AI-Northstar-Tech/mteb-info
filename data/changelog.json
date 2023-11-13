@@ -1,5 +1,1202 @@
 [
   {
+    "slug": "Overall/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.590Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.591Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.592Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.592Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.593Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.608Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.608Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.609Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.609Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.610Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.610Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.611Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.627Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.628Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.628Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.629Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.629Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.629Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.629Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.630Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.630Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.630Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.631Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.631Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.631Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.631Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.632Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.632Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.632Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.633Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.633Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.633Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.633Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.634Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.635Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.635Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.648Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.648Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.648Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.649Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.649Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.649Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.649Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.649Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.650Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.650Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.650Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.650Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.650Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.650Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.650Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.651Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.651Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.667Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.668Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.668Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.668Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.668Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.668Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.669Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.669Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.669Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.669Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.669Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.669Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.670Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.670Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.670Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.670Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.671Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.671Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.671Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.671Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.671Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.672Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.672Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.672Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.672Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.672Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.672Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.673Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.673Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.673Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.673Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.673Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.673Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.674Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.674Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.674Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.674Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.674Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.674Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.675Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-13T23:11:31.675Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.675Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.675Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.675Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.677Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.677Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.677Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.677Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.677Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.677Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.678Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-13T23:11:31.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2023-11-13T23:11:31.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2023-11-13T23:11:31.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.679Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.679Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.687Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.688Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.688Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-11-13T23:11:31.688Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.688Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-base-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.688Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.688Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-large-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.689Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-quant"
+    },
+    "time": "2023-11-13T23:11:31.689Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/zeroshot/bge-small-en-v1.5-sparse"
+    },
+    "time": "2023-11-13T23:11:31.689Z",
+    "type": "-"
+  },
+  {
     "slug": "Overall/Chinese",
     "model": {
       "name": "gte-large-zh",
