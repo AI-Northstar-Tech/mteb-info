@@ -1,290 +1,290 @@
 [
-	{
-		"slug": "Overall/Chinese",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.861Z",
-		"type": "+"
-	},
-	{
-		"slug": "Overall/Chinese",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.862Z",
-		"type": "+"
-	},
-	{
-		"slug": "Overall/Chinese",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.863Z",
-		"type": "+"
-	},
-	{
-		"slug": "Overall/Chinese",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.864Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Chinese",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.865Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Chinese",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.866Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Chinese",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.866Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Chinese",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.867Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Other",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.867Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Other",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.868Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Other",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.869Z",
-		"type": "+"
-	},
-	{
-		"slug": "Classification/Other",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.879Z",
-		"type": "+"
-	},
-	{
-		"slug": "Clustering/Chinese",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.880Z",
-		"type": "+"
-	},
-	{
-		"slug": "Clustering/Chinese",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.880Z",
-		"type": "+"
-	},
-	{
-		"slug": "Clustering/Chinese",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.881Z",
-		"type": "+"
-	},
-	{
-		"slug": "Clustering/Chinese",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.881Z",
-		"type": "+"
-	},
-	{
-		"slug": "Pair Classification/Chinese",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.898Z",
-		"type": "+"
-	},
-	{
-		"slug": "Pair Classification/Chinese",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.898Z",
-		"type": "+"
-	},
-	{
-		"slug": "Pair Classification/Chinese",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.899Z",
-		"type": "+"
-	},
-	{
-		"slug": "Pair Classification/Chinese",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.899Z",
-		"type": "+"
-	},
-	{
-		"slug": "Reranking/Chinese",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.900Z",
-		"type": "+"
-	},
-	{
-		"slug": "Reranking/Chinese",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.900Z",
-		"type": "+"
-	},
-	{
-		"slug": "Reranking/Chinese",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.900Z",
-		"type": "+"
-	},
-	{
-		"slug": "Reranking/Chinese",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.901Z",
-		"type": "+"
-	},
-	{
-		"slug": "Retrieval/Chinese",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.901Z",
-		"type": "+"
-	},
-	{
-		"slug": "Retrieval/Chinese",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.901Z",
-		"type": "+"
-	},
-	{
-		"slug": "Retrieval/Chinese",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.902Z",
-		"type": "+"
-	},
-	{
-		"slug": "Retrieval/Chinese",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.902Z",
-		"type": "+"
-	},
-	{
-		"slug": "STS/Chinese",
-		"model": {
-			"name": "tao-520k",
-			"url": "https://huggingface.co/amu/tao-520k"
-		},
-		"time": "2023-11-08T16:53:07.902Z",
-		"type": "+"
-	},
-	{
-		"slug": "STS/Chinese",
-		"model": {
-			"name": "gte-large-zh",
-			"url": "https://huggingface.co/thenlper/gte-large-zh"
-		},
-		"time": "2023-11-08T16:53:07.903Z",
-		"type": "+"
-	},
-	{
-		"slug": "STS/Chinese",
-		"model": {
-			"name": "gte-base-zh",
-			"url": "https://huggingface.co/thenlper/gte-base-zh"
-		},
-		"time": "2023-11-08T16:53:07.903Z",
-		"type": "+"
-	},
-	{
-		"slug": "STS/Chinese",
-		"model": {
-			"name": "gte-small-zh",
-			"url": "https://huggingface.co/thenlper/gte-small-zh"
-		},
-		"time": "2023-11-08T16:53:07.903Z",
-		"type": "+"
-	}
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.861Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.862Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.863Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.864Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.865Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.866Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.866Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.867Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.867Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.868Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.869Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.879Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.880Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.880Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.881Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.881Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.898Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.898Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.899Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.899Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.900Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.900Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.900Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.901Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.901Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.901Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.902Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.902Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "tao-520k",
+      "url": "https://huggingface.co/amu/tao-520k"
+    },
+    "time": "2023-11-08T16:53:07.902Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2023-11-08T16:53:07.903Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2023-11-08T16:53:07.903Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2023-11-08T16:53:07.903Z",
+    "type": "+"
+  }
 ]
