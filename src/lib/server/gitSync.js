@@ -30,7 +30,7 @@ const gitSync = async (data) => {
 	const prevLogStr = Buffer.from(logFileRes.data.content, 'base64').toString('utf8');
 	const prevData = prevDataStr ? JSON.parse(prevDataStr) : {};
 	const prevLog = prevLogStr ? JSON.parse(prevLogStr) : [];
-	const isDataChanged = prevDataStr !== JSON.stringify(data, null, 2);
+	const isDataChanged = JSON.stringify(JSON.parse(prevDataStr)) !== JSON.stringify(data);
 	const changes = [];
 	let fullChanges;
 
