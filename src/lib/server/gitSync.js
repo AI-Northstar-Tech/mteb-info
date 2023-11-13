@@ -54,12 +54,10 @@ const gitSync = async (data) => {
 		const prevModels = getModelsPerSlug(prevData);
 
 		for (const slug in currModels) {
-			const addedModels = currModels[slug].filter(
-				(element) => !prevModels[slug]?.includes(element)
-			) || [];
-			const removedModels = prevModels[slug]?.filter(
-				(element) => !currModels[slug].includes(element)
-			) || [];
+			const addedModels =
+				currModels[slug].filter((element) => !prevModels[slug]?.includes(element)) || [];
+			const removedModels =
+				prevModels[slug]?.filter((element) => !currModels[slug].includes(element)) || [];
 
 			addedModels.forEach((model) => {
 				changes.push({
@@ -72,7 +70,7 @@ const gitSync = async (data) => {
 					type: '+'
 				});
 			});
-			
+
 			removedModels.forEach((model) => {
 				changes.push({
 					slug,

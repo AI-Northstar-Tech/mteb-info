@@ -5,11 +5,12 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export async function load() {
-	const dataRes = await fetch(
-		`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/data.json`
+	const changelogRes = await fetch(
+		`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelog.json`
 	);
-	const data = await dataRes.json();
-	throw redirect(302, `http://127.0.0.1:5173/changelog/${encodeURI(data.table[0]?.name)}`);
+	const changelog = await changelogRes.json();
+
+	throw redirect(302, `/changelog/${encodeURI(changelog[0].slug.split('/')[0])}`);
 }
 export const config = {
 	isr: {

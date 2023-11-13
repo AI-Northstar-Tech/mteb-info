@@ -22,7 +22,7 @@ const getData = async () => {
 	const table = [];
 
 	let insidePrimary = false;
-    let insideSecondery = false;
+	let insideSecondery = false;
 
 	for (let i = 0; i < components.length; i++) {
 		// scrapping primary and secondary tables
@@ -42,31 +42,34 @@ const getData = async () => {
 		// determining if we are inside primary or secondery table
 		if (components[i].type === 'tabitem' && components[i + 1]?.type === 'tabitem') {
 			insidePrimary = true;
-            insideSecondery = false;
+			insideSecondery = false;
 		} else if (components[i].type === 'tabs') {
 			insidePrimary = false;
-            insideSecondery = true;
+			insideSecondery = true;
 		}
 
-        const activePrimaryTable = table[table.length - 1];
-        const activeTable = activePrimaryTable?.table?.length > 0 ? activePrimaryTable.table[activePrimaryTable.table.length - 1] : activePrimaryTable
-		
-        // adding table titles and row data
+		const activePrimaryTable = table[table.length - 1];
+		const activeTable =
+			activePrimaryTable?.table?.length > 0
+				? activePrimaryTable.table[activePrimaryTable.table.length - 1]
+				: activePrimaryTable;
+
+		// adding table titles and row data
 		if (components[i].type === 'dataframe' && (insidePrimary || insideSecondery)) {
-          	activeTable.headers = components[i].props.value.headers;
-			activeTable.data = components[i].props.value.data;  
+			activeTable.headers = components[i].props.value.headers;
+			activeTable.data = components[i].props.value.data;
 		}
 
-        // adding table markdown
+		// adding table markdown
 		if (components[i].type === 'markdown' && (insidePrimary || insideSecondery)) {
 			activeTable.html = components[i].props.value;
 		}
 	}
-    return {
+	return {
 		headerHtml: components[0].props.value,
 		footerHtml: components[components.length - 1].props.value,
 		table
 	};
-}
+};
 
-export default getData
+export default getData;

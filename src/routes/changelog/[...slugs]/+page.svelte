@@ -5,7 +5,7 @@
 
 <div>
 	<div class="text-xl">Changelog:</div>
-	<TableGroup {data}/>
+	<TableGroup {data} />
 	<div class="pt-6">
 		<p>View <a class="text-blue-500 underline" href="/">rankings</a></p>
 		<p>

@@ -27,11 +27,11 @@
 </script>
 
 <div>
-	<h3 class="mt-6 mb-3 text-lg">Changelog :</h3>
 	{#if data.length > 0}
-	<Table data={tableData} />
+		<Table data={tableData} />
 	{:else}
-	<div class="border dark:border-gray-700 border-0.5 rounded text-center p-2">No Changelog Found</div>
+		<div class="border dark:border-gray-700 border-0.5 rounded text-center p-2">
+			No Changelog Found
+		</div>
 	{/if}
-	
 </div>

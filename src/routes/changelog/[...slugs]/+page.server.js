@@ -1,60 +1,50 @@
 import { error } from '@sveltejs/kit';
-import dotenv from 'dotenv'
+import dotenv from 'dotenv';
 
-dotenv.config()
+dotenv.config();
 
 export async function load({ params }) {
 	try {
 		const slug1 = params.slugs.split('/')[0];
 		const slug2 = params.slugs.split('/')[1];
 
-		const dataResPromise = fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/data.json`)
-		const changelogResPromise = fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelog.json`)
-		const [dataRes,changelogRes] = await Promise.all([dataResPromise,changelogResPromise])
-		const data = await dataRes.json()
-		const changelog = await changelogRes.json()
-		
-		const table = data.table;
+		const changelogRes = await fetch(
+			`https://raw.githubusercontent.com/${process.env.GITHUB_OWNER}/${process.env.GITHUB_REPO}/${process.env.BRANCH}/data/changelog.json`
+		);
+		const changelog = await changelogRes.json();
+
+		const primaryTabSet = new Set();
+		const secondaryTabSet = new Set();
+		const changelogMap = new Map();
+
+		changelog.forEach((item) => {
+			primaryTabSet.add(item.slug.split('/')[0]);
+			secondaryTabSet.add(item.slug.split('/')[1]);
+			changelogMap.set(item.slug, [...(changelogMap.get(item.slug) ?? []), item]);
+		});
+
+		const activePrimaryTabName = slug1 ?? primaryTabSet.values().next().value;
+		const activeSeconderyTabName = slug2 ?? secondaryTabSet.values().next().value;
 		const pageData = {
-			primaryTabs: [],
-			secondaryTabs: [],
-			activePrimaryTabName: undefined,
-			activeSeconderyTabName: undefined,
+			primaryTabs: [...primaryTabSet].map((item) => {
+				return {
+					name: item,
+					url: `/changelog/${encodeURI(item)}`,
+					active: activePrimaryTabName === item
+				};
+			}),
+			secondaryTabs: [...secondaryTabSet]
+				.filter((item) => changelogMap.has(`${activePrimaryTabName}/${item}`))
+				.map((item) => {
+					return {
+						name: item,
+						url: `/changelog/${encodeURI(activePrimaryTabName)}/${encodeURI(item)}`,
+						active: activeSeconderyTabName === item
+					};
+				}),
+			changelog: changelogMap.get(`${activePrimaryTabName}/${activeSeconderyTabName}`)
 		};
-
-		for (let i = 0; i < table.length; i++) {
-			const isActivePrimary = slug1 ? table[i].name === slug1 : i === 0;
-			const currentPrimary = table[i].name
-			pageData.primaryTabs.push({
-				name: currentPrimary,
-				url: `/changelog/${encodeURI(currentPrimary)}`,
-				active: isActivePrimary
-			});
-			if (isActivePrimary) {
-				pageData.activePrimaryTabName = table[i].name;
-				if (table[i].table.length > 0) {
-					table[i].table.forEach((table, i) => {
-						const isActiveSecondery = slug2 ? table.name === slug2 : i === 0;
-						const currentSecondery = table.name
-						if (isActiveSecondery) {
-							pageData.activeSeconderyTabName = table.name;
-						}
-						pageData.secondaryTabs.push({
-							name: table.name,
-							url: `/changelog/${encodeURI(currentPrimary)}/${encodeURI(currentSecondery)}`,
-							active: isActiveSecondery
-						});
-					});
-				}
-			}
-		}
-		const slug = pageData.activeSeconderyTabName
-			? `${pageData.activePrimaryTabName}/${pageData.activeSeconderyTabName}`
-			: pageData.activePrimaryTabName;
-
-		const filteredChangelog = changelog.filter((item) => item.slug === slug);
-	
-		return { ...pageData, changelog: filteredChangelog };
+		return pageData;
 	} catch (e) {
 		console.log(e);
 		throw new error(404, 'Not found');

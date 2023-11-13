@@ -5,7 +5,7 @@
 
 <div>
 	{@html data.headerHtml}
-	<TableGroup {data}/>
+	<TableGroup {data} />
 	<div class="pt-6">
 		<p>View full <a class="text-blue-500 underline" href="/changelog">changelog</a></p>
 		<p>
