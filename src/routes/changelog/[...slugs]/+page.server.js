@@ -19,11 +19,11 @@ export async function load({ params }) {
 
 		changelog.forEach((item) => {
 			primaryTabSet.add(item.slug.split('/')[0]);
-			secondaryTabSet.add(item.slug.split('/')[1]);
+			if (item.slug.split('/')[1] && item.slug.split('/')[0] === slug1) secondaryTabSet.add(item.slug.split('/')[1]);
 			changelogMap.set(item.slug, [...(changelogMap.get(item.slug) ?? []), item]);
 		});
-
-		const activePrimaryTabName = slug1 ?? primaryTabSet.values().next().value;
+		
+		const activePrimaryTabName = slug1
 		const activeSeconderyTabName = slug2 ?? secondaryTabSet.values().next().value;
 		const pageData = {
 			primaryTabs: [...primaryTabSet].map((item) => {
@@ -33,16 +33,14 @@ export async function load({ params }) {
 					active: activePrimaryTabName === item
 				};
 			}),
-			secondaryTabs: [...secondaryTabSet]
-				.filter((item) => changelogMap.has(`${activePrimaryTabName}/${item}`))
-				.map((item) => {
+			secondaryTabs: [...secondaryTabSet].map((item) => {
 					return {
 						name: item,
 						url: `/changelog/${encodeURI(activePrimaryTabName)}/${encodeURI(item)}`,
 						active: activeSeconderyTabName === item
 					};
 				}),
-			changelog: changelogMap.get(`${activePrimaryTabName}/${activeSeconderyTabName}`)
+			changelog: changelogMap.get(activePrimaryTabName + (activeSeconderyTabName ? `/${activeSeconderyTabName}` : ''))
 		};
 		return pageData;
 	} catch (e) {
