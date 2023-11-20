@@ -3,14 +3,15 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
+		"dev": "node scripts/updateData.js && vite dev",
+		"build": "node scripts/updateData.js && vite build",
 		"preview": "vite preview",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-vercel": "^3.0.3",
 		"@sveltejs/kit": "^1.20.4",
 		"autoprefixer": "^10.4.14",
 		"eslint": "^8.28.0",
@@ -26,7 +27,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^3.0.3",
-		"cheerio": "1.0.0-rc.12"
+		"@octokit/rest": "^20.0.2",
+		"cheerio": "1.0.0-rc.12",
+		"dotenv": "^16.3.1"
 	}
 }
