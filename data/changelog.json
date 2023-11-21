@@ -5,6 +5,330 @@
       "name": "EmbeddingModlebgelargeENv1.5",
       "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
     },
+    "time": "2023-11-21T19:16:42.508Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.508Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.509Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.510Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.511Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.512Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.513Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.513Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.514Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.531Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.532Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.532Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.533Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.533Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.534Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.534Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.535Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.535Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.535Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.536Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.536Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.536Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.537Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.537Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.537Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.538Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.538Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.539Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.551Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.552Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.552Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.552Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.553Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
+    "time": "2023-11-21T19:16:42.553Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "DeepFeatEmbeddingLargeContext",
+      "url": "https://huggingface.co/DecisionOptimizationSystem/DeepFeatEmbeddingLargeContext"
+    },
+    "time": "2023-11-21T19:16:42.553Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/woody72/multilingual-e5-base"
+    },
+    "time": "2023-11-21T19:16:42.553Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "EmbeddingModlebgelargeENv1.5",
+      "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
+    },
     "time": "2023-11-21T18:20:26.211Z",
     "type": "+"
   },
