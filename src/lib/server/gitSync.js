@@ -55,32 +55,26 @@ const gitSync = async (data) => {
 
 		for (const slug in currModels) {
 			const addedModels =
-				currModels[slug].filter((element) => !prevModels[slug]?.includes(element)) || [];
-			const removedModels =
-				prevModels[slug]?.filter((element) => !currModels[slug].includes(element)) || [];
+				[...currModels[slug]].filter(([key, value]) => !prevModels[slug].has(key)) || [];
 
-			addedModels.forEach((model) => {
-				changes.push({
-					slug,
-					model: {
-						name: cheerio.load(model).text(),
-						url: cheerio.load(model)('a').attr('href')
-					},
-					time: new Date(Date.now()).toISOString(),
-					type: '+'
-				});
+			const removedModels =
+				[...prevModels[slug]]?.filter(([key, value]) => !currModels[slug].has(key)) || [];
+
+			addedModels.forEach(([key, value]) => {
+				addChange(value, slug, '+');
 			});
 
-			removedModels.forEach((model) => {
-				changes.push({
-					slug,
-					model: {
-						name: cheerio.load(model).text(),
-						url: cheerio.load(model)('a').attr('href')
-					},
-					time: new Date(Date.now()).toISOString(),
-					type: '-'
-				});
+			removedModels.forEach(([key, value]) => {
+				addChange(value, slug, '-');
+			});
+		}
+
+		function addChange(value, slug, type) {
+			changes.push({
+				slug,
+				...value,
+				time: new Date(Date.now()).toISOString(),
+				type
 			});
 		}
 
@@ -109,18 +103,27 @@ function getModelsPerSlug(data) {
 	data.table?.forEach((item) => {
 		if (item.data) {
 			const slug = item.name;
-			models[slug] = [];
-			item.data.forEach((row) => {
-				models[slug].push(row[1]);
-			});
+			addedModels(item.data, slug);
 		} else {
 			item.table?.forEach((itemIn) => {
 				const slug = item.name + '/' + itemIn.name;
-				models[slug] = [];
-				itemIn.data.forEach((row) => {
-					models[slug].push(row[1]);
+				addedModels(itemIn.data, slug);
+			});
+		}
+		function addedModels(data, slug) {
+			const modelsMap = new Map();
+			data.forEach((row) => {
+				const name = cheerio.load(row[1]).text();
+				const url = cheerio.load(row[1])('a').attr('href');
+				modelsMap.set(name, {
+					model: {
+						name,
+						url
+					},
+					rank: row[0]
 				});
 			});
+			models[slug] = modelsMap;
 		}
 	});
 	return models;
