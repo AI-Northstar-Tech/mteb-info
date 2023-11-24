@@ -2,6 +2,573 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "time": "2023-11-24T18:37:19.865Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.865Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.866Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.867Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.868Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.869Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.869Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.870Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2023-11-24T18:37:19.871Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2023-11-24T18:37:19.871Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2023-11-24T18:37:19.885Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2023-11-24T18:37:19.886Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.887Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.887Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.888Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.888Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.889Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2023-11-24T18:37:19.889Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2023-11-24T18:37:19.890Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.905Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.906Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.906Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.910Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.910Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.910Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.911Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.911Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.924Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.925Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.926Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.926Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.926Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.926Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.927Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.927Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "time": "2023-11-24T18:37:19.927Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "english-beta-0.3",
+      "url": "https://huggingface.co/Equall/english-beta-0.3"
+    },
+    "time": "2023-11-24T18:37:19.928Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.928Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2023-11-24T18:37:19.928Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2023-11-24T18:37:19.929Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.929Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.929Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.931Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.931Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.931Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.931Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "time": "2023-11-24T18:37:19.931Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.931Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "time": "2023-11-24T18:37:19.932Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "english-beta-0.3",
+      "url": "https://huggingface.co/Equall/english-beta-0.3"
+    },
+    "time": "2023-11-24T18:37:19.932Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2023-11-24T18:37:19.932Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2023-11-24T18:37:19.945Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2023-11-24T18:37:19.945Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2023-11-24T18:37:19.945Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2023-11-24T18:37:19.945Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "zzz",
+      "url": "https://huggingface.co/jamesgpt1/zzz"
+    },
+    "time": "2023-11-24T18:37:19.946Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "EmbeddingModlebgelargeENv1.5",
       "url": "https://huggingface.co/binqiangliu/EmbeddingModlebgelargeENv1.5"
     },
