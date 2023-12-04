@@ -27,7 +27,7 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/WhereIsAI/UAE-Large-V1\">UAE-Large-V1</a>",
-              "",
+              1.34,
               1024,
               512,
               64.64,
@@ -132,7 +132,7 @@
             [
               8,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jamesgpt1/sf_model_e5\">sf_model_e5</a>",
-              "",
+              1.34,
               1024,
               512,
               63.34,
