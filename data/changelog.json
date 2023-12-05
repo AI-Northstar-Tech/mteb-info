@@ -2,6 +2,546 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 1,
+    "time": "2023-12-05T00:56:04.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 85,
+    "time": "2023-12-05T00:56:04.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "rank": 118,
+    "time": "2023-12-05T00:56:04.207Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 9,
+    "time": "2023-12-05T00:56:04.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 16,
+    "time": "2023-12-05T00:56:04.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "alime-reranker-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-reranker-large-zh"
+    },
+    "rank": 54,
+    "time": "2023-12-05T00:56:04.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 18,
+    "time": "2023-12-05T00:56:04.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 15,
+    "time": "2023-12-05T00:56:04.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 5,
+    "time": "2023-12-05T00:56:04.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 102,
+    "time": "2023-12-05T00:56:04.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 9,
+    "time": "2023-12-05T00:56:04.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 16,
+    "time": "2023-12-05T00:56:04.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 21,
+    "time": "2023-12-05T00:56:04.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 21,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 17,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 20,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 26,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 29,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "mmarco-bert-base-italian-uncased",
+      "url": "https://huggingface.co/nickprock/mmarco-bert-base-italian-uncased"
+    },
+    "rank": 41,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "mmarco-sentence-flare-it",
+      "url": "https://huggingface.co/nickprock/mmarco-sentence-flare-it"
+    },
+    "rank": 42,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "stsbm-sentence-flare-it",
+      "url": "https://huggingface.co/nickprock/stsbm-sentence-flare-it"
+    },
+    "rank": 43,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 4,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 82,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 4,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 17,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/German",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 12,
+    "time": "2023-12-05T00:56:04.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 17,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 2,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 85,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 9,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 12,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 17,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 3,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 97,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "alime-reranker-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-reranker-large-zh"
+    },
+    "rank": 1,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 13,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 17,
+    "time": "2023-12-05T00:56:04.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 3,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 13,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 20,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 1,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "rank": 1,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "english-beta-0.3",
+      "url": "https://huggingface.co/Equall/english-beta-0.3"
+    },
+    "rank": 105,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "rank": 7,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 15,
+    "time": "2023-12-05T00:56:04.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 49,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mmarco-bert-base-italian-uncased",
+      "url": "https://huggingface.co/nickprock/mmarco-bert-base-italian-uncased"
+    },
+    "rank": 85,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mmarco-sentence-flare-it",
+      "url": "https://huggingface.co/nickprock/mmarco-sentence-flare-it"
+    },
+    "rank": 86,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "stsbm-sentence-flare-it",
+      "url": "https://huggingface.co/nickprock/stsbm-sentence-flare-it"
+    },
+    "rank": 87,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "rank": 110,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "rank": 6,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "rank": 97,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "sts_aimer",
+      "url": "https://huggingface.co/wunein/sts_aimer"
+    },
+    "rank": 35,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "english-beta-0.3",
+      "url": "https://huggingface.co/Equall/english-beta-0.3"
+    },
+    "rank": 97,
+    "time": "2023-12-05T00:56:04.212Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "sts_aimer",
       "url": "https://huggingface.co/wunein/sts_aimer"
     },
