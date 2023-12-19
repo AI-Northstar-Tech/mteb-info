@@ -1,5 +1,415 @@
 [
   {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 1,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 3,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 6,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 18,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "PEG",
+      "url": "https://huggingface.co/TownsWu/PEG"
+    },
+    "rank": 63,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 103,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 1,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 4,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 9,
+    "time": "2023-12-19T00:55:17.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 15,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 22,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 22,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 19,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 21,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 27,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 30,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 36,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 57,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 1,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 3,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 6,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 15,
+    "time": "2023-12-19T00:55:17.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 5,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 6,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 7,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 9,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 1,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "PEG",
+      "url": "https://huggingface.co/TownsWu/PEG"
+    },
+    "rank": 3,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 8,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 12,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 21,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 1,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "PEG",
+      "url": "https://huggingface.co/TownsWu/PEG"
+    },
+    "rank": 2,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 6,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 7,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 20,
+    "time": "2023-12-19T00:55:17.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "rank": 1,
+    "time": "2023-12-19T00:55:17.325Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "rank": 2,
+    "time": "2023-12-19T00:55:17.325Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "rank": 8,
+    "time": "2023-12-19T00:55:17.325Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 16,
+    "time": "2023-12-19T00:55:17.325Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "rank": 98,
+    "time": "2023-12-19T00:55:17.325Z",
+    "type": "+"
+  },
+  {
     "slug": "Overall/English",
     "model": {
       "name": "UAE-Large-V1",
