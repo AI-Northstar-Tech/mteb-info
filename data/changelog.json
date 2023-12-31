@@ -2,6 +2,96 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 99,
+    "time": "2023-12-31T12:20:16.674Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 64,
+    "time": "2023-12-31T12:20:16.675Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 47,
+    "time": "2023-12-31T12:20:16.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 70,
+    "time": "2023-12-31T12:20:16.677Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 55,
+    "time": "2023-12-31T12:20:16.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 60,
+    "time": "2023-12-31T12:20:16.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 53,
+    "time": "2023-12-31T12:20:16.679Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 58,
+    "time": "2023-12-31T12:20:16.679Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "rank": 106,
+    "time": "2023-12-31T12:20:16.680Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "e5-mistral-7b-instruct",
       "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
     },
