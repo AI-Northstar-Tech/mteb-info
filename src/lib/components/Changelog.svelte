@@ -7,7 +7,7 @@
 
 	$: {
 		const tableDataInit = {
-			headers: ['Type', 'Model', 'Time'],
+			headers: ['Type', 'Model', 'Rank', 'Date'],
 			data: []
 		};
 		if (showSlug) tableDataInit.headers.push('Catagory');
@@ -16,9 +16,9 @@
 				item.type
 			}</p>`;
 			const modelATag = `<a href="${item.model.url}" class="underline">${item.model.name}</a>`;
-			const time = new Date(item.time).toLocaleString();
+			const date = item.time.split('T')[0];
 			const slugATag = `<a href="/${item.slug}" class="underline">${item.slug}</a>`;
-			const rowData = [typeHtml, modelATag, time];
+			const rowData = [typeHtml, modelATag, item.rank ?? '', date];
 			if (showSlug) rowData.push(slugATag);
 			tableDataInit.data.push(rowData);
 		});
