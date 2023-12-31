@@ -2,6 +2,87 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.142Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.143Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.144Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.145Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.146Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.147Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.148Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.149Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2023-12-31T12:13:09.150Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "e5-mistral-7b-instruct",
       "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
     },
