@@ -1,5 +1,705 @@
 [
   {
+    "slug": "Overall/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 7,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 100,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ds",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds"
+    },
+    "rank": 101,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "rank": 127,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ONNX",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ONNX"
+    },
+    "rank": 97,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "cloudy-large-zh",
+      "url": "https://huggingface.co/akarum/cloudy-large-zh"
+    },
+    "rank": 66,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "lim_base_zh",
+      "url": "https://huggingface.co/liujiarik/lim_base_zh"
+    },
+    "rank": 95,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "rank": 140,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 3,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "rank": 23,
+    "time": "2023-12-31T00:58:24.470Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 7,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ds",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds"
+    },
+    "rank": 76,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 113,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ONNX",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ONNX"
+    },
+    "rank": 74,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "lim_base_zh",
+      "url": "https://huggingface.co/liujiarik/lim_base_zh"
+    },
+    "rank": 5,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 84,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 95,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 27,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 27,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 25,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 26,
+    "time": "2023-12-31T00:58:24.471Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 43,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "lim_base_zh",
+      "url": "https://huggingface.co/liujiarik/lim_base_zh"
+    },
+    "rank": 44,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 13,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ds",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds"
+    },
+    "rank": 52,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 113,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ONNX",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ONNX"
+    },
+    "rank": 50,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "lim_base_zh",
+      "url": "https://huggingface.co/liujiarik/lim_base_zh"
+    },
+    "rank": 18,
+    "time": "2023-12-31T00:58:24.472Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 9,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ds",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds"
+    },
+    "rank": 60,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 104,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ONNX",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ONNX"
+    },
+    "rank": 58,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "lim_base_zh",
+      "url": "https://huggingface.co/liujiarik/lim_base_zh"
+    },
+    "rank": 25,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 11,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ds",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds"
+    },
+    "rank": 18,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 109,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ONNX",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ONNX"
+    },
+    "rank": 15,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "lim_base_zh",
+      "url": "https://huggingface.co/liujiarik/lim_base_zh"
+    },
+    "rank": 21,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 7,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 102,
+    "time": "2023-12-31T00:58:24.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "cloudy-large-zh",
+      "url": "https://huggingface.co/akarum/cloudy-large-zh"
+    },
+    "rank": 2,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 19,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "rank": 58,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 98,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge_m3e_stella",
+      "url": "https://huggingface.co/RookieHX/bge_m3e_stella"
+    },
+    "rank": 113,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "rank": 8,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 84,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 95,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 25,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 28,
+    "time": "2023-12-31T00:58:24.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 1,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 23,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge_m3e_stella",
+      "url": "https://huggingface.co/RookieHX/bge_m3e_stella"
+    },
+    "rank": 47,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 117,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "rank": 121,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 14,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 27,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge_m3e_stella",
+      "url": "https://huggingface.co/RookieHX/bge_m3e_stella"
+    },
+    "rank": 104,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "pythia-14m-embedding",
+      "url": "https://huggingface.co/jstephencorey/pythia-14m-embedding"
+    },
+    "rank": 107,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ds",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds"
+    },
+    "rank": 108,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "rank": 127,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ONNX",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ONNX"
+    },
+    "rank": 104,
+    "time": "2023-12-31T00:58:24.483Z",
+    "type": "-"
+  },
+  {
     "slug": "Overall/Chinese",
     "model": {
       "name": "Baichuan-text-embedding",
