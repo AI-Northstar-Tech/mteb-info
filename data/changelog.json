@@ -2,6 +2,246 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 7,
+    "time": "2024-01-09T12:22:34.534Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 5,
+    "time": "2024-01-09T12:22:34.535Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 20,
+    "time": "2024-01-09T12:22:34.535Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 22,
+    "time": "2024-01-09T12:22:34.535Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 7,
+    "time": "2024-01-09T12:22:34.535Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 4,
+    "time": "2024-01-09T12:22:34.535Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 39,
+    "time": "2024-01-09T12:22:34.536Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 11,
+    "time": "2024-01-09T12:22:34.537Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 3,
+    "time": "2024-01-09T12:22:34.537Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 6,
+    "time": "2024-01-09T12:22:34.537Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 9,
+    "time": "2024-01-09T12:22:34.537Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 13,
+    "time": "2024-01-09T12:22:34.537Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 28,
+    "time": "2024-01-09T12:22:34.537Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 10,
+    "time": "2024-01-09T12:22:34.538Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 6,
+    "time": "2024-01-09T12:22:34.538Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 24,
+    "time": "2024-01-09T12:22:34.538Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 7,
+    "time": "2024-01-09T12:22:34.538Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 8,
+    "time": "2024-01-09T12:22:34.538Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "rank": 26,
+    "time": "2024-01-09T12:22:34.538Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 21,
+    "time": "2024-01-09T12:22:34.539Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 17,
+    "time": "2024-01-09T12:22:34.539Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "rank": 58,
+    "time": "2024-01-09T12:22:34.539Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 118,
+    "time": "2024-01-09T12:22:34.539Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-base-en-v1.5-onnx",
+      "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
+    },
+    "rank": 27,
+    "time": "2024-01-09T12:22:34.540Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "embedder-100p",
       "url": "https://huggingface.co/deepfile/embedder-100p"
     },
