@@ -2,6 +2,303 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.268Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.269Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.270Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.271Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.284Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.285Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.285Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.286Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.286Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.287Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.287Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.288Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.288Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.289Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.289Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.290Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.290Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.290Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.291Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.304Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.304Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.304Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.305Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.305Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-09T20:33:47.305Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.305Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.306Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.306Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.306Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.307Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "time": "2024-01-09T20:33:47.307Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.307Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/FajnyKarton/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-01-09T20:33:47.308Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "bge-base-en-v1.5-onnx",
       "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
     },
