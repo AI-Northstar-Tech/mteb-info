@@ -2,6 +2,176 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 15,
+    "time": "2024-01-10T00:56:25.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 16,
+    "time": "2024-01-10T00:56:25.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 16,
+    "time": "2024-01-10T00:56:25.847Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 29,
+    "time": "2024-01-10T00:56:25.847Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 44,
+    "time": "2024-01-10T00:56:25.848Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 21,
+    "time": "2024-01-10T00:56:25.848Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 27,
+    "time": "2024-01-10T00:56:25.848Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 35,
+    "time": "2024-01-10T00:56:25.849Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 2,
+    "time": "2024-01-10T00:56:25.849Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 16,
+    "time": "2024-01-10T00:56:25.849Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 10,
+    "time": "2024-01-10T00:56:25.850Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 12,
+    "time": "2024-01-10T00:56:25.850Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 21,
+    "time": "2024-01-10T00:56:25.850Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 32,
+    "time": "2024-01-10T00:56:25.850Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 2,
+    "time": "2024-01-10T00:56:25.850Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 80,
+    "time": "2024-01-10T00:56:25.851Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 60,
+    "time": "2024-01-10T00:56:25.851Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "bge-base-en-v1.5-onnx",
       "url": "https://huggingface.co/weakit-v/bge-base-en-v1.5-onnx"
     },
