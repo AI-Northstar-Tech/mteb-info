@@ -1,5 +1,95 @@
 [
   {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.739Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.740Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.741Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.742Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.743Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.744Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.745Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.745Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.746Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "gte-base-align",
+      "url": "https://huggingface.co/csq1991/gte-base-align"
+    },
+    "time": "2024-01-17T08:59:18.747Z",
+    "type": "-"
+  },
+  {
     "slug": "Overall/English",
     "model": {
       "name": "mxbai-mistral-7b-reprev-v1",
