@@ -6,6 +6,96 @@
       "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
     },
     "rank": 1,
+    "time": "2024-01-17T00:56:40.964Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 1,
+    "time": "2024-01-17T00:56:40.964Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 1,
+    "time": "2024-01-17T00:56:40.982Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 1,
+    "time": "2024-01-17T00:56:40.982Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 9,
+    "time": "2024-01-17T00:56:40.983Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 1,
+    "time": "2024-01-17T00:56:40.983Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 1,
+    "time": "2024-01-17T00:56:40.984Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 75,
+    "time": "2024-01-17T00:56:40.984Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 15,
+    "time": "2024-01-17T00:56:40.985Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "mxbai-mistral-7b-reprev-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-mistral-7b-reprev-v1"
+    },
+    "rank": 1,
     "time": "2024-01-16T12:23:03.936Z",
     "type": "+"
   },
