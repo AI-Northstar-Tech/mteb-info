@@ -1,5 +1,155 @@
 [
   {
+    "slug": "Overall/English",
+    "model": {
+      "name": "korean_embedding_model",
+      "url": "https://huggingface.co/jingyeom/korean_embedding_model"
+    },
+    "rank": 105,
+    "time": "2024-01-19T12:22:30.287Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 3,
+    "time": "2024-01-19T12:22:30.287Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "fin-mpnet-base",
+      "url": "https://huggingface.co/mukaj/fin-mpnet-base"
+    },
+    "rank": 120,
+    "time": "2024-01-19T12:22:30.288Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 5,
+    "time": "2024-01-19T12:22:30.288Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 43,
+    "time": "2024-01-19T12:22:30.288Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 4,
+    "time": "2024-01-19T12:22:30.289Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 1,
+    "time": "2024-01-19T12:22:30.290Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 5,
+    "time": "2024-01-19T12:22:30.290Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "fin-mpnet-base",
+      "url": "https://huggingface.co/mukaj/fin-mpnet-base"
+    },
+    "rank": 110,
+    "time": "2024-01-19T12:22:30.291Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 1,
+    "time": "2024-01-19T12:22:30.291Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "korean_embedding_model",
+      "url": "https://huggingface.co/jingyeom/korean_embedding_model"
+    },
+    "rank": 99,
+    "time": "2024-01-19T12:22:30.291Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 7,
+    "time": "2024-01-19T12:22:30.291Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "korean_embedding_model",
+      "url": "https://huggingface.co/jingyeom/korean_embedding_model"
+    },
+    "rank": 67,
+    "time": "2024-01-19T12:22:30.292Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "fin-mpnet-base",
+      "url": "https://huggingface.co/mukaj/fin-mpnet-base"
+    },
+    "rank": 115,
+    "time": "2024-01-19T12:22:30.292Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "korean_embedding_model",
+      "url": "https://huggingface.co/jingyeom/korean_embedding_model"
+    },
+    "rank": 90,
+    "time": "2024-01-19T12:22:30.292Z",
+    "type": "-"
+  },
+  {
     "slug": "Overall/Chinese",
     "model": {
       "name": "gte-base-align",
