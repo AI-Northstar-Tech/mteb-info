@@ -2,6 +2,159 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.794Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.795Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.796Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.797Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.798Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.798Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.799Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.800Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.800Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.812Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.813Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.813Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.814Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.830Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-01-23T08:26:44.831Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.831Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-01-23T08:26:44.832Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "bge-base-en-v1.5-angle",
       "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
     },
