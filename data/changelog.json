@@ -2,6 +2,806 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 7,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 16,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 22,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 45,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 107,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 3,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 3,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 5,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 8,
+    "time": "2024-01-23T00:57:28.479Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 7,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 13,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 18,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 28,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 44,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 5,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 107,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 108,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 109,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 31,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 32,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 33,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 31,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 32,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 33,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 29,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 30,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 31,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 30,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 31,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 32,
+    "time": "2024-01-23T00:57:28.480Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 3,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 4,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 7,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 43,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 12,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 22,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 45,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 70,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 77,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 4,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 9,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 36,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 39,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 52,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 61,
+    "time": "2024-01-23T00:57:28.481Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 1,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 12,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 16,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 41,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 54,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 71,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 5,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 7,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 13,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 15,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 38,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 109,
+    "time": "2024-01-23T00:57:28.482Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 1,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 21,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 34,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 35,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 53,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 68,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "hui-embedding",
+      "url": "https://huggingface.co/huizhang0110/hui-embedding"
+    },
+    "rank": 7,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 108,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 109,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 110,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 29,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 30,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 31,
+    "time": "2024-01-23T00:57:28.483Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 67,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 68,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 74,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 75,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 76,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-base-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
+    },
+    "rank": 28,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-small-en-v1.5-angle",
+      "url": "https://huggingface.co/khoa-klaytn/bge-small-en-v1.5-angle"
+    },
+    "rank": 62,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "multilingual-e5-base-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-base-mlx"
+    },
+    "rank": 63,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "multilingual-e5-small-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-small-mlx"
+    },
+    "rank": 70,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "multilingual-e5-large-mlx",
+      "url": "https://huggingface.co/mlx-community/multilingual-e5-large-mlx"
+    },
+    "rank": 80,
+    "time": "2024-01-23T00:57:28.484Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "korean_embedding_model",
       "url": "https://huggingface.co/jingyeom/korean_embedding_model"
     },
