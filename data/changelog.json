@@ -2,6 +2,176 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 1,
+    "time": "2024-01-23T12:23:02.370Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 3,
+    "time": "2024-01-23T12:23:02.371Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 1,
+    "time": "2024-01-23T12:23:02.371Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 3,
+    "time": "2024-01-23T12:23:02.371Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 34,
+    "time": "2024-01-23T12:23:02.372Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 1,
+    "time": "2024-01-23T12:23:02.372Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 4,
+    "time": "2024-01-23T12:23:02.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 5,
+    "time": "2024-01-23T12:23:02.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 3,
+    "time": "2024-01-23T12:23:02.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 16,
+    "time": "2024-01-23T12:23:02.382Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 2,
+    "time": "2024-01-23T12:23:02.382Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 2,
+    "time": "2024-01-23T12:23:02.382Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 2,
+    "time": "2024-01-23T12:23:02.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 1,
+    "time": "2024-01-23T12:23:02.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "rank": 8,
+    "time": "2024-01-23T12:23:02.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 8,
+    "time": "2024-01-23T12:23:02.384Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "rank": 34,
+    "time": "2024-01-23T12:23:02.384Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "bge-base-en-v1.5-angle",
       "url": "https://huggingface.co/khoa-klaytn/bge-base-en-v1.5-angle"
     },
