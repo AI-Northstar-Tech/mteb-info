@@ -2,6 +2,1581 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:57.944Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:57.944Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:57.945Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:57.946Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:57.947Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.948Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:57.948Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.949Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.949Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.958Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.959Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.960Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.960Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.961Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.961Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:57.962Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:57.962Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.962Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:57.963Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:57.963Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:57.964Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:57.964Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:57.964Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.964Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:57.965Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:57.965Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.965Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.966Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:57.978Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:57.979Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.979Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:57.980Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:57.980Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:57.980Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.981Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:57.981Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:57.981Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:57.982Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:57.982Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:57.982Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:57.982Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.982Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-search-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.983Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-search-ada-doc-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.983Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.983Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.984Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:57.984Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.984Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.984Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-search-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.984Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-search-ada-doc-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.985Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.985Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.985Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.985Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:57.985Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:57.986Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:57.986Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/German",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:57.998Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:57.999Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:58.000Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.000Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.001Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:58.018Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:58.019Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.019Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.019Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.019Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.019Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:58.021Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.021Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.021Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.021Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:58.021Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.022Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.022Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:58.022Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:58.022Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.022Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.022Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.022Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.023Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.023Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.023Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.023Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.023Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.023Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:58.024Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.024Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.024Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.024Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.024Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.024Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:58.024Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:58.025Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.025Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:58.025Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.025Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.025Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.026Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.026Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.038Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.038Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.039Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.039Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.039Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.039Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-search-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.039Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.039Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:58.040Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.040Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.040Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "edward-large-0124",
+      "url": "https://huggingface.co/lightonai/edward-large-0124"
+    },
+    "time": "2024-01-26T14:38:58.040Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:58.040Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.040Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.041Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.042Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.042Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.042Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.042Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.042Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-01-26T14:38:58.042Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.043Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.043Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:58.043Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:58.043Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:58.043Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.043Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.044Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.045Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.045Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.045Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-01-26T14:38:58.045Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-01-26T14:38:58.045Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.045Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-01-26T14:38:58.046Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-01-26T14:38:58.046Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-26T14:38:58.058Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.058Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.059Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-ada-doc-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.059Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.059Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.059Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.059Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.059Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.060Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-01-26T14:38:58.060Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.060Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.060Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-ada-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.060Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-ada-doc-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.060Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.060Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.061Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-search-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.061Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.061Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.061Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://beta.openai.com/docs/guides/embeddings/types-of-embedding-models"
+    },
+    "time": "2024-01-26T14:38:58.061Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "jina-embeddings-v2-base-en",
       "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
     },
