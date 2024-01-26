@@ -2,6 +2,526 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 26,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 41,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 100,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 2,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "bge-reranker-base",
+      "url": "https://huggingface.co/BAAI/bge-reranker-base"
+    },
+    "rank": 50,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "bge-reranker-large",
+      "url": "https://huggingface.co/BAAI/bge-reranker-large"
+    },
+    "rank": 51,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 17,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 22,
+    "time": "2024-01-26T00:52:52.999Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 21,
+    "time": "2024-01-26T00:52:53.000Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 50,
+    "time": "2024-01-26T00:52:53.000Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 55,
+    "time": "2024-01-26T00:52:53.000Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 9,
+    "time": "2024-01-26T00:52:53.000Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 30,
+    "time": "2024-01-26T00:52:53.000Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 28,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 43,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 44,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 39,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 52,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 61,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 8,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 28,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/German",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 3,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 24,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 43,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 47,
+    "time": "2024-01-26T00:52:53.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 1,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 4,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 27,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 49,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 55,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "bge-reranker-large",
+      "url": "https://huggingface.co/BAAI/bge-reranker-large"
+    },
+    "rank": 3,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 8,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "bge-reranker-base",
+      "url": "https://huggingface.co/BAAI/bge-reranker-base"
+    },
+    "rank": 9,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 11,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "edward-large-0124",
+      "url": "https://huggingface.co/lightonai/edward-large-0124"
+    },
+    "rank": 100,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 32,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 40,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 102,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 17,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 22,
+    "time": "2024-01-26T00:52:53.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 19,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 45,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 55,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 1,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "rank": 2,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 64,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 65,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 66,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "edward-large-0124",
+      "url": "https://huggingface.co/lightonai/edward-large-0124"
+    },
+    "rank": 105,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "rank": 11,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "rank": 13,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "rank": 48,
+    "time": "2024-01-26T00:52:53.003Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "voyage-lite-02-instruct",
       "url": "https://docs.voyageai.com/embeddings/"
     },
