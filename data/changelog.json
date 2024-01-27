@@ -2,6 +2,87 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.672Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.673Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.674Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.675Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.677Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-01-27T08:08:29.679Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "text-embedding-3-large",
       "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
     },
