@@ -2,6 +2,168 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:08.996Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:08.996Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:08.997Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:08.998Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:09.012Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:09.012Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:09.013Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:09.014Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:09.014Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:09.015Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:09.015Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:09.016Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:09.016Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:09.016Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:09.017Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:09.017Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-01-29T22:09:09.018Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-01-29T22:09:09.018Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "text-embedding-3-large-256",
       "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
     },
