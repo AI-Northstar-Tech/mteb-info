@@ -2,6 +2,186 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 1,
+    "time": "2024-01-30T00:52:09.402Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 79,
+    "time": "2024-01-30T00:52:09.402Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 3,
+    "time": "2024-01-30T00:52:09.403Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 95,
+    "time": "2024-01-30T00:52:09.403Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 2,
+    "time": "2024-01-30T00:52:09.404Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 98,
+    "time": "2024-01-30T00:52:09.404Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 1,
+    "time": "2024-01-30T00:52:09.405Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 105,
+    "time": "2024-01-30T00:52:09.405Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 1,
+    "time": "2024-01-30T00:52:09.405Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 91,
+    "time": "2024-01-30T00:52:09.405Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 1,
+    "time": "2024-01-30T00:52:09.406Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 83,
+    "time": "2024-01-30T00:52:09.406Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 2,
+    "time": "2024-01-30T00:52:09.406Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 98,
+    "time": "2024-01-30T00:52:09.406Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 23,
+    "time": "2024-01-30T00:52:09.407Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 37,
+    "time": "2024-01-30T00:52:09.407Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "rank": 25,
+    "time": "2024-01-30T00:52:09.407Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 50,
+    "time": "2024-01-30T00:52:09.407Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "text-embedding-3-large-256",
       "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
     },
