@@ -2,6 +2,96 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:42.993Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:42.994Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:42.995Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:42.996Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:42.997Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:42.998Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:42.999Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:43.000Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:43.001Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-01-31T22:22:43.002Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "SFR-Embedding-Mistral",
       "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
     },
