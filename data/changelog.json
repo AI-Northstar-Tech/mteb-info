@@ -2,6 +2,447 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.590Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.590Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.591Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.592Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.593Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/Danish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/Danish",
+    "model": {
+      "name": "e5-dansk-test-0.1",
+      "url": "https://huggingface.co/Jechto/e5-dansk-test-0.1"
+    },
+    "time": "2024-02-07T09:12:38.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.608Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.608Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.609Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.609Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.610Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "e5-dansk-test-0.1",
+      "url": "https://huggingface.co/Jechto/e5-dansk-test-0.1"
+    },
+    "time": "2024-02-07T09:12:38.610Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.611Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "e5-dansk-test-0.1",
+      "url": "https://huggingface.co/Jechto/e5-dansk-test-0.1"
+    },
+    "time": "2024-02-07T09:12:38.627Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.628Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.628Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "e5-dansk-test-0.1",
+      "url": "https://huggingface.co/Jechto/e5-dansk-test-0.1"
+    },
+    "time": "2024-02-07T09:12:38.628Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.629Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.629Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.630Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.630Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.630Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/German",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.631Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Polish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.631Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.631Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.632Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.632Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.632Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Polish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.632Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.633Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.633Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.635Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.635Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.635Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.635Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.636Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-07T09:12:38.636Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.637Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.637Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.637Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-02-07T09:12:38.638Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-02-07T09:12:38.638Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-02-07T09:12:38.638Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "nomic-embed-text-v1",
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1"
     },
