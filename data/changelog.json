@@ -2,6 +2,676 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 8,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 20,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 26,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 34,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 46,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 72,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "ret-phi2-v0",
+      "url": "https://huggingface.co/tanmaylaud/ret-phi2-v0"
+    },
+    "rank": 130,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 1,
+    "time": "2024-02-15T00:52:37.826Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 4,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 27,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 32,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 48,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 63,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 83,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 96,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 29,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 29,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 26,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 28,
+    "time": "2024-02-15T00:52:37.843Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 1,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 7,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 29,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 34,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 39,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 47,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 65,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 16,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 49,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 50,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 56,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 64,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 79,
+    "time": "2024-02-15T00:52:37.844Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 17,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 50,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 55,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 60,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 71,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 86,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 11,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 13,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 14,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 26,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "ret-phi2-v0",
+      "url": "https://huggingface.co/tanmaylaud/ret-phi2-v0"
+    },
+    "rank": 27,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 47,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 74,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "edward-large-0124",
+      "url": "https://huggingface.co/lightonai/edward-large-0124"
+    },
+    "rank": 107,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "edward-large-0124",
+      "url": "https://huggingface.co/lightonai/edward-large-0124"
+    },
+    "rank": 28,
+    "time": "2024-02-15T00:52:37.845Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 3,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 35,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 39,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 46,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 57,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 74,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 55,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 85,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 86,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 87,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 88,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 89,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 58,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 62,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "rank": 63,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 77,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 92,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "rank": 101,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "ret-phi2-v0",
+      "url": "https://huggingface.co/tanmaylaud/ret-phi2-v0"
+    },
+    "rank": 134,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "edward-large-0124",
+      "url": "https://huggingface.co/lightonai/edward-large-0124"
+    },
+    "rank": 112,
+    "time": "2024-02-15T00:52:37.846Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "GIST-small-Embedding-v0",
       "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
     },
