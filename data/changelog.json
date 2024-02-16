@@ -2,6 +2,411 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.479Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.480Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.481Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.482Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.483Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.484Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.485Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.485Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.486Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.504Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.505Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.505Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.505Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.506Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.506Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.507Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.507Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.507Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.508Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.508Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.521Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.521Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.521Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.522Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.522Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.522Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.523Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.523Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.523Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.523Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-02-16T10:28:31.524Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.524Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.524Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.524Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.525Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-16T10:28:31.525Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.525Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.525Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.526Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.526Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-02-16T10:28:31.526Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-02-16T10:28:31.527Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-02-16T10:28:31.527Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-02-16T10:28:31.527Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "multilingual-e5-large-instruct",
       "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
     },
