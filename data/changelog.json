@@ -2,6 +2,366 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 3,
+    "time": "2024-02-16T12:20:11.591Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 5,
+    "time": "2024-02-16T12:20:11.591Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 11,
+    "time": "2024-02-16T12:20:11.591Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 51,
+    "time": "2024-02-16T12:20:11.591Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 1,
+    "time": "2024-02-16T12:20:11.592Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 3,
+    "time": "2024-02-16T12:20:11.592Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 10,
+    "time": "2024-02-16T12:20:11.592Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 52,
+    "time": "2024-02-16T12:20:11.592Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 29,
+    "time": "2024-02-16T12:20:11.593Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 3,
+    "time": "2024-02-16T12:20:11.593Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 5,
+    "time": "2024-02-16T12:20:11.593Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 15,
+    "time": "2024-02-16T12:20:11.593Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 18,
+    "time": "2024-02-16T12:20:11.593Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 5,
+    "time": "2024-02-16T12:20:11.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 10,
+    "time": "2024-02-16T12:20:11.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 43,
+    "time": "2024-02-16T12:20:11.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 9,
+    "time": "2024-02-16T12:20:11.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 2,
+    "time": "2024-02-16T12:20:11.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 4,
+    "time": "2024-02-16T12:20:11.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 9,
+    "time": "2024-02-16T12:20:11.594Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 30,
+    "time": "2024-02-16T12:20:11.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 2,
+    "time": "2024-02-16T12:20:11.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 7,
+    "time": "2024-02-16T12:20:11.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 12,
+    "time": "2024-02-16T12:20:11.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 27,
+    "time": "2024-02-16T12:20:11.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Polish",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "rank": 24,
+    "time": "2024-02-16T12:20:11.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 5,
+    "time": "2024-02-16T12:20:11.595Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 10,
+    "time": "2024-02-16T12:20:11.596Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 13,
+    "time": "2024-02-16T12:20:11.596Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "rank": 22,
+    "time": "2024-02-16T12:20:11.596Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 14,
+    "time": "2024-02-16T12:20:11.596Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 15,
+    "time": "2024-02-16T12:20:11.596Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 36,
+    "time": "2024-02-16T12:20:11.596Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "rank": 44,
+    "time": "2024-02-16T12:20:11.597Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "rank": 66,
+    "time": "2024-02-16T12:20:11.597Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "rank": 89,
+    "time": "2024-02-16T12:20:11.597Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "multilingual-e5-large-instruct",
       "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
     },
