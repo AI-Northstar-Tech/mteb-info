@@ -2,6 +2,294 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-20T13:39:31.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.196Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-20T13:39:31.196Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-20T13:39:31.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-20T13:39:31.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-20T13:39:31.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.205Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.223Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.223Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.224Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.226Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.226Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.227Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.227Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.227Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.227Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.228Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.228Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.228Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-02-20T13:39:31.229Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.229Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-02-20T13:39:31.229Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-02-20T13:39:31.242Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "GritLM-7B",
       "url": "https://huggingface.co/GritLM/GritLM-7B"
     },
