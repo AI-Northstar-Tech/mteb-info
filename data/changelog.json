@@ -2,6 +2,336 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 6,
+    "time": "2024-02-28T00:51:23.103Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 1,
+    "time": "2024-02-28T00:51:23.103Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 5,
+    "time": "2024-02-28T00:51:23.103Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 4,
+    "time": "2024-02-28T00:51:23.103Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 7,
+    "time": "2024-02-28T00:51:23.104Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 3,
+    "time": "2024-02-28T00:51:23.104Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 12,
+    "time": "2024-02-28T00:51:23.104Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 11,
+    "time": "2024-02-28T00:51:23.104Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 30,
+    "time": "2024-02-28T00:51:23.117Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 48,
+    "time": "2024-02-28T00:51:23.117Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 30,
+    "time": "2024-02-28T00:51:23.117Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 16,
+    "time": "2024-02-28T00:51:23.117Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 4,
+    "time": "2024-02-28T00:51:23.117Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 11,
+    "time": "2024-02-28T00:51:23.117Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 10,
+    "time": "2024-02-28T00:51:23.117Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 4,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 1,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 3,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 1,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 25,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 2,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 11,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 10,
+    "time": "2024-02-28T00:51:23.118Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 6,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 2,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 20,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 19,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 28,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "rank": 1,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "rank": 3,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "Dmeta-embedding",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding"
+    },
+    "rank": 1,
+    "time": "2024-02-28T00:51:23.119Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 74,
+    "time": "2024-02-28T00:51:23.120Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "rank": 50,
+    "time": "2024-02-28T00:51:23.120Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "jina-embeddings-v2-base-es",
       "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
     },
