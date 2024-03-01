@@ -1,5 +1,3524 @@
 [
   {
+    "slug": "Overall/French",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.150Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.151Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "sentence-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.151Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.152Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "sentence-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.153Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "LaBSE",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE"
+    },
+    "time": "2024-03-01T09:58:33.154Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "sentence-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.154Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "all-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.155Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "LASER2",
+      "url": "https://github.com/facebookresearch/LASER"
+    },
+    "time": "2024-03-01T09:58:33.155Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.156Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.157Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.158Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.158Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.158Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.159Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.159Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.159Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.160Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.160Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.160Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.160Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.161Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.161Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.162Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.162Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.162Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "sentence-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.162Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "sentence-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.163Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "sentence-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.163Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.163Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.164Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.164Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.164Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "LaBSE",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE"
+    },
+    "time": "2024-03-01T09:58:33.165Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.165Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "all-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.165Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "LASER2",
+      "url": "https://github.com/facebookresearch/LASER"
+    },
+    "time": "2024-03-01T09:58:33.166Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.166Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.166Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "LASER2",
+      "url": "https://github.com/facebookresearch/LASER"
+    },
+    "time": "2024-03-01T09:58:33.167Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.167Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "sentence-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.167Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.168Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "sentence-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.168Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.168Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.168Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.169Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.169Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.169Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "all-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.169Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.170Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "sentence-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.170Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "LaBSE",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE"
+    },
+    "time": "2024-03-01T09:58:33.170Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.170Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.170Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.171Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "sentence-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.171Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.171Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.172Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.172Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "sentence-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.172Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.172Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "sentence-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.172Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.172Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "LaBSE",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE"
+    },
+    "time": "2024-03-01T09:58:33.173Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "all-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.173Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.173Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "LASER2",
+      "url": "https://github.com/facebookresearch/LASER"
+    },
+    "time": "2024-03-01T09:58:33.173Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.173Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.173Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.173Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "OpenSearch-text-hybrid",
+      "url": "https://help.aliyun.com/zh/open-search/vector-search-edition/hybrid-retrieval"
+    },
+    "time": "2024-03-01T09:58:33.174Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-large-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v3-1792d"
+    },
+    "time": "2024-03-01T09:58:33.174Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-mrl-large-zh-v3.5-1792d",
+      "url": "https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d"
+    },
+    "time": "2024-03-01T09:58:33.174Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "PEG",
+      "url": "https://huggingface.co/TownsWu/PEG"
+    },
+    "time": "2024-03-01T09:58:33.174Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "xiaobu-embedding",
+      "url": "https://huggingface.co/lier007/xiaobu-embedding"
+    },
+    "time": "2024-03-01T09:58:33.174Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "alime-embedding-large-zh",
+      "url": "https://huggingface.co/Pristinenlp/alime-embedding-large-zh"
+    },
+    "time": "2024-03-01T09:58:33.174Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Baichuan-text-embedding",
+      "url": "https://platform.baichuan-ai.com/docs/text-Embedding"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "cloudy-large-zh",
+      "url": "https://huggingface.co/akarum/cloudy-large-zh"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-large-zh",
+      "url": "https://huggingface.co/thenlper/gte-large-zh"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-base-zh-v3-1792d",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v3-1792d"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "tao-8k",
+      "url": "https://huggingface.co/amu/tao-8k"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-base-zh",
+      "url": "https://huggingface.co/thenlper/gte-base-zh"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "piccolo-base-zh",
+      "url": "https://huggingface.co/sensenova/piccolo-base-zh"
+    },
+    "time": "2024-03-01T09:58:33.175Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-base-zh",
+      "url": "https://huggingface.co/infgrad/stella-base-zh"
+    },
+    "time": "2024-03-01T09:58:33.176Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-large-zh",
+      "url": "https://huggingface.co/infgrad/stella-large-zh"
+    },
+    "time": "2024-03-01T09:58:33.176Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-01T09:58:33.176Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "piccolo-large-zh",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh"
+    },
+    "time": "2024-03-01T09:58:33.176Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bge-large-zh-noinstruct",
+      "url": "https://huggingface.co/BAAI/bge-large-zh-noinstruct"
+    },
+    "time": "2024-03-01T09:58:33.176Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bge-large-zh-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-large-zh-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.176Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh"
+    },
+    "time": "2024-03-01T09:58:33.176Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "tao",
+      "url": "https://huggingface.co/amu/tao"
+    },
+    "time": "2024-03-01T09:58:33.177Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-large-zh-v2",
+      "url": "https://huggingface.co/infgrad/stella-large-zh-v2"
+    },
+    "time": "2024-03-01T09:58:33.177Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "stella-base-zh-v2",
+      "url": "https://huggingface.co/infgrad/stella-base-zh-v2"
+    },
+    "time": "2024-03-01T09:58:33.177Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "mist-zh",
+      "url": "https://huggingface.co/Erin/mist-zh"
+    },
+    "time": "2024-03-01T09:58:33.177Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bge-base-zh-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-base-zh-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.177Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "jina-embeddings-v2-base-zh",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-zh"
+    },
+    "time": "2024-03-01T09:58:33.177Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-small-zh",
+      "url": "https://huggingface.co/thenlper/gte-small-zh"
+    },
+    "time": "2024-03-01T09:58:33.177Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "udever-bloom-7b1",
+      "url": "https://huggingface.co/izhx/udever-bloom-7b1"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bge-small-zh-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "udever-bloom-3b",
+      "url": "https://huggingface.co/izhx/udever-bloom-3b"
+    },
+    "time": "2024-03-01T09:58:33.178Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "m3e-base",
+      "url": "https://huggingface.co/moka-ai/m3e-base"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "m3e-large",
+      "url": "https://huggingface.co/moka-ai/m3e-large"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "luotuo-bert-medium",
+      "url": "https://huggingface.co/silk-road/luotuo-bert-medium"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "text2vec-large-chinese",
+      "url": "https://huggingface.co/GanymedeNil/text2vec-large-chinese"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "text2vec-base-chinese",
+      "url": "https://huggingface.co/shibing624/text2vec-base-chinese"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "sbert-chinese-general-v1",
+      "url": "https://huggingface.co/DMetaSoul/sbert-chinese-general-v1"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.179Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-03-01T09:58:33.180Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "ALL_862873",
+      "url": "https://huggingface.co/thtang/ALL_862873"
+    },
+    "time": "2024-03-01T09:58:33.180Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "mistral-embed",
+      "url": "https://docs.mistral.ai/guides/embeddings"
+    },
+    "time": "2024-03-01T09:58:33.184Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "voyage-code-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.184Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "voyage-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.184Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Cohere-embed-multilingual-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-multilingual-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.185Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "sentence-camembert-large",
+      "url": "https://huggingface.co/dangvantuan/sentence-camembert-large"
+    },
+    "time": "2024-03-01T09:58:33.185Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "universal-sentence-encoder-multilingual-3",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-3"
+    },
+    "time": "2024-03-01T09:58:33.185Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "universal-sentence-encoder-multilingual-large-3",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-large-3"
+    },
+    "time": "2024-03-01T09:58:33.185Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "sentence-croissant-llm-base",
+      "url": "https://huggingface.co/Wissam42/sentence-croissant-llm-base"
+    },
+    "time": "2024-03-01T09:58:33.185Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Cohere-embed-multilingual-light-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-multilingual-light-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.185Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "sentence-camembert-base",
+      "url": "https://huggingface.co/dangvantuan/sentence-camembert-base"
+    },
+    "time": "2024-03-01T09:58:33.185Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "multi-qa-MiniLM-L6-cos-v1",
+      "url": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1"
+    },
+    "time": "2024-03-01T09:58:33.186Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "text2vec-base-multilingual",
+      "url": "https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    "time": "2024-03-01T09:58:33.186Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bert-base-multilingual-uncased",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-uncased"
+    },
+    "time": "2024-03-01T09:58:33.186Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bert-base-multilingual-cased",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased"
+    },
+    "time": "2024-03-01T09:58:33.186Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bert-base-25lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-25lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.187Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bert-base-10lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-10lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.187Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "bert-base-15lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-15lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.187Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "flaubert_base_uncased",
+      "url": "https://huggingface.co/flaubert/flaubert_base_uncased"
+    },
+    "time": "2024-03-01T09:58:33.187Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "flaubert_base_cased",
+      "url": "https://huggingface.co/flaubert/flaubert_base_cased"
+    },
+    "time": "2024-03-01T09:58:33.187Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "flaubert_large_cased",
+      "url": "https://huggingface.co/flaubert/flaubert_large_cased"
+    },
+    "time": "2024-03-01T09:58:33.188Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.188Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.188Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.188Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.188Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "sentence-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.189Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.189Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "sentence-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.189Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.189Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "all-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.189Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "sentence-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.189Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.189Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "LaBSE",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE"
+    },
+    "time": "2024-03-01T09:58:33.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "LASER2",
+      "url": "https://github.com/facebookresearch/LASER"
+    },
+    "time": "2024-03-01T09:58:33.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.190Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sgpt-bloom-7b1-msmarco",
+      "url": "https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "stella-base-en-v2",
+      "url": "https://huggingface.co/infgrad/stella-base-en-v2"
+    },
+    "time": "2024-03-01T09:58:33.191Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "yiyouliao",
+      "url": "https://huggingface.co/Shimin/yiyouliao"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/hkunlp/instructor-xl"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "udever-bloom-560m",
+      "url": "https://huggingface.co/izhx/udever-bloom-560m"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "UAE-Large-V1",
+      "url": "https://huggingface.co/WhereIsAI/UAE-Large-V1"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "instructor-large",
+      "url": "https://huggingface.co/hkunlp/instructor-large"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-large",
+      "url": "https://huggingface.co/thenlper/gte-large"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-large-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sf_model_e5",
+      "url": "https://huggingface.co/jamesgpt1/sf_model_e5"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en"
+    },
+    "time": "2024-03-01T09:58:33.192Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-de",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-de"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SGPT-5.8B-weightedmean-msmarco-specb-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-msmarco-specb-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "e5-small",
+      "url": "https://huggingface.co/intfloat/e5-small"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Cohere-embed-english-light-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-english-light-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1-ablated",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1-ablated"
+    },
+    "time": "2024-03-01T09:58:33.193Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-embedding-s-en-v1",
+      "url": "https://huggingface.co/jinaai/jina-embedding-s-en-v1"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "lodestone-base-4096-v1",
+      "url": "https://huggingface.co/Hum-Works/lodestone-base-4096-v1"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GIST-all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sup-simcse-bert-base-uncased",
+      "url": "https://huggingface.co/princeton-nlp/sup-simcse-bert-base-uncased"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-base",
+      "url": "https://huggingface.co/thenlper/gte-base"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "e5-small-v2",
+      "url": "https://huggingface.co/intfloat/e5-small-v2"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-micro",
+      "url": "https://huggingface.co/TaylorAI/bge-micro"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SFR-Embedding-Mistral",
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "unsup-simcse-bert-base-uncased",
+      "url": "https://huggingface.co/princeton-nlp/unsup-simcse-bert-base-uncased"
+    },
+    "time": "2024-03-01T09:58:33.194Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-small-Embedding-v0"
+    },
+    "time": "2024-03-01T09:58:33.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-embedding-3-small",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-03-01T09:58:33.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "udever-bloom-1b1",
+      "url": "https://huggingface.co/izhx/udever-bloom-1b1"
+    },
+    "time": "2024-03-01T09:58:33.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-base-en-v1-5-seqlen-384-bs-1",
+      "url": "https://huggingface.co/aws-neuron/bge-base-en-v1-5-seqlen-384-bs-1"
+    },
+    "time": "2024-03-01T09:58:33.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-base-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-base-en-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LaBSE",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE"
+    },
+    "time": "2024-03-01T09:58:33.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "multi-qa-MiniLM-L6-cos-v1",
+      "url": "https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1"
+    },
+    "time": "2024-03-01T09:58:33.195Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SGPT-2.7B-weightedmean-msmarco-specb-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-2.7B-weightedmean-msmarco-specb-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.196Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "MegatronBert-1B3-embedding",
+      "url": "https://huggingface.co/lixsh6/MegatronBert-1B3-embedding"
+    },
+    "time": "2024-03-01T09:58:33.196Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "e5-base",
+      "url": "https://huggingface.co/intfloat/e5-base"
+    },
+    "time": "2024-03-01T09:58:33.196Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "voyage-lite-02-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.196Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Cohere-embed-multilingual-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-multilingual-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.196Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "e5-large",
+      "url": "https://huggingface.co/intfloat/e5-large"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "udever-bloom-7b1",
+      "url": "https://huggingface.co/izhx/udever-bloom-7b1"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "voyage-lite-01-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GIST-large-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-large-Embedding-v0"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GIST-Embedding-v0",
+      "url": "https://huggingface.co/avsolatorio/GIST-Embedding-v0"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "ember-v1",
+      "url": "https://huggingface.co/llmrails/ember-v1"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.197Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "universal-sentence-encoder-multilingual-3",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-3"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "echo-mistral-7b-instruct-lasttoken",
+      "url": "https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1-unsupervised",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1-unsupervised"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-embedding-b-en-v1",
+      "url": "https://huggingface.co/jinaai/jina-embedding-b-en-v1"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gtr-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/gtr-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "udever-bloom-3b",
+      "url": "https://huggingface.co/izhx/udever-bloom-3b"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLaMA-embeeding",
+      "url": "https://huggingface.co/Shimin/LLaMA-embeeding"
+    },
+    "time": "2024-03-01T09:58:33.198Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-embeddings-v2-small-en",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "komninos",
+      "url": "https://huggingface.co/sentence-transformers/average_word_embeddings_komninos"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-512",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SGPT-1.3B-weightedmean-msmarco-specb-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-1.3B-weightedmean-msmarco-specb-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-small",
+      "url": "https://huggingface.co/thenlper/gte-small"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Cohere-embed-multilingual-light-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-multilingual-light-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.199Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SGPT-5.8B-weightedmean-nli-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-nli-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GritLM-7B",
+      "url": "https://huggingface.co/GritLM/GritLM-7B"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "contriever-base-msmarco",
+      "url": "https://huggingface.co/nthakur/contriever-base-msmarco"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "e5-base-v2",
+      "url": "https://huggingface.co/intfloat/e5-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SGPT-125M-weightedmean-nli-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-nli-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "XLM-0B6-embedding",
+      "url": "https://huggingface.co/lixsh6/XLM-0B6-embedding"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gtr-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/gtr-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.200Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "e5-large-v2",
+      "url": "https://huggingface.co/intfloat/e5-large-v2"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Cohere-embed-english-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-english-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-small-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-small-en-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text2vec-base-multilingual",
+      "url": "https://huggingface.co/shibing624/text2vec-base-multilingual"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-256",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.201Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-embedding-3-large-256",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/TaylorAI/bge-micro-v2"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-embeddings-v2-base-es",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-es"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-embedding-l-en-v1",
+      "url": "https://huggingface.co/jinaai/jina-embedding-l-en-v1"
+    },
+    "time": "2024-03-01T09:58:33.202Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "instructor-base",
+      "url": "https://huggingface.co/hkunlp/instructor-base"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-small-4096",
+      "url": "https://huggingface.co/andersonbcdefg/bge-small-4096"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bert-base-uncased",
+      "url": "https://huggingface.co/bert-base-uncased"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GritLM-8x7B",
+      "url": "https://huggingface.co/GritLM/GritLM-8x7B"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "universal-sentence-encoder-multilingual-large-3",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-large-3"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "SGPT-125M-weightedmean-msmarco-specb-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-msmarco-specb-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gtr-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/gtr-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.203Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-128",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gtr-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/gtr-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "msmarco-bert-co-condensor",
+      "url": "https://huggingface.co/sentence-transformers/msmarco-bert-co-condensor"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/TaylorAI/gte-tiny"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "universal-sentence-encoder-4",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-4"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "cai-lunaris-text-embeddings",
+      "url": "https://huggingface.co/consciousAI/cai-lunaris-text-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "XLM-3B5-embedding",
+      "url": "https://huggingface.co/lixsh6/XLM-3B5-embedding"
+    },
+    "time": "2024-03-01T09:58:33.204Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "universal-sentence-encoder-large-5",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-large-5"
+    },
+    "time": "2024-03-01T09:58:33.205Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "glove.6B.300d",
+      "url": "https://huggingface.co/sentence-transformers/average_word_embeddings_glove.6B.300d"
+    },
+    "time": "2024-03-01T09:58:33.205Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic-embed-text-v1.5-64",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+    },
+    "time": "2024-03-01T09:58:33.205Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "all-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.205Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "allenai-specter",
+      "url": "https://huggingface.co/sentence-transformers/allenai-specter"
+    },
+    "time": "2024-03-01T09:58:33.205Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "all-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.206Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.206Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LASER2",
+      "url": "https://github.com/facebookresearch/LASER"
+    },
+    "time": "2024-03-01T09:58:33.206Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "titan-embed-text-v1",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/embeddings.html"
+    },
+    "time": "2024-03-01T09:58:33.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "mistral-embed",
+      "url": "https://docs.mistral.ai/guides/embeddings"
+    },
+    "time": "2024-03-01T09:58:33.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "voyage-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.207Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "voyage-code-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "time": "2024-03-01T09:58:33.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "time": "2024-03-01T09:58:33.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-03-01T09:58:33.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "openai_clip_embeddings",
+      "url": "https://huggingface.co/Forbu14/openai_clip_embeddings"
+    },
+    "time": "2024-03-01T09:58:33.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bert-base-10lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-10lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bert-base-15lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-15lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.208Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bert-base-25lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-25lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2-KE_Sieve",
+      "url": "https://huggingface.co/ManiShankar-AlpesAi/paraphrase-multilingual-mpnet-base-v2-KE_Sieve"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "st-polish-kartonberta-base-alpha-v1",
+      "url": "https://huggingface.co/OrlikB/st-polish-kartonberta-base-alpha-v1"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge_m3e_stella",
+      "url": "https://huggingface.co/RookieHX/bge_m3e_stella"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence-croissant-llm-base",
+      "url": "https://huggingface.co/Wissam42/sentence-croissant-llm-base"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "cai-stellaris-text-embeddings",
+      "url": "https://huggingface.co/consciousAI/cai-stellaris-text-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence-camembert-base",
+      "url": "https://huggingface.co/dangvantuan/sentence-camembert-base"
+    },
+    "time": "2024-03-01T09:58:33.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence-camembert-large",
+      "url": "https://huggingface.co/dangvantuan/sentence-camembert-large"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "embedder-100p",
+      "url": "https://huggingface.co/deepfile/embedder-100p"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "flaubert_base_cased",
+      "url": "https://huggingface.co/flaubert/flaubert_base_cased"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "flaubert_base_uncased",
+      "url": "https://huggingface.co/flaubert/flaubert_base_uncased"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "flaubert_large_cased",
+      "url": "https://huggingface.co/flaubert/flaubert_large_cased"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bert-base-multilingual-cased",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bert-base-multilingual-uncased",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-uncased"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "herbert-base-retrieval-v2",
+      "url": "https://huggingface.co/ipipan/herbert-base-retrieval-v2"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "silver-retriever-base-v1",
+      "url": "https://huggingface.co/ipipan/silver-retriever-base-v1"
+    },
+    "time": "2024-03-01T09:58:33.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "all-MiniLM-L6-v2-ds",
+      "url": "https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "fin-mpnet-base",
+      "url": "https://huggingface.co/mukaj/fin-mpnet-base"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-base-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-base-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-large-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-large-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-small-en-v1.5-quant",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-small-en-v1.5-sparse",
+      "url": "https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse"
+    },
+    "time": "2024-03-01T09:58:33.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "mmlw-e5-base",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "mmlw-e5-large",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "mmlw-e5-small",
+      "url": "https://huggingface.co/sdadas/mmlw-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "mmlw-roberta-base",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "mmlw-roberta-large",
+      "url": "https://huggingface.co/sdadas/mmlw-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "st-polish-paraphrase-from-distilroberta",
+      "url": "https://huggingface.co/sdadas/st-polish-paraphrase-from-distilroberta"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "st-polish-paraphrase-from-mpnet",
+      "url": "https://huggingface.co/sdadas/st-polish-paraphrase-from-mpnet"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "distiluse-base-multilingual-cased-v2",
+      "url": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2"
+    },
+    "time": "2024-03-01T09:58:33.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "multi-qa-MiniLM-L6-cos-v1",
+      "url": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1"
+    },
+    "time": "2024-03-01T09:58:33.213Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text2vec-base-multilingual",
+      "url": "https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    "time": "2024-03-01T09:58:33.213Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "ret-phi2-v0",
+      "url": "https://huggingface.co/tanmaylaud/ret-phi2-v0"
+    },
+    "time": "2024-03-01T09:58:33.213Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "ALL_862873",
+      "url": "https://huggingface.co/thtang/ALL_862873"
+    },
+    "time": "2024-03-01T09:58:33.213Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.214Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.214Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-large-quant",
+      "url": "https://huggingface.co/zeroshot/gte-large-quant"
+    },
+    "time": "2024-03-01T09:58:33.214Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-large-sparse",
+      "url": "https://huggingface.co/zeroshot/gte-large-sparse"
+    },
+    "time": "2024-03-01T09:58:33.214Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-small-quant",
+      "url": "https://huggingface.co/zeroshot/gte-small-quant"
+    },
+    "time": "2024-03-01T09:58:33.215Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bi-cse",
+      "url": "https://huggingface.co/zhou-xl/bi-cse"
+    },
+    "time": "2024-03-01T09:58:33.215Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-search-ada-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.215Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-search-ada-doc-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.215Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-search-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.215Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-search-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.216Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-search-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.216Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-similarity-babbage-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.216Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.216Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "text-similarity-davinci-001",
+      "url": "https://openai.com/blog/introducing-text-and-code-embeddings"
+    },
+    "time": "2024-03-01T09:58:33.216Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "time": "2024-03-01T09:58:33.217Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small"
+    },
+    "time": "2024-03-01T09:58:33.217Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.217Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "LASER2",
+      "url": "https://github.com/facebookresearch/LASER"
+    },
+    "time": "2024-03-01T09:58:33.217Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "mistral-embed",
+      "url": "https://docs.mistral.ai/guides/embeddings"
+    },
+    "time": "2024-03-01T09:58:33.217Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "Cohere-embed-multilingual-light-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-multilingual-light-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.217Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "Cohere-embed-multilingual-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-multilingual-v3.0"
+    },
+    "time": "2024-03-01T09:58:33.217Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "flaubert_base_cased",
+      "url": "https://huggingface.co/flaubert/flaubert_base_cased"
+    },
+    "time": "2024-03-01T09:58:33.218Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large"
+    },
+    "time": "2024-03-01T09:58:33.218Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence-camembert-large",
+      "url": "https://huggingface.co/dangvantuan/sentence-camembert-large"
+    },
+    "time": "2024-03-01T09:58:33.218Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "voyage-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.218Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base"
+    },
+    "time": "2024-03-01T09:58:33.218Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bert-base-multilingual-uncased",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-uncased"
+    },
+    "time": "2024-03-01T09:58:33.219Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "url": "https://openai.com/blog/new-and-improved-embedding-model"
+    },
+    "time": "2024-03-01T09:58:33.219Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence-t5-xxl",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-xxl"
+    },
+    "time": "2024-03-01T09:58:33.219Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.219Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "LaBSE",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE"
+    },
+    "time": "2024-03-01T09:58:33.219Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence-t5-base",
+      "url": "https://huggingface.co/sentence-transformers/sentence-t5-base"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "udever-bloom-1b1",
+      "url": "https://huggingface.co/izhx/udever-bloom-1b1"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "flaubert_base_uncased",
+      "url": "https://huggingface.co/flaubert/flaubert_base_uncased"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "text2vec-base-multilingual",
+      "url": "https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "flaubert_large_cased",
+      "url": "https://huggingface.co/flaubert/flaubert_large_cased"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "xlm-roberta-base",
+      "url": "https://huggingface.co/xlm-roberta-base"
+    },
+    "time": "2024-03-01T09:58:33.220Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bert-base-15lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-15lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bert-base-10lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-10lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence-croissant-llm-base",
+      "url": "https://huggingface.co/Wissam42/sentence-croissant-llm-base"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "xlm-roberta-large",
+      "url": "https://huggingface.co/xlm-roberta-large"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bert-base-25lang-cased",
+      "url": "https://huggingface.co/Geotrend/bert-base-25lang-cased"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bert-base-multilingual-cased",
+      "url": "https://huggingface.co/google-bert/bert-base-multilingual-cased"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence-camembert-base",
+      "url": "https://huggingface.co/dangvantuan/sentence-camembert-base"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "universal-sentence-encoder-multilingual-large-3",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-large-3"
+    },
+    "time": "2024-03-01T09:58:33.221Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "voyage-code-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "universal-sentence-encoder-multilingual-3",
+      "url": "https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-3"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "multi-qa-MiniLM-L6-cos-v1",
+      "url": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "all-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "udever-bloom-560m",
+      "url": "https://huggingface.co/izhx/udever-bloom-560m"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "winberta-base",
+      "url": "https://huggingface.co/ClayAtlas/winberta-base"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "winberta-large",
+      "url": "https://huggingface.co/ClayAtlas/winberta-large"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "windberta-large",
+      "url": "https://huggingface.co/ClayAtlas/windberta-large"
+    },
+    "time": "2024-03-01T09:58:33.222Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "paraphrase-multilingual-mpnet-base-v2-KE_Sieve",
+      "url": "https://huggingface.co/ManiShankar-AlpesAi/paraphrase-multilingual-mpnet-base-v2-KE_Sieve"
+    },
+    "time": "2024-03-01T09:58:33.223Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "SGPT-125M-weightedmean-msmarco-specb-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-msmarco-specb-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.223Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "SGPT-125M-weightedmean-nli-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-nli-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.223Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "SGPT-5.8B-weightedmean-nli-bitfit",
+      "url": "https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-nli-bitfit"
+    },
+    "time": "2024-03-01T09:58:33.223Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sgpt-bloom-1b7-nli",
+      "url": "https://huggingface.co/bigscience-data/sgpt-bloom-1b7-nli"
+    },
+    "time": "2024-03-01T09:58:33.223Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sgpt-bloom-7b1-msmarco",
+      "url": "https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco"
+    },
+    "time": "2024-03-01T09:58:33.224Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "SONAR",
+      "url": "https://huggingface.co/facebook/SONAR"
+    },
+    "time": "2024-03-01T09:58:33.224Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "multilingual-e5-large-instruct",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large-instruct"
+    },
+    "time": "2024-03-01T09:58:33.224Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "allenai-specter",
+      "url": "https://huggingface.co/sentence-transformers/allenai-specter"
+    },
+    "time": "2024-03-01T09:58:33.225Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "komninos",
+      "url": "https://huggingface.co/sentence-transformers/average_word_embeddings_komninos"
+    },
+    "time": "2024-03-01T09:58:33.225Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "distiluse-base-multilingual-cased-v2",
+      "url": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2"
+    },
+    "time": "2024-03-01T09:58:33.225Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "gtr-t5-large",
+      "url": "https://huggingface.co/sentence-transformers/gtr-t5-large"
+    },
+    "time": "2024-03-01T09:58:33.226Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "gtr-t5-xl",
+      "url": "https://huggingface.co/sentence-transformers/gtr-t5-xl"
+    },
+    "time": "2024-03-01T09:58:33.226Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "text2vec-base-multilingual",
+      "url": "https://huggingface.co/shibing624/text2vec-base-multilingual"
+    },
+    "time": "2024-03-01T09:58:33.226Z",
+    "type": "+"
+  },
+  {
     "slug": "Overall/Chinese",
     "model": {
       "name": "OpenSearch-text-hybrid",
