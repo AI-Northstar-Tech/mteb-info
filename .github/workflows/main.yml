@@ -2,7 +2,7 @@ name: Scraper Cron Job
 on:
   # Triggers the workflow every 5 minutes
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
   Data-Update:
