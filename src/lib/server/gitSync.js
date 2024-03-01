@@ -11,12 +11,30 @@ const octokit = new Octokit({
 
 const gitSync = async (data) => {
 	async function gitFileRes(path) {
-		return await octokit.rest.repos.getContent({
+		const res = await octokit.rest.repos.getContent({
 			owner: process.env.GITHUB_OWNER,
 			repo: process.env.GITHUB_REPO,
 			branch: process.env.BRANCH,
 			path
 		});
+
+		const getRawRes = async () =>
+			await octokit.rest.repos.getContent({
+				owner: process.env.GITHUB_OWNER,
+				repo: process.env.GITHUB_REPO,
+				branch: process.env.BRANCH,
+				path,
+				mediaType: {
+					format: 'raw'
+				}
+			});
+
+		return {
+			content: res.data.content
+				? Buffer.from(res.data.content, 'base64').toString('utf8')
+				: (await getRawRes()).data,
+			sha: res.data.sha
+		};
 	}
 
 	const [dataFileRes, logFileRes] = await Promise.all([
@@ -24,10 +42,10 @@ const gitSync = async (data) => {
 		gitFileRes('data/changelog.json')
 	]);
 
-	const dataFileSha = dataFileRes.data.sha;
-	const logFileSha = logFileRes.data.sha;
-	const prevDataStr = Buffer.from(dataFileRes.data.content, 'base64').toString('utf8');
-	const prevLogStr = Buffer.from(logFileRes.data.content, 'base64').toString('utf8');
+	const dataFileSha = dataFileRes.sha;
+	const logFileSha = logFileRes.sha;
+	const prevDataStr = dataFileRes.content;
+	const prevLogStr = logFileRes.content;
 	const prevData = prevDataStr ? JSON.parse(prevDataStr) : {};
 	const prevLog = prevLogStr ? JSON.parse(prevLogStr) : [];
 	const isDataChanged = JSON.stringify(JSON.parse(prevDataStr)) !== JSON.stringify(data);
