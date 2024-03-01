@@ -1,9 +1,8 @@
 name: Scraper Cron Job
 on:
-  # Triggers the workflow every 5 minutes
+  # Triggers the workflow every 1 hour
   schedule:
-    - cron: '*/5 * * * *'
-
+    - cron: '0 * * * *'
 jobs:
   Data-Update:
     runs-on: ubuntu-latest
