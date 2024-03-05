@@ -1,5 +1,338 @@
 [
   {
+    "slug": "Overall/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.866Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.867Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.867Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.868Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.869Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.870Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.871Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.872Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.872Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.879Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.880Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.880Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.897Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.898Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.898Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.899Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.899Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.899Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.900Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.900Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.901Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.901Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.901Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.901Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.902Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.902Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.902Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.903Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "ZNV-Embedding",
+      "url": "https://huggingface.co/sentosa/ZNV-Embedding"
+    },
+    "time": "2024-03-05T12:24:52.903Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.903Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.904Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.904Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.904Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "instructor-xl",
+      "url": "https://huggingface.co/Geolumina/instructor-xl"
+    },
+    "time": "2024-03-05T12:24:52.905Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "mxbai-embed-2d-large-v1",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1"
+    },
+    "time": "2024-03-05T12:24:52.917Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.918Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "Solon-embeddings-large-0.1",
+      "url": "https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1"
+    },
+    "time": "2024-03-05T12:24:52.918Z",
+    "type": "+"
+  },
+  {
     "slug": "Classification/Other",
     "model": {
       "name": "sentence-t5-xxl",
