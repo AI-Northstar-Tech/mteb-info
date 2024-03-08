@@ -1,5 +1,149 @@
 [
   {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.647Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.648Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.649Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.654Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.656Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.657Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.657Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.658Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.659Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.659Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.660Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.661Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.661Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.662Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "m3e-ernie-xbase-zh",
+      "url": "https://huggingface.co/neofung/m3e-ernie-xbase-zh"
+    },
+    "time": "2024-03-08T12:25:12.675Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "acge-large-zh",
+      "url": "https://huggingface.co/aspire/acge-large-zh"
+    },
+    "time": "2024-03-08T12:25:12.675Z",
+    "type": "-"
+  },
+  {
     "slug": "Overall/English",
     "model": {
       "name": "mxbai-embed-2d-large-v1",
