@@ -1,5 +1,185 @@
 [
   {
+    "slug": "Overall/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.676Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.677Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.678Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.679Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.680Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.681Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.686Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.687Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.688Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.690Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.691Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.692Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.692Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.693Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.694Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.706Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.707Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.707Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-15T06:17:52.708Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-15T06:17:52.708Z",
+    "type": "+"
+  },
+  {
     "slug": "Overall/Chinese",
     "model": {
       "name": "acge_text_embedding",
