@@ -1,5 +1,86 @@
 [
   {
+    "slug": "Overall/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.633Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.634Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.635Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.635Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.636Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.637Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.642Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.643Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "facebook-dpr-ctx_encoder-multiset-base",
+      "url": "https://huggingface.co/facebook/dpr-ctx_encoder-multiset-base"
+    },
+    "time": "2024-03-15T07:12:57.643Z",
+    "type": "+"
+  },
+  {
     "slug": "Overall/French",
     "model": {
       "name": "croissant_sentence_test1",
