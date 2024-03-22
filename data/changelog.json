@@ -1,5 +1,131 @@
 [
   {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "hktv-fine-tuned-cloudy-large-zh-metaphor14",
+      "url": "https://huggingface.co/wongctroman/hktv-fine-tuned-cloudy-large-zh-metaphor14"
+    },
+    "time": "2024-03-22T16:17:55.940Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.941Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.942Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.943Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.944Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.945Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "hktv-fine-tuned-cloudy-large-zh-metaphor14",
+      "url": "https://huggingface.co/wongctroman/hktv-fine-tuned-cloudy-large-zh-metaphor14"
+    },
+    "time": "2024-03-22T16:17:55.946Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "bge-m3",
+      "url": "https://huggingface.co/biswa921/bge-m3"
+    },
+    "time": "2024-03-22T16:17:55.947Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "hktv-fine-tuned-cloudy-large-zh-metaphor14",
+      "url": "https://huggingface.co/wongctroman/hktv-fine-tuned-cloudy-large-zh-metaphor14"
+    },
+    "time": "2024-03-22T16:17:55.947Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.948Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.949Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.950Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.967Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-22T16:17:55.967Z",
+    "type": "+"
+  },
+  {
     "slug": "Overall/English",
     "model": {
       "name": "facebook-dpr-ctx_encoder-multiset-base",
