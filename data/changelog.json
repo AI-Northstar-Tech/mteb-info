@@ -1,5 +1,608 @@
 [
   {
+    "slug": "Overall/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.283Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.284Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.285Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.286Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.287Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.288Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.288Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.289Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.290Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.295Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.295Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.296Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.296Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.297Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.298Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.315Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.315Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.316Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.316Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.316Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.317Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.317Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.318Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.318Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.318Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.319Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.319Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.320Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.320Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.321Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.321Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.321Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.321Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.322Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.335Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.335Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.336Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.336Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.336Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.336Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.336Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.337Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.337Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "Dmeta-embedding-zh-small",
+      "url": "https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small"
+    },
+    "time": "2024-03-28T14:14:46.338Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.338Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.338Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.338Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.339Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.339Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.339Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.339Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.340Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.340Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.340Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.340Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-03-28T14:14:46.340Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.341Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.341Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.341Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.341Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.341Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.1",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.1"
+    },
+    "time": "2024-03-28T14:14:46.342Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.2",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.2"
+    },
+    "time": "2024-03-28T14:14:46.342Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "croissant_sentence_test2",
+      "url": "https://huggingface.co/manu/croissant_sentence_test2"
+    },
+    "time": "2024-03-28T14:14:46.342Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "croissant_sentence_test4",
+      "url": "https://huggingface.co/manu/croissant_sentence_test4"
+    },
+    "time": "2024-03-28T14:14:46.354Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "croissant_sentence_test1",
+      "url": "https://huggingface.co/manu/croissant_sentence_test1"
+    },
+    "time": "2024-03-28T14:14:46.355Z",
+    "type": "-"
+  },
+  {
     "slug": "Overall/Chinese",
     "model": {
       "name": "hktv-fine-tuned-cloudy-large-zh-metaphor14",
