@@ -1,6 +1,6 @@
 {
   "headerHtml": "Massive Text Embedding Benchmark (MTEB) Leaderboard. To submit, refer to the <a href=\"https://github.com/embeddings-benchmark/mteb#leaderboard\" target=\"_blank\" style=\"text-decoration: underline\">MTEB GitHub repository</a> 🤗 Refer to the [MTEB paper](https://arxiv.org/abs/2210.07316) for details on metrics, tasks and models.",
-  "footerHtml": "- **Total Datasets**: 158\n- **Total Languages**: 113\n- **Total Scores**: 31379\n- **Total Models**: 249\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
+  "footerHtml": "- **Total Datasets**: 158\n- **Total Languages**: 113\n- **Total Scores**: 31387\n- **Total Models**: 250\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
   "table": [
     {
       "name": "Overall",
@@ -35903,6 +35903,19 @@
           "data": [
             [
               1,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-law-2</a>",
+              65.39,
+              44.56,
+              45.51,
+              44.91,
+              72.75,
+              83.27,
+              95.66,
+              67.47,
+              68.96
+            ],
+            [
+              2,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-mistral-7b-instruct\">e5-mistral-7b-instruct</a>",
               59.77,
               38.76,
@@ -35915,7 +35928,7 @@
               66.51
             ],
             [
-              2,
+              3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-embedding-models-and-api-updates\">text-embedding-3-large</a>",
               59.22,
               39,
@@ -35928,7 +35941,7 @@
               71.55
             ],
             [
-              3,
+              4,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.mistral.ai/guides/embeddings\">mistral-embed</a>",
               56.43,
               38.2,
@@ -35941,7 +35954,7 @@
               67.39
             ],
             [
-              4,
+              5,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Cohere/Cohere-embed-english-v3.0\">Cohere-embed-english-v3.0</a>",
               43.04,
               31.54,
@@ -35954,7 +35967,7 @@
               61.7
             ],
             [
-              5,
+              6,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-en-v1.5\">bge-large-en-v1.5</a>",
               39.22,
               25.15,
@@ -46901,7 +46914,7 @@
         },
         {
           "name": "French",
-          "html": "- **Total Datasets**: 158\n- **Total Languages**: 113\n- **Total Scores**: 31379\n- **Total Models**: 249\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
+          "html": "- **Total Datasets**: 158\n- **Total Languages**: 113\n- **Total Scores**: 31387\n- **Total Models**: 250\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
           "headers": [
             "Rank",
             "Model",
