@@ -2,6 +2,213 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.917Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.917Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.919Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.921Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.922Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.923Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.924Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.925Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.934Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.935Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.936Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.937Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Law",
+    "model": {
+      "name": "e5-mistral-7b-instruct",
+      "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    },
+    "time": "2024-04-05T09:13:39.937Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Law",
+    "model": {
+      "name": "text-embedding-3-large",
+      "url": "https://openai.com/blog/new-embedding-models-and-api-updates"
+    },
+    "time": "2024-04-05T09:13:39.938Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Law",
+    "model": {
+      "name": "mistral-embed",
+      "url": "https://docs.mistral.ai/guides/embeddings"
+    },
+    "time": "2024-04-05T09:13:39.939Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Law",
+    "model": {
+      "name": "Cohere-embed-english-v3.0",
+      "url": "https://huggingface.co/Cohere/Cohere-embed-english-v3.0"
+    },
+    "time": "2024-04-05T09:13:39.939Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Law",
+    "model": {
+      "name": "bge-large-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5"
+    },
+    "time": "2024-04-05T09:13:39.940Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.940Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.941Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.954Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.955Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "google-gecko.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.956Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "google-gecko-256.text-embedding-preview-0409",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models"
+    },
+    "time": "2024-04-05T09:13:39.956Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "gte-tiny",
       "url": "https://huggingface.co/Koat/gte-tiny"
     },
