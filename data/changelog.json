@@ -1,5 +1,86 @@
 [
   {
+    "slug": "Overall/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.610Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.611Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.612Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.613Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.614Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.615Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.616Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.617Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-tiny",
+      "url": "https://huggingface.co/Koat/gte-tiny"
+    },
+    "time": "2024-04-08T07:15:03.618Z",
+    "type": "-"
+  },
+  {
     "slug": "Retrieval/Law",
     "model": {
       "name": "voyage-law-2",
