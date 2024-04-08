@@ -2,6 +2,42 @@
   {
     "slug": "English",
     "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-04-08T14:14:01.826Z",
+    "type": "-"
+  },
+  {
+    "slug": "Swedish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T14:14:01.828Z",
+    "type": "+"
+  },
+  {
+    "slug": "Other",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T14:14:01.829Z",
+    "type": "+"
+  },
+  {
+    "slug": "Other",
+    "model": {
+      "name": "bge-micro-v2",
+      "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
+    },
+    "time": "2024-04-08T14:14:01.830Z",
+    "type": "-"
+  },
+  {
+    "slug": "English",
+    "model": {
       "name": "sgpt-bloom-7b1-msmarco",
       "url": "https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco"
     },
