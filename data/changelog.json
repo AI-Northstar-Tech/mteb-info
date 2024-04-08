@@ -2,6 +2,69 @@
   {
     "slug": "English",
     "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T20:16:29.734Z",
+    "type": "+"
+  },
+  {
+    "slug": "Chinese",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T20:16:29.734Z",
+    "type": "+"
+  },
+  {
+    "slug": "French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T20:16:29.735Z",
+    "type": "+"
+  },
+  {
+    "slug": "Polish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T20:16:29.736Z",
+    "type": "+"
+  },
+  {
+    "slug": "English-X",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T20:16:29.738Z",
+    "type": "+"
+  },
+  {
+    "slug": "Danish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T20:16:29.738Z",
+    "type": "+"
+  },
+  {
+    "slug": "Norwegian",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-08T20:16:29.739Z",
+    "type": "+"
+  },
+  {
+    "slug": "English",
+    "model": {
       "name": "bge-micro-v2",
       "url": "https://huggingface.co/SmartComponents/bge-micro-v2"
     },
