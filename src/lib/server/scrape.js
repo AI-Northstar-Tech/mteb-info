@@ -25,6 +25,15 @@ const getData = async () => {
 	let insideSecondery = false;
 
 	for (let i = 0; i < components.length; i++) {
+		// determining if we are inside primary or secondery table
+		if (components[i].type === 'tabs' && components[i - 1]?.type === 'tabitem') {
+			insidePrimary = true;
+			insideSecondery = false;
+		} else if (components[i].type === 'tabitem' && components[i + 1]?.type === 'tabs') {
+			insidePrimary = false;
+			insideSecondery = true;
+		}
+
 		// scrapping primary and secondary tables
 		if (components[i].type === 'tabitem') {
 			if (!insidePrimary) {
@@ -39,14 +48,6 @@ const getData = async () => {
 			}
 		}
 
-		// determining if we are inside primary or secondery table
-		if (components[i].type === 'tabitem' && components[i + 1]?.type === 'tabitem') {
-			insidePrimary = true;
-			insideSecondery = false;
-		} else if (components[i].type === 'tabs') {
-			insidePrimary = false;
-			insideSecondery = true;
-		}
 
 		const activePrimaryTable = table[table.length - 1];
 		const activeTable =
@@ -66,7 +67,7 @@ const getData = async () => {
 		}
 	}
 	return {
-		headerHtml: components[0].props.value,
+		headerHtml: components[2].props.value,
 		footerHtml: components[components.length - 1].props.value,
 		table
 	};
