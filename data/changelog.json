@@ -2,6 +2,231 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.209Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.210Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "BAAI-bge-reranker-large",
+      "url": "https://huggingface.co/srikanthmalla/BAAI-bge-reranker-large"
+    },
+    "time": "2024-04-11T07:14:03.211Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.212Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.213Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.214Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.215Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.215Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.230Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.230Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.231Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.231Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.249Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "BAAI-bge-reranker-large",
+      "url": "https://huggingface.co/srikanthmalla/BAAI-bge-reranker-large"
+    },
+    "time": "2024-04-11T07:14:03.250Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.250Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.251Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.251Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.252Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.252Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.253Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.253Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "hkunlp-instructor-xl",
+      "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
+    },
+    "time": "2024-04-11T07:14:03.254Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.254Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-11T07:14:03.255Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "SFR-Embedding-Mistral",
       "url": "https://huggingface.co/Salesforce/SFR-Embedding-Mistral"
     },
