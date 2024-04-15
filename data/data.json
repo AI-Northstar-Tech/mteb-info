@@ -2267,7 +2267,7 @@
             ],
             [
               146,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
               1024,
@@ -3870,7 +3870,7 @@
               "",
               "",
               "",
-              67.78,
+              67.03,
               "",
               ""
             ],
@@ -4941,7 +4941,7 @@
             ],
             [
               147,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
               1024,
@@ -6067,6 +6067,22 @@
             ],
             [
               10,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
+              568,
+              2.12,
+              1024,
+              8194,
+              56.23,
+              67.57,
+              37.9,
+              77.1,
+              75.3,
+              43.58,
+              79.5,
+              30.13
+            ],
+            [
+              11,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-xl\">sentence-t5-xl</a>",
               1240,
               4.62,
@@ -6080,22 +6096,6 @@
               39.69,
               77.33,
               31.59
-            ],
-            [
-              11,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
-              568,
-              2.12,
-              1024,
-              8194,
-              55.66,
-              66.26,
-              37.03,
-              77.18,
-              75.26,
-              43.16,
-              79.86,
-              30.06
             ],
             [
               12,
@@ -15745,6 +15745,19 @@
             ],
             [
               6,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
+              568,
+              2.12,
+              67.57,
+              42.33,
+              70.52,
+              66.7,
+              74.58,
+              90.39,
+              60.88
+            ],
+            [
+              7,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-code-2</a>",
               "",
               "",
@@ -15757,7 +15770,7 @@
               59.44
             ],
             [
-              7,
+              8,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/sentence_croissant_alpha_v0.2\">sentence_croissant_alpha_v0.2</a>",
               1280,
               4.77,
@@ -15770,7 +15783,7 @@
               67.76
             ],
             [
-              8,
+              9,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-xxl\">sentence-t5-xxl</a>",
               4865,
               18.12,
@@ -15783,7 +15796,7 @@
               58.33
             ],
             [
-              9,
+              10,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Cohere/Cohere-embed-multilingual-v3.0\">Cohere-embed-multilingual-v3.0</a>",
               "",
               "",
@@ -15796,7 +15809,7 @@
               61.07
             ],
             [
-              10,
+              11,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-base\">multilingual-e5-base</a>",
               278,
               1.04,
@@ -15809,7 +15822,7 @@
               55.51
             ],
             [
-              11,
+              12,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-large-3\">universal-sentence-encoder-multilingual-large-3</a>",
               "",
               "",
@@ -15820,19 +15833,6 @@
               73.47,
               88.19,
               63.64
-            ],
-            [
-              12,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
-              568,
-              2.12,
-              66.26,
-              41.08,
-              70,
-              65.08,
-              72.74,
-              88.68,
-              59.95
             ],
             [
               13,
@@ -26483,7 +26483,7 @@
             ],
             [
               73,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
               "",
@@ -26491,17 +26491,17 @@
               "",
               "",
               "",
-              41.08,
+              42.33,
               "",
               "",
               "",
               "",
-              88.68,
+              90.39,
               "",
               "",
               "",
               "",
-              59.95,
+              60.88,
               "",
               "",
               "",
@@ -26515,7 +26515,7 @@
               "",
               "",
               "",
-              65.08,
+              66.7,
               "",
               "",
               "",
@@ -26560,7 +26560,7 @@
               "",
               "",
               "",
-              72.74,
+              74.58,
               "",
               "",
               "",
@@ -33272,17 +33272,17 @@
             ],
             [
               25,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
-              37.03,
-              51.46,
-              35.49,
-              21.97,
-              40.84,
-              33.17,
-              39.62,
-              36.67
+              37.9,
+              56.73,
+              38.2,
+              24.13,
+              42.12,
+              36.69,
+              34.61,
+              32.81
             ],
             [
               26,
@@ -36091,21 +36091,21 @@
             ],
             [
               29,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
-              568,
-              2.12,
-              77.18,
-              93.6,
-              60.76
-            ],
-            [
-              30,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1\">Solon-embeddings-large-0.1</a>",
               560,
               2.09,
               77.1,
               94.02,
               60.19
+            ],
+            [
+              30,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
+              568,
+              2.12,
+              77.1,
+              93.34,
+              60.85
             ],
             [
               31,
@@ -38084,17 +38084,6 @@
             ],
             [
               9,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-reranker-large\">bge-reranker-large</a>",
-              560,
-              2.09,
-              67.78,
-              82.14,
-              84.19,
-              37.17,
-              67.6
-            ],
-            [
-              10,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Pristinenlp/alime-embedding-large-zh\">alime-embedding-large-zh</a>",
               326,
               1.21,
@@ -38105,7 +38094,7 @@
               66.18
             ],
             [
-              11,
+              10,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Pristinenlp/alime-reranker-large-zh\">alime-reranker-large-zh</a>",
               560,
               2.09,
@@ -38116,7 +38105,7 @@
               68.26
             ],
             [
-              12,
+              11,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-large-zh\">gte-large-zh</a>",
               326,
               1.21,
@@ -38127,7 +38116,7 @@
               65.86
             ],
             [
-              13,
+              12,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/lier007/xiaobu-embedding\">xiaobu-embedding</a>",
               326,
               1.21,
@@ -38138,7 +38127,7 @@
               66.6
             ],
             [
-              14,
+              13,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/Dmeta-embedding-zh\">Dmeta-embedding-zh</a>",
               103,
               0.38,
@@ -38149,10 +38138,21 @@
               66.26
             ],
             [
-              15,
+              14,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-reranker-base\">bge-reranker-base</a>",
               278,
               1.04,
+              67.03,
+              81.27,
+              84.1,
+              35.46,
+              67.28
+            ],
+            [
+              15,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-reranker-large\">bge-reranker-large</a>",
+              560,
+              2.09,
               67.03,
               81.27,
               84.1,
@@ -38685,12 +38685,12 @@
             ],
             [
               5,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
-              75.26,
-              64.3,
-              86.23
+              75.3,
+              65.17,
+              85.43
             ],
             [
               6,
@@ -42870,15 +42870,15 @@
             ],
             [
               7,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
-              43.16,
-              42.01,
+              43.58,
+              45.1,
               0,
-              26.28,
-              77.9,
-              69.61
+              25.17,
+              79.14,
+              68.49
             ],
             [
               8,
@@ -47366,16 +47366,6 @@
             ],
             [
               4,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
-              568,
-              2.12,
-              79.86,
-              82.93,
-              82.2,
-              74.46
-            ],
-            [
-              5,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.mistral.ai/guides/embeddings\">mistral-embed</a>",
               "",
               "",
@@ -47383,6 +47373,16 @@
               82.74,
               79.72,
               76.21
+            ],
+            [
+              5,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
+              568,
+              2.12,
+              79.5,
+              81.7,
+              81.3,
+              75.51
             ],
             [
               6,
@@ -51824,7 +51824,7 @@
             ],
             [
               104,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
               "",
@@ -51846,7 +51846,7 @@
               "",
               "",
               "",
-              82.93,
+              81.7,
               "",
               "",
               "",
@@ -55524,7 +55524,7 @@
             ],
             [
               153,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
               ""
@@ -55929,10 +55929,10 @@
             ],
             [
               20,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-ft\">bge-ft</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
-              30.06
+              30.13
             ],
             [
               21,
