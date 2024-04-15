@@ -2,6 +2,240 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.532Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.533Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.534Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.535Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.536Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.537Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.538Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.538Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.539Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.540Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.549Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.550Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.551Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.551Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.552Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.552Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.552Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.553Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.553Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.554Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.554Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.555Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.555Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.569Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bge-m3-custom-fr",
+      "url": "https://huggingface.co/manu/bge-m3-custom-fr"
+    },
+    "time": "2024-04-15T19:11:54.570Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "bge-ft",
+      "url": "https://huggingface.co/manu/bge-ft"
+    },
+    "time": "2024-04-15T19:11:54.570Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "hkunlp-instructor-xl",
       "url": "https://huggingface.co/srikanthmalla/hkunlp-instructor-xl"
     },
