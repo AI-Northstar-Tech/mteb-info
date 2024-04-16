@@ -2,6 +2,744 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.319Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.320Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.321Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.322Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.323Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.323Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.324Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.325Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.340Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.341Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.341Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.342Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.342Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.343Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Polish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.343Z",
+    "type": "-"
+  },
+  {
+    "slug": "Bitext Mining/English-X",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.344Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.344Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.345Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.345Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.345Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.346Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.346Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.358Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.359Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Danish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.359Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.362Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Norwegian",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.363Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Polish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.363Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Swedish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.363Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.364Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.364Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.364Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.365Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.365Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.365Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.365Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.365Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.366Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.378Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.379Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.379Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.379Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.380Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.380Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.380Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.381Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.382Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.382Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.382Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.383Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.383Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.384Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.384Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.384Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.384Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.385Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.385Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "IYun-large-zh",
+      "url": "https://huggingface.co/Erin/IYun-large-zh"
+    },
+    "time": "2024-04-16T12:26:28.385Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.385Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.385Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Polish",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.386Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.398Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.399Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.399Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.399Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.399Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.400Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "snowflake-arctic-embed-s",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-s"
+    },
+    "time": "2024-04-16T12:26:28.400Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m-long",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long"
+    },
+    "time": "2024-04-16T12:26:28.400Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "snowflake-arctic-embed-l",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l"
+    },
+    "time": "2024-04-16T12:26:28.400Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "snowflake-arctic-embed-m",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m"
+    },
+    "time": "2024-04-16T12:26:28.401Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "snowflake-arctic-embed-xs",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+    },
+    "time": "2024-04-16T12:26:28.401Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.401Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "multilingual-e5-large",
+      "url": "https://huggingface.co/ildodeltaRule/multilingual-e5-large"
+    },
+    "time": "2024-04-16T12:26:28.401Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "bge-m3-custom-fr",
       "url": "https://huggingface.co/manu/bge-m3-custom-fr"
     },
