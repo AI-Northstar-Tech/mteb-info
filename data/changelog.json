@@ -2,6 +2,501 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.082Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.083Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.083Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.084Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.085Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.086Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.087Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.087Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.101Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.101Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.102Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.103Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.103Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.103Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.104Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.105Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.105Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.105Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.106Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.106Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.106Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.107Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.107Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.107Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.107Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.108Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.120Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.121Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.121Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.122Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.122Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.122Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.123Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.123Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.123Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.123Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.124Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.124Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.124Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.125Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.125Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.125Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.125Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.126Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.126Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.127Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.127Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.127Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.127Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.127Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.128Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-Qwen1.5-7B-instruct",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    "time": "2024-04-21T09:14:59.140Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-base-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.140Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-21T09:14:59.141Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-large-en-v1.5",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+    },
+    "time": "2024-04-21T09:14:59.141Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "LLM2Vec-Mistral-supervised",
       "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-supervised"
     },
