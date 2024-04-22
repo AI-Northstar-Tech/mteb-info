@@ -2,6 +2,168 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "gte-micro",
+      "url": "https://huggingface.co/Mihaiii/gte-micro"
+    },
+    "time": "2024-04-22T07:13:56.275Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.276Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "qwen-1.8b-retrieval-test",
+      "url": "https://huggingface.co/babyqian521/qwen-1.8b-retrieval-test"
+    },
+    "time": "2024-04-22T07:13:56.285Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "checkpoint-9000",
+      "url": "https://huggingface.co/pengql/checkpoint-9000"
+    },
+    "time": "2024-04-22T07:13:56.286Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-micro",
+      "url": "https://huggingface.co/Mihaiii/gte-micro"
+    },
+    "time": "2024-04-22T07:13:56.287Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Chinese",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.288Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.289Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-micro",
+      "url": "https://huggingface.co/Mihaiii/gte-micro"
+    },
+    "time": "2024-04-22T07:13:56.289Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/Chinese",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.290Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "gte-micro",
+      "url": "https://huggingface.co/Mihaiii/gte-micro"
+    },
+    "time": "2024-04-22T07:13:56.291Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/Chinese",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.291Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "gte-micro",
+      "url": "https://huggingface.co/Mihaiii/gte-micro"
+    },
+    "time": "2024-04-22T07:13:56.305Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/Chinese",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.305Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.306Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "checkpoint-9000",
+      "url": "https://huggingface.co/pengql/checkpoint-9000"
+    },
+    "time": "2024-04-22T07:13:56.307Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "qwen-1.8b-retrieval-test",
+      "url": "https://huggingface.co/babyqian521/qwen-1.8b-retrieval-test"
+    },
+    "time": "2024-04-22T07:13:56.307Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Chinese",
+    "model": {
+      "name": "piccolo-large-zh-v2",
+      "url": "https://huggingface.co/sensenova/piccolo-large-zh-v2"
+    },
+    "time": "2024-04-22T07:13:56.308Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-micro",
+      "url": "https://huggingface.co/Mihaiii/gte-micro"
+    },
+    "time": "2024-04-22T07:13:56.308Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "gte-Qwen1.5-7B-instruct",
       "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct"
     },
