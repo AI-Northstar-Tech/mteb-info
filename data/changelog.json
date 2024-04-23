@@ -2,6 +2,222 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.730Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "gte-micro-v2",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v2"
+    },
+    "time": "2024-04-23T11:12:21.730Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "gte-micro-v3",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v3"
+    },
+    "time": "2024-04-23T11:12:21.731Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "gte-micro-v4",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v4"
+    },
+    "time": "2024-04-23T11:12:21.732Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.734Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.735Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-micro-v4",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v4"
+    },
+    "time": "2024-04-23T11:12:21.735Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-micro-v3",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v3"
+    },
+    "time": "2024-04-23T11:12:21.736Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "gte-micro-v2",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v2"
+    },
+    "time": "2024-04-23T11:12:21.736Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.748Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-micro-v4",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v4"
+    },
+    "time": "2024-04-23T11:12:21.749Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-micro-v2",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v2"
+    },
+    "time": "2024-04-23T11:12:21.749Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "gte-micro-v3",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v3"
+    },
+    "time": "2024-04-23T11:12:21.750Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.750Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "gte-micro-v4",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v4"
+    },
+    "time": "2024-04-23T11:12:21.751Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.751Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "gte-micro-v4",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v4"
+    },
+    "time": "2024-04-23T11:12:21.752Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.752Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.765Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.766Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "finetuned_embedder",
+      "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
+    },
+    "time": "2024-04-23T11:12:21.767Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-micro-v2",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v2"
+    },
+    "time": "2024-04-23T11:12:21.767Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-micro-v3",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v3"
+    },
+    "time": "2024-04-23T11:12:21.767Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "gte-micro-v4",
+      "url": "https://huggingface.co/Mihaiii/gte-micro-v4"
+    },
+    "time": "2024-04-23T11:12:21.768Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "gte-micro",
       "url": "https://huggingface.co/Mihaiii/gte-micro"
     },
