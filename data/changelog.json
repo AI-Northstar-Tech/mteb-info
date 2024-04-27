@@ -2,6 +2,393 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.870Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.870Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.871Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.872Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.872Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.873Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.873Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.874Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.874Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.890Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.890Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.891Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.891Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.908Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.908Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.908Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.909Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.909Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.909Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.909Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.911Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.912Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.913Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.913Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.913Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.913Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.928Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.928Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.928Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.929Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.929Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.929Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.929Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.929Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-27T17:12:24.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Bulbasaur",
+      "url": "https://huggingface.co/Mihaiii/Bulbasaur"
+    },
+    "time": "2024-04-27T17:12:24.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-27T17:12:24.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.930Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "sentence_croissant_alpha_v0.3",
+      "url": "https://huggingface.co/manu/sentence_croissant_alpha_v0.3"
+    },
+    "time": "2024-04-27T17:12:24.931Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "finetuned_embedder",
       "url": "https://huggingface.co/ahmet1338/finetuned_embedder"
     },
