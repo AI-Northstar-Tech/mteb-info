@@ -2,6 +2,609 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:26.959Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:26.960Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:26.960Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:26.961Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:26.962Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:26.963Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:26.963Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:26.964Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:26.964Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:26.976Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:26.976Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:26.977Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:26.977Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:26.978Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:26.978Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:26.978Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:26.979Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.000Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:27.000Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:27.001Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.001Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:27.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:27.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.002Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:27.003Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:27.003Z",
+    "type": "+"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.004Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:27.004Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.004Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:27.004Z",
+    "type": "-"
+  },
+  {
+    "slug": "Pair Classification/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.005Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:27.005Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:27.006Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.006Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.006Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:27.006Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.006Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:27.006Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:27.015Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:27.016Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:27.016Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.016Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.017Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.017Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:27.017Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:27.017Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:27.018Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.018Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.018Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:27.018Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:27.018Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.018Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:27.019Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:27.019Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.019Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:27.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:27.020Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Ivysaur",
+      "url": "https://huggingface.co/Mihaiii/Ivysaur"
+    },
+    "time": "2024-04-29T08:19:27.021Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "voyage-large-2-instruct",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-04-29T08:19:27.021Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "stella-base-en-v2-ct2-int8",
+      "url": "https://huggingface.co/jncraton/stella-base-en-v2-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.021Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "jina-v2-base-en-embed",
+      "url": "https://huggingface.co/jamesdborin/jina-v2-base-en-embed"
+    },
+    "time": "2024-04-29T08:19:27.021Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "Test",
+      "url": "https://huggingface.co/iampanda/Test"
+    },
+    "time": "2024-04-29T08:19:27.021Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "GIST-small-Embedding-v0-ct2-int8",
+      "url": "https://huggingface.co/jncraton/GIST-small-Embedding-v0-ct2-int8"
+    },
+    "time": "2024-04-29T08:19:27.021Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "nomic",
+      "url": "https://huggingface.co/lightbird-ai/nomic"
+    },
+    "time": "2024-04-29T08:19:27.021Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "nomic",
       "url": "https://huggingface.co/lightbird-ai/nomic"
     },
