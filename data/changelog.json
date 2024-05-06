@@ -2,6 +2,168 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.756Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.757Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.759Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.768Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.770Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.771Z",
+    "type": "-"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.772Z",
+    "type": "-"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.788Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.789Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.789Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.790Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.791Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.791Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.792Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.792Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.793Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T20:14:40.793Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T20:14:40.794Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "LLM2Vec-Meta-Llama-3-supervised",
       "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
     },
