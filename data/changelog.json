@@ -2,6 +2,654 @@
   {
     "slug": "Overall/English",
     "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.771Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.773Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.778Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.779Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.780Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.781Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.781Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.782Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.783Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.783Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.784Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.784Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "LLM2Vec-Llama-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp"
+    },
+    "time": "2024-05-06T17:14:42.785Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "LLM2Vec-Llama-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.785Z",
+    "type": "-"
+  },
+  {
+    "slug": "Overall/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.799Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.800Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.800Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.801Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.801Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.801Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.818Z",
+    "type": "-"
+  },
+  {
+    "slug": "Classification/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.819Z",
+    "type": "+"
+  },
+  {
+    "slug": "Classification/Other Languages",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.819Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.820Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.820Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.820Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.821Z",
+    "type": "+"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.821Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.822Z",
+    "type": "-"
+  },
+  {
+    "slug": "Clustering/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.822Z",
+    "type": "+"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.822Z",
+    "type": "+"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.823Z",
+    "type": "+"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.823Z",
+    "type": "+"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.823Z",
+    "type": "+"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.824Z",
+    "type": "-"
+  },
+  {
+    "slug": "PairClassification/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.824Z",
+    "type": "-"
+  },
+  {
+    "slug": "PairClassification/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.824Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.824Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.825Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.825Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.825Z",
+    "type": "+"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.825Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.838Z",
+    "type": "-"
+  },
+  {
+    "slug": "Reranking/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.839Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.839Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.840Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.840Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.840Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.841Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.841Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.841Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.842Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.842Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.842Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.842Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.842Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.843Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.858Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.859Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.859Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.859Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.859Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.859Z",
+    "type": "+"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.860Z",
+    "type": "-"
+  },
+  {
+    "slug": "STS/Other",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.860Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.860Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-unsupervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.861Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.861Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Llama-2-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.861Z",
+    "type": "+"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse"
+    },
+    "time": "2024-05-06T17:14:42.861Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/English",
+    "model": {
+      "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
+      "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
+    },
+    "time": "2024-05-06T17:14:42.861Z",
+    "type": "-"
+  },
+  {
+    "slug": "Summarization/French",
+    "model": {
+      "name": "voyage-law-2",
+      "url": "https://docs.voyageai.com/embeddings/"
+    },
+    "time": "2024-05-06T17:14:42.862Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/English",
+    "model": {
       "name": "LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised",
       "url": "https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised"
     },
