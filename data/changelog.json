@@ -1,5 +1,41 @@
 [
   {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "qwen-1.8b-retrieval-test",
+      "url": "https://huggingface.co/NLPArtisan/qwen-1.8b-retrieval-test"
+    },
+    "time": "2024-05-08T03:16:58.400Z",
+    "type": "+"
+  },
+  {
+    "slug": "Overall/Chinese",
+    "model": {
+      "name": "qwen-1.8b-retrieval-test",
+      "url": "https://huggingface.co/babyqian521/qwen-1.8b-retrieval-test"
+    },
+    "time": "2024-05-08T03:16:58.401Z",
+    "type": "-"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "qwen-1.8b-retrieval-test",
+      "url": "https://huggingface.co/NLPArtisan/qwen-1.8b-retrieval-test"
+    },
+    "time": "2024-05-08T03:16:58.404Z",
+    "type": "+"
+  },
+  {
+    "slug": "Retrieval/Chinese",
+    "model": {
+      "name": "qwen-1.8b-retrieval-test",
+      "url": "https://huggingface.co/babyqian521/qwen-1.8b-retrieval-test"
+    },
+    "time": "2024-05-08T03:16:58.405Z",
+    "type": "-"
+  },
+  {
     "slug": "Overall/English",
     "model": {
       "name": "LLM2Vec-Llama-supervised",
