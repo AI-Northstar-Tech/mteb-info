@@ -60,10 +60,10 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
-              "",
-              "",
+              7099,
+              26.45,
+              4096,
+              32768,
               67.34,
               79.6,
               55.83,
@@ -3456,12 +3456,12 @@
             [
               2,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
-              "",
-              "",
+              7099,
+              26.45,
+              4096,
+              32768,
               69.56,
-              73.35,
+              73.36,
               67.08,
               88.52,
               66.38,
@@ -4925,6 +4925,21 @@
             ],
             [
               102,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/NLPArtisan/qwen-1.8b-retrieval-test\">qwen-1.8b-retrieval-test</a>",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              70.63,
+              ""
+            ],
+            [
+              103,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1\">Solon-embeddings-large-0.1</a>",
               560,
               2.09,
@@ -4939,7 +4954,7 @@
               ""
             ],
             [
-              103,
+              104,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Pristinenlp/alime-reranker-large-zh\">alime-reranker-large-zh</a>",
               560,
               2.09,
@@ -4954,7 +4969,7 @@
               ""
             ],
             [
-              105,
+              106,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Salesforce/SFR-Embedding-Mistral\">SFR-Embedding-Mistral</a>",
               7111,
               26.49,
@@ -4969,7 +4984,7 @@
               ""
             ],
             [
-              107,
+              108,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-l\">snowflake-arctic-embed-l</a>",
               334,
               1.24,
@@ -4984,7 +4999,7 @@
               ""
             ],
             [
-              108,
+              109,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-m\">snowflake-arctic-embed-m</a>",
               109,
               0.41,
@@ -4999,7 +5014,7 @@
               ""
             ],
             [
-              109,
+              110,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long\">snowflake-arctic-embed-m-long</a>",
               137,
               0.51,
@@ -5014,7 +5029,7 @@
               ""
             ],
             [
-              110,
+              111,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-s\">snowflake-arctic-embed-s</a>",
               33,
               0.12,
@@ -5029,7 +5044,7 @@
               ""
             ],
             [
-              111,
+              112,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-xs\">snowflake-arctic-embed-xs</a>",
               23,
               0.08,
@@ -5044,7 +5059,7 @@
               ""
             ],
             [
-              112,
+              113,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TaylorAI/bge-micro\">bge-micro</a>",
               17,
               0.06,
@@ -5059,7 +5074,7 @@
               ""
             ],
             [
-              113,
+              114,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TaylorAI/bge-micro-v2\">bge-micro-v2</a>",
               17,
               0.06,
@@ -5074,7 +5089,7 @@
               ""
             ],
             [
-              114,
+              115,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TaylorAI/gte-tiny\">gte-tiny</a>",
               23,
               0.08,
@@ -5089,7 +5104,7 @@
               ""
             ],
             [
-              115,
+              116,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TownsWu/PEG\">PEG</a>",
               163,
               0.61,
@@ -5104,7 +5119,7 @@
               ""
             ],
             [
-              116,
+              117,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/WhereIsAI/UAE-Large-V1\">UAE-Large-V1</a>",
               335,
               1.25,
@@ -5119,7 +5134,7 @@
               ""
             ],
             [
-              117,
+              118,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Wissam42/sentence-croissant-llm-base\">sentence-croissant-llm-base</a>",
               1280,
               4.77,
@@ -5134,7 +5149,7 @@
               ""
             ],
             [
-              118,
+              119,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ahmet1338/finetuned_embedder\">finetuned_embedder</a>",
               335,
               1.25,
@@ -5149,7 +5164,7 @@
               ""
             ],
             [
-              119,
+              120,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/akarum/cloudy-large-zh\">cloudy-large-zh</a>",
               326,
               1.21,
@@ -5164,7 +5179,7 @@
               ""
             ],
             [
-              120,
+              121,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
               "",
               "",
@@ -5179,7 +5194,7 @@
               ""
             ],
             [
-              121,
+              122,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/andersonbcdefg/bge-small-4096\">bge-small-4096</a>",
               35,
               0.13,
@@ -5194,7 +5209,7 @@
               ""
             ],
             [
-              122,
+              123,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-Embedding-v0\">GIST-Embedding-v0</a>",
               109,
               0.41,
@@ -5209,7 +5224,7 @@
               ""
             ],
             [
-              123,
+              124,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2\">GIST-all-MiniLM-L6-v2</a>",
               23,
               0.08,
@@ -5224,7 +5239,7 @@
               ""
             ],
             [
-              124,
+              125,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-large-Embedding-v0\">GIST-large-Embedding-v0</a>",
               335,
               1.25,
@@ -5239,7 +5254,7 @@
               ""
             ],
             [
-              125,
+              126,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-small-Embedding-v0\">GIST-small-Embedding-v0</a>",
               33,
               0.12,
@@ -5254,7 +5269,7 @@
               ""
             ],
             [
-              126,
+              127,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/NoInstruct-small-Embedding-v0\">NoInstruct-small-Embedding-v0</a>",
               33,
               0.12,
@@ -5269,7 +5284,7 @@
               ""
             ],
             [
-              127,
+              128,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/aws-neuron/bge-base-en-v1-5-seqlen-384-bs-1\">bge-base-en-v1-5-seqlen-384-bs-1</a>",
               "",
               "",
@@ -5281,21 +5296,6 @@
               "",
               "",
               "",
-              ""
-            ],
-            [
-              128,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/babyqian521/qwen-1.8b-retrieval-test\">qwen-1.8b-retrieval-test</a>",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              70.63,
               ""
             ],
             [
@@ -12200,8 +12200,8 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               79.6,
               83.16,
               96.7,
@@ -15392,9 +15392,9 @@
             [
               2,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
-              73.35,
+              7099,
+              26.45,
+              73.36,
               52.95,
               53.77,
               88.2,
@@ -15402,7 +15402,7 @@
               77.26,
               77.42,
               94.48,
-              51.23,
+              51.24,
               88.63
             ],
             [
@@ -16270,7 +16270,7 @@
               ""
             ],
             [
-              121,
+              122,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
               "",
               "",
@@ -23071,8 +23071,8 @@
             [
               29,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               "",
               "",
               "",
@@ -32106,8 +32106,8 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               55.83,
               56.4,
               51.45,
@@ -35111,8 +35111,8 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               67.08,
               47.21,
               45.79,
@@ -36821,8 +36821,8 @@
             [
               8,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               87.38,
               95.99,
               79.36,
@@ -38454,8 +38454,8 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               88.52,
               91.81,
               85.22
@@ -39641,8 +39641,8 @@
             [
               4,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               60.13,
               66,
               32.71,
@@ -41649,8 +41649,8 @@
             [
               25,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               66.38,
               86.37,
               87.41,
@@ -42663,14 +42663,14 @@
             [
               8,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               56.24,
-              62.64,
+              62.65,
               44,
               40.64,
-              48.05,
-              93.34,
+              48.04,
+              93.35,
               55.31,
               72.25,
               41.68,
@@ -46232,7 +46232,7 @@
             ],
             [
               22,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/babyqian521/qwen-1.8b-retrieval-test\">qwen-1.8b-retrieval-test</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/NLPArtisan/qwen-1.8b-retrieval-test\">qwen-1.8b-retrieval-test</a>",
               "",
               "",
               70.63,
@@ -46248,8 +46248,8 @@
             [
               23,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               70.62,
               43.47,
               80.87,
@@ -48542,8 +48542,8 @@
             [
               42,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               82.42,
               81.12,
               79.15,
@@ -50793,8 +50793,8 @@
             [
               8,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               62.32,
               58.47,
               55.46,
@@ -51526,7 +51526,7 @@
               ""
             ],
             [
-              121,
+              122,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
               "",
               "",
@@ -54005,8 +54005,8 @@
             [
               36,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               "",
               "",
               "",
@@ -59943,8 +59943,8 @@
             [
               21,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
-              "",
-              "",
+              7099,
+              26.45,
               31.46
             ],
             [
