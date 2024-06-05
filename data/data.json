@@ -1,6 +1,6 @@
 {
   "headerHtml": "Massive Text Embedding Benchmark (MTEB) Leaderboard. To submit, refer to the <a href=\"https://github.com/embeddings-benchmark/mteb/blob/main/docs/adding_a_model.md\" target=\"_blank\" style=\"text-decoration: underline\">MTEB GitHub repository</a> 🤗 Refer to the [MTEB paper](https://arxiv.org/abs/2210.07316) for details on metrics, tasks and models.",
-  "footerHtml": "- **Total Datasets**: 165\n- **Total Languages**: 113\n- **Total Scores**: 38801\n- **Total Models**: 319\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
+  "footerHtml": "- **Total Datasets**: 165\n- **Total Languages**: 113\n- **Total Scores**: 38955\n- **Total Models**: 321\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
   "table": [
     {
       "name": "Overall",
@@ -28,10 +28,10 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
-              "",
-              "",
+              7851,
+              29.25,
+              4096,
+              32768,
               69.32,
               87.35,
               52.8,
@@ -60,10 +60,10 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
-              "",
-              "",
+              7111,
+              26.49,
+              4096,
+              32768,
               68.17,
               80.2,
               51.42,
@@ -750,8 +750,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Cohere/Cohere-embed-english-light-v3.0\">Cohere-embed-english-light-v3.0</a>",
               "",
               "",
-              384,
-              512,
+              "",
+              "",
               62.01,
               74.31,
               44.64,
@@ -1022,8 +1022,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
               "",
               "",
-              1024,
-              8192,
+              "",
+              "",
               60.37,
               70.62,
               40.4,
@@ -1868,8 +1868,8 @@
             [
               116,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               384,
               512,
               53.29,
@@ -2526,8 +2526,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/aws-neuron/bge-base-en-v1-5-seqlen-384-bs-1\">bge-base-en-v1-5-seqlen-384-bs-1</a>",
               "",
               "",
-              768,
-              512,
+              "",
+              "",
               "",
               75.53,
               45.77,
@@ -2540,10 +2540,10 @@
             [
               164,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
-              "",
-              "",
+              2270,
+              8.46,
+              1024,
+              8192,
               "",
               73.13,
               "",
@@ -2862,8 +2862,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/mgoin/all-MiniLM-L6-v2-ds\">all-MiniLM-L6-v2-ds</a>",
               "",
               "",
-              384,
-              512,
+              "",
+              "",
               "",
               63.67,
               39.94,
@@ -2894,8 +2894,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant\">bge-base-en-v1.5-quant</a>",
               "",
               "",
-              768,
-              512,
+              "",
+              "",
               "",
               74.98,
               45.06,
@@ -2910,8 +2910,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse\">bge-base-en-v1.5-sparse</a>",
               "",
               "",
-              768,
-              512,
+              "",
+              "",
               "",
               72.62,
               42.88,
@@ -2926,8 +2926,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant\">bge-large-en-v1.5-quant</a>",
               "",
               "",
-              1024,
-              512,
+              "",
+              "",
               "",
               "",
               "",
@@ -2942,8 +2942,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse\">bge-large-en-v1.5-sparse</a>",
               "",
               "",
-              1024,
-              512,
+              "",
+              "",
               "",
               "",
               "",
@@ -2958,8 +2958,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant\">bge-small-en-v1.5-quant</a>",
               "",
               "",
-              384,
-              512,
+              "",
+              "",
               "",
               73.52,
               42.63,
@@ -2974,8 +2974,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse\">bge-small-en-v1.5-sparse</a>",
               "",
               "",
-              384,
-              512,
+              "",
+              "",
               "",
               68.55,
               38.37,
@@ -3374,8 +3374,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zeroshot/gte-large-quant\">gte-large-quant</a>",
               "",
               "",
-              1024,
-              512,
+              "",
+              "",
               "",
               "",
               "",
@@ -3390,8 +3390,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zeroshot/gte-large-sparse\">gte-large-sparse</a>",
               "",
               "",
-              1024,
-              512,
+              "",
+              "",
               "",
               "",
               "",
@@ -3406,8 +3406,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zeroshot/gte-small-quant\">gte-small-quant</a>",
               "",
               "",
-              384,
-              512,
+              "",
+              "",
               "",
               71.7,
               "",
@@ -3585,10 +3585,10 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
-              "",
-              "",
+              326,
+              1.21,
+              1792,
+              512,
               71.88,
               74.43,
               62.23,
@@ -3602,8 +3602,8 @@
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-large-zh-v2\">piccolo-large-zh-v2</a>",
               "",
               "",
-              1792,
-              512,
+              "",
+              "",
               70.95,
               74.59,
               62.17,
@@ -3989,7 +3989,7 @@
             ],
             [
               28,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
               161,
               0.6,
               768,
@@ -4004,6 +4004,21 @@
             ],
             [
               29,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              768,
+              8192,
+              63.79,
+              64.94,
+              46.47,
+              82.94,
+              66.57,
+              69.4,
+              59.39
+            ],
+            [
+              30,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-base-zh\">piccolo-base-zh</a>",
               51,
               0.19,
@@ -4018,7 +4033,7 @@
               55.9
             ],
             [
-              30,
+              31,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-zh-noinstruct\">bge-large-zh-noinstruct</a>",
               326,
               1.21,
@@ -4033,7 +4048,7 @@
               53
             ],
             [
-              31,
+              32,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-base-zh-v1.5\">bge-base-zh-v1.5</a>",
               102,
               0.38,
@@ -4048,7 +4063,7 @@
               53.72
             ],
             [
-              32,
+              33,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/windberta-large\">windberta-large</a>",
               "",
               "",
@@ -4063,7 +4078,7 @@
               54.35
             ],
             [
-              33,
+              34,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-large\">winberta-large</a>",
               "",
               "",
@@ -4078,7 +4093,7 @@
               54.55
             ],
             [
-              34,
+              35,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentosa/ZNV-Embedding\">ZNV-Embedding</a>",
               6061,
               22.58,
@@ -4093,7 +4108,7 @@
               67.66
             ],
             [
-              35,
+              36,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-mistral-7b-instruct\">e5-mistral-7b-instruct</a>",
               7111,
               26.49,
@@ -4108,7 +4123,7 @@
               50.22
             ],
             [
-              36,
+              37,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small-zh\">gte-small-zh</a>",
               30,
               0.11,
@@ -4123,7 +4138,7 @@
               49.72
             ],
             [
-              37,
+              38,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-base\">winberta-base</a>",
               "",
               "",
@@ -4138,7 +4153,7 @@
               51.45
             ],
             [
-              38,
+              39,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/m3e-ernie-xbase-zh\">m3e-ernie-xbase-zh</a>",
               "",
               "",
@@ -4153,7 +4168,7 @@
               50.54
             ],
             [
-              39,
+              40,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-large\">multilingual-e5-large</a>",
               560,
               2.09,
@@ -4168,7 +4183,7 @@
               48.29
             ],
             [
-              40,
+              41,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-zh-v1.5\">bge-small-zh-v1.5</a>",
               24,
               0.09,
@@ -4183,7 +4198,7 @@
               49.1
             ],
             [
-              41,
+              42,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-base\">m3e-base</a>",
               102,
               0.38,
@@ -4198,7 +4213,7 @@
               50.47
             ],
             [
-              42,
+              43,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-large\">m3e-large</a>",
               102,
               0.38,
@@ -4213,7 +4228,7 @@
               50.42
             ],
             [
-              43,
+              44,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-base\">multilingual-e5-base</a>",
               278,
               1.04,
@@ -4228,7 +4243,7 @@
               46.49
             ],
             [
-              44,
+              45,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-small\">multilingual-e5-small</a>",
               118,
               0.44,
@@ -4243,7 +4258,7 @@
               45.27
             ],
             [
-              45,
+              46,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-1b1\">udever-bloom-1b1</a>",
               "",
               "",
@@ -4258,7 +4273,7 @@
               45.6
             ],
             [
-              46,
+              47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -4273,7 +4288,7 @@
               43.35
             ],
             [
-              47,
+              48,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-560m\">udever-bloom-560m</a>",
               "",
               "",
@@ -4288,7 +4303,7 @@
               42.57
             ],
             [
-              48,
+              49,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silk-road/luotuo-bert-medium\">luotuo-bert-medium</a>",
               328,
               1.22,
@@ -4303,7 +4318,7 @@
               42.78
             ],
             [
-              49,
+              50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-chinese\">text2vec-base-chinese</a>",
               102,
               0.38,
@@ -4318,7 +4333,7 @@
               43.41
             ],
             [
-              50,
+              51,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GanymedeNil/text2vec-large-chinese\">text2vec-large-chinese</a>",
               326,
               1.21,
@@ -4333,7 +4348,7 @@
               44.97
             ],
             [
-              51,
+              52,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/sbert-chinese-general-v1\">sbert-chinese-general-v1</a>",
               102,
               0.38,
@@ -4348,12 +4363,12 @@
               43.62
             ],
             [
-              52,
+              53,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
-              "",
-              "",
+              278,
+              1.04,
+              768,
+              514,
               44.59,
               62.7,
               39.67,
@@ -4363,7 +4378,7 @@
               39.11
             ],
             [
-              53,
+              54,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/facebook/SONAR\">SONAR</a>",
               "",
               "",
@@ -4378,7 +4393,7 @@
               36.48
             ],
             [
-              54,
+              55,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -4393,7 +4408,7 @@
               20.86
             ],
             [
-              55,
+              56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models\">google-gecko-256.text-embedding-preview-0409</a>",
               1200,
               4.47,
@@ -4408,7 +4423,7 @@
               ""
             ],
             [
-              56,
+              57,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#latest_models\">google-gecko.text-embedding-preview-0409</a>",
               1200,
               4.47,
@@ -4423,7 +4438,7 @@
               ""
             ],
             [
-              57,
+              58,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/embeddings.html\">titan-embed-text-v1</a>",
               "",
               "",
@@ -4438,7 +4453,7 @@
               ""
             ],
             [
-              59,
+              60,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-2</a>",
               "",
               "",
@@ -4453,7 +4468,7 @@
               ""
             ],
             [
-              60,
+              61,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-code-2</a>",
               "",
               "",
@@ -4468,7 +4483,7 @@
               ""
             ],
             [
-              61,
+              62,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-large-2-instruct</a>",
               "",
               "",
@@ -4483,7 +4498,7 @@
               ""
             ],
             [
-              62,
+              63,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-law-2</a>",
               "",
               "",
@@ -4498,7 +4513,7 @@
               ""
             ],
             [
-              63,
+              64,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-lite-01-instruct</a>",
               "",
               "",
@@ -4513,7 +4528,7 @@
               ""
             ],
             [
-              64,
+              65,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://docs.voyageai.com/embeddings/\">voyage-lite-02-instruct</a>",
               1220,
               4.54,
@@ -4528,7 +4543,7 @@
               ""
             ],
             [
-              65,
+              66,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://github.com/facebookresearch/LASER\">LASER2</a>",
               43,
               0.16,
@@ -4543,7 +4558,7 @@
               ""
             ],
             [
-              66,
+              67,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/AdrienB134/llm2vec-croissant-mntp\">llm2vec-croissant-mntp</a>",
               1280,
               4.77,
@@ -4558,7 +4573,7 @@
               ""
             ],
             [
-              68,
+              69,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5\">gte-base-en-v1.5</a>",
               137,
               0.51,
@@ -4573,7 +4588,7 @@
               ""
             ],
             [
-              69,
+              70,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5\">gte-large-en-v1.5</a>",
               434,
               1.62,
@@ -4588,7 +4603,7 @@
               ""
             ],
             [
-              70,
+              71,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-base-en-v1.5\">bge-base-en-v1.5</a>",
               109,
               0.41,
@@ -4603,7 +4618,7 @@
               ""
             ],
             [
-              71,
+              72,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-en-v1.5\">bge-large-en-v1.5</a>",
               335,
               1.25,
@@ -4618,7 +4633,7 @@
               ""
             ],
             [
-              72,
+              73,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-m3\">bge-m3</a>",
               2270,
               8.46,
@@ -4633,7 +4648,7 @@
               ""
             ],
             [
-              73,
+              74,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-reranker-base\">bge-reranker-base</a>",
               278,
               1.04,
@@ -4648,7 +4663,7 @@
               ""
             ],
             [
-              74,
+              75,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-reranker-large\">bge-reranker-large</a>",
               560,
               2.09,
@@ -4663,7 +4678,7 @@
               ""
             ],
             [
-              75,
+              76,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-en-v1.5\">bge-small-en-v1.5</a>",
               33,
               0.12,
@@ -4678,22 +4693,7 @@
               ""
             ],
             [
-              76,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Cohere/Cohere-embed-english-light-v3.0\">Cohere-embed-english-light-v3.0</a>",
-              "",
-              "",
-              384,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              77,
+              78,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Cohere/Cohere-embed-english-v3.0\">Cohere-embed-english-v3.0</a>",
               "",
               "",
@@ -4708,7 +4708,7 @@
               ""
             ],
             [
-              78,
+              79,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Cohere/Cohere-embed-multilingual-light-v3.0\">Cohere-embed-multilingual-light-v3.0</a>",
               "",
               "",
@@ -4723,7 +4723,7 @@
               ""
             ],
             [
-              79,
+              80,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Cohere/Cohere-embed-multilingual-v3.0\">Cohere-embed-multilingual-v3.0</a>",
               "",
               "",
@@ -4738,7 +4738,7 @@
               ""
             ],
             [
-              80,
+              81,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Geotrend/bert-base-10lang-cased\">bert-base-10lang-cased</a>",
               138,
               0.51,
@@ -4753,7 +4753,7 @@
               ""
             ],
             [
-              81,
+              82,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Geotrend/bert-base-15lang-cased\">bert-base-15lang-cased</a>",
               138,
               0.51,
@@ -4768,7 +4768,7 @@
               ""
             ],
             [
-              82,
+              83,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Geotrend/bert-base-25lang-cased\">bert-base-25lang-cased</a>",
               138,
               0.51,
@@ -4783,7 +4783,7 @@
               ""
             ],
             [
-              83,
+              84,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GritLM/GritLM-7B\">GritLM-7B</a>",
               7242,
               26.98,
@@ -4798,7 +4798,7 @@
               ""
             ],
             [
-              84,
+              85,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GritLM/GritLM-8x7B\">GritLM-8x7B</a>",
               46703,
               173.98,
@@ -4813,7 +4813,7 @@
               ""
             ],
             [
-              85,
+              86,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Hum-Works/lodestone-base-4096-v1\">lodestone-base-4096-v1</a>",
               69,
               0.26,
@@ -4828,7 +4828,7 @@
               ""
             ],
             [
-              86,
+              87,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Labib11/MUG-B-1.6\">MUG-B-1.6</a>",
               335,
               1.25,
@@ -4843,7 +4843,22 @@
               ""
             ],
             [
-              89,
+              88,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
+              7111,
+              26.49,
+              4096,
+              32768,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              90,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-supervised\">LLM2Vec-Llama-2-supervised</a>",
               6607,
               24.61,
@@ -4858,7 +4873,7 @@
               ""
             ],
             [
-              90,
+              91,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Llama-2-7b-chat-hf-mntp-unsup-simcse\">LLM2Vec-Llama-2-unsupervised</a>",
               6607,
               24.61,
@@ -4873,7 +4888,7 @@
               ""
             ],
             [
-              91,
+              92,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised\">LLM2Vec-Meta-Llama-3-supervised</a>",
               7505,
               27.96,
@@ -4888,7 +4903,7 @@
               ""
             ],
             [
-              92,
+              93,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-unsup-simcse\">LLM2Vec-Meta-Llama-3-unsupervised</a>",
               7505,
               27.96,
@@ -4903,7 +4918,7 @@
               ""
             ],
             [
-              93,
+              94,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-supervised\">LLM2Vec-Mistral-supervised</a>",
               7111,
               26.49,
@@ -4918,7 +4933,7 @@
               ""
             ],
             [
-              94,
+              95,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-unsup-simcse\">LLM2Vec-Mistral-unsupervised</a>",
               7111,
               26.49,
@@ -4933,7 +4948,7 @@
               ""
             ],
             [
-              95,
+              96,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Sheared-LLaMA-mntp-supervised\">LLM2Vec-Sheared-Llama-supervised</a>",
               1280,
               4.77,
@@ -4948,7 +4963,7 @@
               ""
             ],
             [
-              96,
+              97,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/McGill-NLP/LLM2Vec-Sheared-LLaMA-mntp-unsup-simcse\">LLM2Vec-Sheared-Llama-unsupervised</a>",
               1280,
               4.77,
@@ -4963,7 +4978,7 @@
               ""
             ],
             [
-              97,
+              98,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Mihaiii/Bulbasaur\">Bulbasaur</a>",
               17,
               0.06,
@@ -4978,7 +4993,7 @@
               ""
             ],
             [
-              98,
+              99,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Mihaiii/Ivysaur\">Ivysaur</a>",
               23,
               0.08,
@@ -4993,7 +5008,7 @@
               ""
             ],
             [
-              99,
+              100,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Mihaiii/Squirtle\">Squirtle</a>",
               16,
               0.06,
@@ -5008,7 +5023,7 @@
               ""
             ],
             [
-              100,
+              101,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Mihaiii/Venusaur\">Venusaur</a>",
               16,
               0.06,
@@ -5023,7 +5038,7 @@
               ""
             ],
             [
-              101,
+              102,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Mihaiii/Wartortle\">Wartortle</a>",
               17,
               0.06,
@@ -5038,7 +5053,7 @@
               ""
             ],
             [
-              102,
+              103,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Mihaiii/test24\">test24</a>",
               17,
               0.06,
@@ -5053,7 +5068,7 @@
               ""
             ],
             [
-              103,
+              104,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Mihaiii/test25\">test25</a>",
               17,
               0.06,
@@ -5068,7 +5083,7 @@
               ""
             ],
             [
-              104,
+              105,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-1.3B-weightedmean-msmarco-specb-bitfit\">SGPT-1.3B-weightedmean-msmarco-specb-bitfit</a>",
               1341,
               4.99,
@@ -5083,7 +5098,7 @@
               ""
             ],
             [
-              105,
+              106,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-msmarco-specb-bitfit\">SGPT-125M-weightedmean-msmarco-specb-bitfit</a>",
               138,
               0.51,
@@ -5098,7 +5113,7 @@
               ""
             ],
             [
-              106,
+              107,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-nli-bitfit\">SGPT-125M-weightedmean-nli-bitfit</a>",
               138,
               0.51,
@@ -5113,7 +5128,7 @@
               ""
             ],
             [
-              107,
+              108,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-2.7B-weightedmean-msmarco-specb-bitfit\">SGPT-2.7B-weightedmean-msmarco-specb-bitfit</a>",
               2685,
               10,
@@ -5128,7 +5143,7 @@
               ""
             ],
             [
-              108,
+              109,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-msmarco-specb-bitfit\">SGPT-5.8B-weightedmean-msmarco-specb-bitfit</a>",
               5874,
               21.88,
@@ -5143,7 +5158,7 @@
               ""
             ],
             [
-              109,
+              110,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-nli-bitfit\">SGPT-5.8B-weightedmean-nli-bitfit</a>",
               5874,
               21.88,
@@ -5158,7 +5173,7 @@
               ""
             ],
             [
-              110,
+              111,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/NLPArtisan/qwen-1.8b-retrieval-test\">qwen-1.8b-retrieval-test</a>",
               "",
               "",
@@ -5173,7 +5188,7 @@
               ""
             ],
             [
-              111,
+              112,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/OrdalieTech/Solon-embeddings-large-0.1\">Solon-embeddings-large-0.1</a>",
               560,
               2.09,
@@ -5188,7 +5203,7 @@
               ""
             ],
             [
-              112,
+              113,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Pristinenlp/alime-reranker-large-zh\">alime-reranker-large-zh</a>",
               560,
               2.09,
@@ -5203,7 +5218,7 @@
               ""
             ],
             [
-              114,
+              115,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Salesforce/SFR-Embedding-Mistral\">SFR-Embedding-Mistral</a>",
               7111,
               26.49,
@@ -5218,7 +5233,7 @@
               ""
             ],
             [
-              116,
+              117,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-l\">snowflake-arctic-embed-l</a>",
               334,
               1.24,
@@ -5233,7 +5248,7 @@
               ""
             ],
             [
-              117,
+              118,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-m\">snowflake-arctic-embed-m</a>",
               109,
               0.41,
@@ -5248,7 +5263,7 @@
               ""
             ],
             [
-              118,
+              119,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-m-long\">snowflake-arctic-embed-m-long</a>",
               137,
               0.51,
@@ -5263,7 +5278,7 @@
               ""
             ],
             [
-              119,
+              120,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-s\">snowflake-arctic-embed-s</a>",
               33,
               0.12,
@@ -5278,7 +5293,7 @@
               ""
             ],
             [
-              120,
+              121,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Snowflake/snowflake-arctic-embed-xs\">snowflake-arctic-embed-xs</a>",
               23,
               0.08,
@@ -5293,7 +5308,7 @@
               ""
             ],
             [
-              121,
+              122,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TaylorAI/bge-micro\">bge-micro</a>",
               17,
               0.06,
@@ -5308,7 +5323,7 @@
               ""
             ],
             [
-              122,
+              123,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TaylorAI/bge-micro-v2\">bge-micro-v2</a>",
               17,
               0.06,
@@ -5323,7 +5338,7 @@
               ""
             ],
             [
-              123,
+              124,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TaylorAI/gte-tiny\">gte-tiny</a>",
               23,
               0.08,
@@ -5338,7 +5353,7 @@
               ""
             ],
             [
-              124,
+              125,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TownsWu/PEG\">PEG</a>",
               163,
               0.61,
@@ -5353,7 +5368,7 @@
               ""
             ],
             [
-              125,
+              126,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/WhereIsAI/UAE-Large-V1\">UAE-Large-V1</a>",
               335,
               1.25,
@@ -5368,7 +5383,7 @@
               ""
             ],
             [
-              126,
+              127,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Wissam42/sentence-croissant-llm-base\">sentence-croissant-llm-base</a>",
               1280,
               4.77,
@@ -5383,7 +5398,7 @@
               ""
             ],
             [
-              128,
+              129,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/akarum/cloudy-large-zh\">cloudy-large-zh</a>",
               326,
               1.21,
@@ -5398,22 +5413,7 @@
               ""
             ],
             [
-              129,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
-              "",
-              "",
-              1024,
-              8192,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              130,
+              131,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/andersonbcdefg/bge-small-4096\">bge-small-4096</a>",
               35,
               0.13,
@@ -5428,7 +5428,7 @@
               ""
             ],
             [
-              131,
+              132,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-Embedding-v0\">GIST-Embedding-v0</a>",
               109,
               0.41,
@@ -5443,7 +5443,7 @@
               ""
             ],
             [
-              132,
+              133,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-all-MiniLM-L6-v2\">GIST-all-MiniLM-L6-v2</a>",
               23,
               0.08,
@@ -5458,7 +5458,7 @@
               ""
             ],
             [
-              133,
+              134,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-large-Embedding-v0\">GIST-large-Embedding-v0</a>",
               335,
               1.25,
@@ -5473,7 +5473,7 @@
               ""
             ],
             [
-              134,
+              135,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/GIST-small-Embedding-v0\">GIST-small-Embedding-v0</a>",
               33,
               0.12,
@@ -5488,7 +5488,7 @@
               ""
             ],
             [
-              135,
+              136,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/avsolatorio/NoInstruct-small-Embedding-v0\">NoInstruct-small-Embedding-v0</a>",
               33,
               0.12,
@@ -5503,22 +5503,7 @@
               ""
             ],
             [
-              136,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/aws-neuron/bge-base-en-v1-5-seqlen-384-bs-1\">bge-base-en-v1-5-seqlen-384-bs-1</a>",
-              "",
-              "",
-              768,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              137,
+              138,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bert-base-uncased\">bert-base-uncased</a>",
               110,
               0.41,
@@ -5533,7 +5518,7 @@
               ""
             ],
             [
-              138,
+              139,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bigscience-data/sgpt-bloom-1b7-nli\">sgpt-bloom-1b7-nli</a>",
               1722,
               6.42,
@@ -5548,7 +5533,7 @@
               ""
             ],
             [
-              139,
+              140,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco\">sgpt-bloom-7b1-msmarco</a>",
               7068,
               26.33,
@@ -5564,6 +5549,21 @@
             ],
             [
               141,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
+              2270,
+              8.46,
+              1024,
+              8192,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              142,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/consciousAI/cai-lunaris-text-embeddings\">cai-lunaris-text-embeddings</a>",
               335,
               1.25,
@@ -5578,12 +5578,12 @@
               ""
             ],
             [
-              142,
+              143,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/corto-ai/bge-reranker-large-onnx\">bge-reranker-large-onnx</a>",
               "",
               "",
-              1024,
-              514,
+              "",
+              "",
               "",
               "",
               "",
@@ -5593,7 +5593,7 @@
               ""
             ],
             [
-              143,
+              144,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/corto-ai/nomic-embed-text-v1\">nomic-embed-text-v1</a>",
               137,
               0.51,
@@ -5608,7 +5608,7 @@
               ""
             ],
             [
-              144,
+              145,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dangvantuan/sentence-camembert-base\">sentence-camembert-base</a>",
               110,
               0.41,
@@ -5623,7 +5623,7 @@
               ""
             ],
             [
-              145,
+              146,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dangvantuan/sentence-camembert-large\">sentence-camembert-large</a>",
               337,
               1.26,
@@ -5638,7 +5638,7 @@
               ""
             ],
             [
-              146,
+              147,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/deepfile/embedder-100p\">embedder-100p</a>",
               278,
               1.04,
@@ -5653,10 +5653,10 @@
               ""
             ],
             [
-              147,
+              148,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               384,
               512,
               "",
@@ -5668,7 +5668,7 @@
               ""
             ],
             [
-              148,
+              149,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dwzhu/e5-base-4k\">e5-base-4k</a>",
               110,
               0.41,
@@ -5683,7 +5683,7 @@
               ""
             ],
             [
-              149,
+              150,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_base_cased\">flaubert_base_cased</a>",
               138,
               0.51,
@@ -5698,7 +5698,7 @@
               ""
             ],
             [
-              150,
+              151,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_base_uncased\">flaubert_base_uncased</a>",
               138,
               0.51,
@@ -5713,7 +5713,7 @@
               ""
             ],
             [
-              151,
+              152,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_large_cased\">flaubert_large_cased</a>",
               372,
               1.39,
@@ -5728,7 +5728,7 @@
               ""
             ],
             [
-              152,
+              153,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/google-bert/bert-base-multilingual-cased\">bert-base-multilingual-cased</a>",
               179,
               0.67,
@@ -5743,7 +5743,7 @@
               ""
             ],
             [
-              153,
+              154,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/google-bert/bert-base-multilingual-uncased\">bert-base-multilingual-uncased</a>",
               168,
               0.63,
@@ -5758,7 +5758,7 @@
               ""
             ],
             [
-              154,
+              155,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-base\">instructor-base</a>",
               110,
               0.41,
@@ -5773,7 +5773,7 @@
               ""
             ],
             [
-              155,
+              156,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-large\">instructor-large</a>",
               335,
               1.25,
@@ -5788,7 +5788,7 @@
               ""
             ],
             [
-              156,
+              157,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-xl\">instructor-xl</a>",
               1241,
               4.62,
@@ -5803,7 +5803,7 @@
               ""
             ],
             [
-              157,
+              158,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-en-v2\">stella-base-en-v2</a>",
               55,
               0.2,
@@ -5818,7 +5818,7 @@
               ""
             ],
             [
-              158,
+              159,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-base\">e5-base</a>",
               110,
               0.41,
@@ -5833,7 +5833,7 @@
               ""
             ],
             [
-              159,
+              160,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-base-v2\">e5-base-v2</a>",
               109,
               0.41,
@@ -5848,7 +5848,7 @@
               ""
             ],
             [
-              160,
+              161,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-large\">e5-large</a>",
               335,
               1.25,
@@ -5863,7 +5863,7 @@
               ""
             ],
             [
-              161,
+              162,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-large-v2\">e5-large-v2</a>",
               335,
               1.25,
@@ -5878,7 +5878,7 @@
               ""
             ],
             [
-              162,
+              163,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-small\">e5-small</a>",
               33,
               0.12,
@@ -5893,7 +5893,7 @@
               ""
             ],
             [
-              163,
+              164,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-small-v2\">e5-small-v2</a>",
               33,
               0.12,
@@ -5908,7 +5908,7 @@
               ""
             ],
             [
-              164,
+              165,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-large-instruct\">multilingual-e5-large-instruct</a>",
               560,
               2.09,
@@ -5923,7 +5923,7 @@
               ""
             ],
             [
-              165,
+              166,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-3b\">udever-bloom-3b</a>",
               3003,
               11.19,
@@ -5938,7 +5938,7 @@
               ""
             ],
             [
-              166,
+              167,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-7b1\">udever-bloom-7b1</a>",
               7069,
               26.33,
@@ -5953,7 +5953,7 @@
               ""
             ],
             [
-              167,
+              168,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jamesgpt1/sf_model_e5\">sf_model_e5</a>",
               335,
               1.25,
@@ -5968,7 +5968,7 @@
               ""
             ],
             [
-              168,
+              169,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embedding-b-en-v1\">jina-embedding-b-en-v1</a>",
               110,
               0.41,
@@ -5983,7 +5983,7 @@
               ""
             ],
             [
-              169,
+              170,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embedding-l-en-v1\">jina-embedding-l-en-v1</a>",
               335,
               1.25,
@@ -5998,7 +5998,7 @@
               ""
             ],
             [
-              170,
+              171,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embedding-s-en-v1\">jina-embedding-s-en-v1</a>",
               35,
               0.13,
@@ -6013,7 +6013,7 @@
               ""
             ],
             [
-              171,
+              172,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-de\">jina-embeddings-v2-base-de</a>",
               161,
               0.6,
@@ -6028,7 +6028,7 @@
               ""
             ],
             [
-              172,
+              173,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-en\">jina-embeddings-v2-base-en</a>",
               275,
               1.02,
@@ -6043,7 +6043,7 @@
               ""
             ],
             [
-              173,
+              174,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-es\">jina-embeddings-v2-base-es</a>",
               161,
               0.6,
@@ -6058,7 +6058,7 @@
               ""
             ],
             [
-              174,
+              175,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-small-en\">jina-embeddings-v2-small-en</a>",
               33,
               0.12,
@@ -6073,7 +6073,7 @@
               ""
             ],
             [
-              175,
+              176,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jspringer/echo-mistral-7b-instruct-lasttoken\">echo-mistral-7b-instruct-lasttoken</a>",
               7111,
               26.49,
@@ -6088,7 +6088,7 @@
               ""
             ],
             [
-              176,
+              177,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/liddlefish/privacy_embedding_bge_small_synthetic\">privacy_embedding_bge_small_synthetic</a>",
               33,
               0.12,
@@ -6103,7 +6103,7 @@
               ""
             ],
             [
-              177,
+              178,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/liujiarik/lim_base_zh\">lim_base_zh</a>",
               102,
               0.38,
@@ -6118,7 +6118,7 @@
               ""
             ],
             [
-              181,
+              182,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/llmrails/ember-v1\">ember-v1</a>",
               335,
               1.25,
@@ -6133,7 +6133,7 @@
               ""
             ],
             [
-              182,
+              183,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/bge-m3-custom-fr\">bge-m3-custom-fr</a>",
               568,
               2.12,
@@ -6148,7 +6148,7 @@
               ""
             ],
             [
-              183,
+              184,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/sentence_croissant_alpha_v0.1\">sentence_croissant_alpha_v0.1</a>",
               1280,
               4.77,
@@ -6163,7 +6163,7 @@
               ""
             ],
             [
-              184,
+              185,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/sentence_croissant_alpha_v0.2\">sentence_croissant_alpha_v0.2</a>",
               1280,
               4.77,
@@ -6178,7 +6178,7 @@
               ""
             ],
             [
-              185,
+              186,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/sentence_croissant_alpha_v0.3\">sentence_croissant_alpha_v0.3</a>",
               1280,
               4.77,
@@ -6193,7 +6193,7 @@
               ""
             ],
             [
-              186,
+              187,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/manu/sentence_croissant_alpha_v0.4\">sentence_croissant_alpha_v0.4</a>",
               1280,
               4.77,
@@ -6208,7 +6208,7 @@
               ""
             ],
             [
-              187,
+              188,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1\">mxbai-embed-2d-large-v1</a>",
               335,
               1.25,
@@ -6223,7 +6223,7 @@
               ""
             ],
             [
-              188,
+              189,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1\">mxbai-embed-large-v1</a>",
               335,
               1.25,
@@ -6238,7 +6238,22 @@
               ""
             ],
             [
-              189,
+              190,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/LdIR-reranker-large\">LdIR-reranker-large</a>",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              68.58,
+              "",
+              ""
+            ],
+            [
+              191,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/bge-reranker-base-1k\">bge-reranker-base-1k</a>",
               "",
               "",
@@ -6253,7 +6268,7 @@
               ""
             ],
             [
-              190,
+              192,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/bge-reranker-large-1k\">bge-reranker-large-1k</a>",
               560,
               2.09,
@@ -6268,97 +6283,7 @@
               ""
             ],
             [
-              191,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-base-en-v1.5-quant\">bge-base-en-v1.5-quant</a>",
-              "",
-              "",
-              768,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              192,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-base-en-v1.5-sparse\">bge-base-en-v1.5-sparse</a>",
-              "",
-              "",
-              768,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              193,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-large-en-v1.5-quant\">bge-large-en-v1.5-quant</a>",
-              "",
-              "",
-              1024,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              194,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-large-en-v1.5-sparse\">bge-large-en-v1.5-sparse</a>",
-              "",
-              "",
-              1024,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              195,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-small-en-v1.5-quant\">bge-small-en-v1.5-quant</a>",
-              "",
-              "",
-              384,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              196,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neuralmagic/bge-small-en-v1.5-sparse\">bge-small-en-v1.5-sparse</a>",
-              "",
-              "",
-              384,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              197,
+              199,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1\">nomic-embed-text-v1</a>",
               547,
               2.04,
@@ -6373,7 +6298,7 @@
               ""
             ],
             [
-              198,
+              200,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1-ablated\">nomic-embed-text-v1-ablated</a>",
               137,
               0.51,
@@ -6388,7 +6313,7 @@
               ""
             ],
             [
-              199,
+              201,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1-unsupervised\">nomic-embed-text-v1-unsupervised</a>",
               137,
               0.51,
@@ -6403,7 +6328,7 @@
               ""
             ],
             [
-              200,
+              202,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1.5\">nomic-embed-text-v1.5-128</a>",
               138,
               0.51,
@@ -6418,7 +6343,7 @@
               ""
             ],
             [
-              201,
+              203,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1.5\">nomic-embed-text-v1.5-256</a>",
               138,
               0.51,
@@ -6433,7 +6358,7 @@
               ""
             ],
             [
-              202,
+              204,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1.5\">nomic-embed-text-v1.5-512</a>",
               138,
               0.51,
@@ -6448,7 +6373,7 @@
               ""
             ],
             [
-              203,
+              205,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1.5\">nomic-embed-text-v1.5-64</a>",
               138,
               0.51,
@@ -6463,7 +6388,7 @@
               ""
             ],
             [
-              204,
+              206,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nomic-ai/nomic-embed-text-v1.5\">nomic-embed-text-v1.5</a>",
               137,
               0.51,
@@ -6478,7 +6403,7 @@
               ""
             ],
             [
-              205,
+              207,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nthakur/contriever-base-msmarco\">contriever-base-msmarco</a>",
               110,
               0.41,
@@ -6493,7 +6418,22 @@
               ""
             ],
             [
-              207,
+              208,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
+              7851,
+              29.25,
+              4096,
+              32768,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              209,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/pengql/checkpoint-9000\">checkpoint-9000</a>",
               326,
               1.21,
@@ -6508,7 +6448,7 @@
               ""
             ],
             [
-              208,
+              210,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/princeton-nlp/sup-simcse-bert-base-uncased\">sup-simcse-bert-base-uncased</a>",
               110,
               0.41,
@@ -6523,7 +6463,7 @@
               ""
             ],
             [
-              209,
+              211,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/princeton-nlp/unsup-simcse-bert-base-uncased\">unsup-simcse-bert-base-uncased</a>",
               110,
               0.41,
@@ -6538,7 +6478,7 @@
               ""
             ],
             [
-              210,
+              212,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/qihoo360/360Zhinao-1.8B-Reranking\">360Zhinao-1.8B-Reranking</a>",
               941,
               3.51,
@@ -6553,7 +6493,7 @@
               ""
             ],
             [
-              211,
+              213,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/qihoo360/360Zhinao-search\">360Zhinao-search</a>",
               163,
               0.61,
@@ -6568,7 +6508,7 @@
               ""
             ],
             [
-              212,
+              214,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/LaBSE\">LaBSE</a>",
               471,
               1.75,
@@ -6583,7 +6523,7 @@
               ""
             ],
             [
-              213,
+              215,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2\">all-MiniLM-L12-v2</a>",
               33,
               0.12,
@@ -6598,7 +6538,7 @@
               ""
             ],
             [
-              214,
+              216,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2\">all-MiniLM-L6-v2</a>",
               23,
               0.09,
@@ -6613,7 +6553,7 @@
               ""
             ],
             [
-              215,
+              217,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/all-mpnet-base-v2\">all-mpnet-base-v2</a>",
               110,
               0.41,
@@ -6628,7 +6568,7 @@
               ""
             ],
             [
-              216,
+              218,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/allenai-specter\">allenai-specter</a>",
               110,
               0.41,
@@ -6643,7 +6583,7 @@
               ""
             ],
             [
-              217,
+              219,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/average_word_embeddings_glove.6B.300d\">glove.6B.300d</a>",
               120,
               0.45,
@@ -6658,7 +6598,7 @@
               ""
             ],
             [
-              218,
+              220,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/average_word_embeddings_komninos\">komninos</a>",
               134,
               0.5,
@@ -6673,7 +6613,7 @@
               ""
             ],
             [
-              219,
+              221,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2\">distiluse-base-multilingual-cased-v2</a>",
               135,
               0.5,
@@ -6688,7 +6628,7 @@
               ""
             ],
             [
-              220,
+              222,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-base\">gtr-t5-base</a>",
               110,
               0.41,
@@ -6703,7 +6643,7 @@
               ""
             ],
             [
-              221,
+              223,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-large\">gtr-t5-large</a>",
               168,
               0.63,
@@ -6718,7 +6658,7 @@
               ""
             ],
             [
-              222,
+              224,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-xl\">gtr-t5-xl</a>",
               1240,
               4.62,
@@ -6733,7 +6673,7 @@
               ""
             ],
             [
-              223,
+              225,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-xxl\">gtr-t5-xxl</a>",
               4865,
               18.12,
@@ -6748,7 +6688,7 @@
               ""
             ],
             [
-              224,
+              226,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/msmarco-bert-co-condensor\">msmarco-bert-co-condensor</a>",
               110,
               0.41,
@@ -6763,7 +6703,7 @@
               ""
             ],
             [
-              225,
+              227,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
               23,
               0.09,
@@ -6778,7 +6718,7 @@
               ""
             ],
             [
-              226,
+              228,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2\">paraphrase-multilingual-MiniLM-L12-v2</a>",
               118,
               0.44,
@@ -6793,7 +6733,7 @@
               ""
             ],
             [
-              227,
+              229,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
               278,
               1.04,
@@ -6808,7 +6748,7 @@
               ""
             ],
             [
-              228,
+              230,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-base\">sentence-t5-base</a>",
               110,
               0.41,
@@ -6823,7 +6763,7 @@
               ""
             ],
             [
-              229,
+              231,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-large\">sentence-t5-large</a>",
               168,
               0.63,
@@ -6838,7 +6778,7 @@
               ""
             ],
             [
-              230,
+              232,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-xl\">sentence-t5-xl</a>",
               1240,
               4.62,
@@ -6853,7 +6793,7 @@
               ""
             ],
             [
-              231,
+              233,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-xxl\">sentence-t5-xxl</a>",
               4865,
               18.12,
@@ -6868,7 +6808,7 @@
               ""
             ],
             [
-              232,
+              234,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-multilingual\">text2vec-base-multilingual</a>",
               118,
               0.44,
@@ -6883,7 +6823,7 @@
               ""
             ],
             [
-              234,
+              236,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/srikanthmalla/BAAI-bge-reranker-large\">BAAI-bge-reranker-large</a>",
               560,
               2.09,
@@ -6898,7 +6838,7 @@
               ""
             ],
             [
-              235,
+              237,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-base\">gte-base</a>",
               109,
               0.41,
@@ -6913,7 +6853,7 @@
               ""
             ],
             [
-              236,
+              238,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-large\">gte-large</a>",
               335,
               1.25,
@@ -6928,7 +6868,7 @@
               ""
             ],
             [
-              237,
+              239,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small\">gte-small</a>",
               33,
               0.12,
@@ -6943,7 +6883,7 @@
               ""
             ],
             [
-              241,
+              243,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-3\">universal-sentence-encoder-multilingual-3</a>",
               "",
               "",
@@ -6958,7 +6898,7 @@
               ""
             ],
             [
-              242,
+              244,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-large-3\">universal-sentence-encoder-multilingual-large-3</a>",
               "",
               "",
@@ -6973,7 +6913,7 @@
               ""
             ],
             [
-              243,
+              245,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/w601sxs/b1ade-embed\">b1ade-embed</a>",
               335,
               1.25,
@@ -6988,7 +6928,7 @@
               ""
             ],
             [
-              244,
+              246,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/w601sxs/b1ade-embed-kd\">b1ade-embed-kd</a>",
               335,
               1.25,
@@ -7003,7 +6943,7 @@
               ""
             ],
             [
-              245,
+              247,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/wongctroman/hktv-fine-tuned-cloudy-large-zh-metaphor14\">hktv-fine-tuned-cloudy-large-zh-metaphor14</a>",
               326,
               1.21,
@@ -7018,7 +6958,7 @@
               ""
             ],
             [
-              246,
+              248,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/xlm-roberta-base\">xlm-roberta-base</a>",
               279,
               1.04,
@@ -7033,7 +6973,7 @@
               ""
             ],
             [
-              247,
+              249,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/xlm-roberta-large\">xlm-roberta-large</a>",
               560,
               2.09,
@@ -7048,52 +6988,7 @@
               ""
             ],
             [
-              249,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zeroshot/gte-large-quant\">gte-large-quant</a>",
-              "",
-              "",
-              1024,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              250,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zeroshot/gte-large-sparse\">gte-large-sparse</a>",
-              "",
-              "",
-              1024,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              251,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zeroshot/gte-small-quant\">gte-small-quant</a>",
-              "",
-              "",
-              384,
-              512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              252,
+              254,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zhou-xl/bi-cse\">bi-cse</a>",
               560,
               2.09,
@@ -7108,7 +7003,7 @@
               57.91
             ],
             [
-              253,
+              255,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/introducing-text-and-code-embeddings\">text-similarity-ada-001</a>",
               "",
               "",
@@ -7123,7 +7018,7 @@
               ""
             ],
             [
-              254,
+              256,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/introducing-text-and-code-embeddings\">text-similarity-babbage-001</a>",
               "",
               "",
@@ -7138,7 +7033,7 @@
               ""
             ],
             [
-              255,
+              257,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/introducing-text-and-code-embeddings\">text-similarity-curie-001</a>",
               "",
               "",
@@ -7153,7 +7048,7 @@
               ""
             ],
             [
-              256,
+              258,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/introducing-text-and-code-embeddings\">text-similarity-davinci-001</a>",
               "",
               "",
@@ -7168,7 +7063,7 @@
               ""
             ],
             [
-              257,
+              259,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-embedding-models-and-api-updates\">text-embedding-3-large-256</a>",
               "",
               "",
@@ -7183,7 +7078,7 @@
               ""
             ],
             [
-              258,
+              260,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-embedding-models-and-api-updates\">text-embedding-3-large</a>",
               "",
               "",
@@ -7198,7 +7093,7 @@
               ""
             ],
             [
-              259,
+              261,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-embedding-models-and-api-updates\">text-embedding-3-small</a>",
               "",
               "",
@@ -7213,7 +7108,7 @@
               ""
             ],
             [
-              260,
+              262,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://www.elastic.co/guide/en/machine-learning/current/ml-nlp-elser.html\">elser-v2</a>",
               110,
               0.41,
@@ -8050,22 +7945,6 @@
               ""
             ],
             [
-              55,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
-              "",
-              "",
-              1024,
-              8192,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
               56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bigscience-data/sgpt-bloom-1b7-nli\">sgpt-bloom-1b7-nli</a>",
               1722,
@@ -8578,20 +8457,6 @@
               0.51,
               768,
               2048,
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              26,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
-              "",
-              "",
-              1024,
-              8192,
               "",
               "",
               "",
@@ -12592,8 +12457,8 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               87.35,
               95.12,
               97.14,
@@ -12649,8 +12514,8 @@
             [
               4,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               80.2,
               84.43,
               95.7,
@@ -13713,8 +13578,8 @@
             [
               60,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
+              2270,
+              8.46,
               73.13,
               75.63,
               91.01,
@@ -15461,8 +15326,8 @@
             [
               152,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               61.67,
               61.79,
               62.36,
@@ -15990,8 +15855,8 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
+              326,
+              1.21,
               74.43,
               49.72,
               51.7,
@@ -16645,6 +16510,22 @@
             ],
             [
               44,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              64.94,
+              34.94,
+              47.36,
+              79.57,
+              68.2,
+              71.93,
+              63.29,
+              87,
+              47.65,
+              84.54
+            ],
+            [
+              45,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small-zh\">gte-small-zh</a>",
               30,
               0.11,
@@ -16660,7 +16541,7 @@
               84.96
             ],
             [
-              45,
+              46,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentosa/ZNV-Embedding\">ZNV-Embedding</a>",
               6061,
               22.58,
@@ -16676,7 +16557,7 @@
               81.16
             ],
             [
-              46,
+              47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -16692,7 +16573,7 @@
               82.37
             ],
             [
-              47,
+              48,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-zh-v1.5\">bge-small-zh-v1.5</a>",
               24,
               0.09,
@@ -16708,7 +16589,7 @@
               83.18
             ],
             [
-              48,
+              49,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-560m\">udever-bloom-560m</a>",
               "",
               "",
@@ -16724,10 +16605,10 @@
               80.65
             ],
             [
-              49,
+              50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
+              278,
+              1.04,
               62.7,
               38.25,
               43.13,
@@ -16740,7 +16621,7 @@
               84.15
             ],
             [
-              50,
+              51,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/sbert-chinese-general-v1\">sbert-chinese-general-v1</a>",
               102,
               0.38,
@@ -16756,7 +16637,7 @@
               83.96
             ],
             [
-              51,
+              52,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-chinese\">text2vec-base-chinese</a>",
               102,
               0.38,
@@ -16772,7 +16653,7 @@
               77.22
             ],
             [
-              52,
+              53,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silk-road/luotuo-bert-medium\">luotuo-bert-medium</a>",
               328,
               1.22,
@@ -16788,7 +16669,7 @@
               79.57
             ],
             [
-              53,
+              54,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GanymedeNil/text2vec-large-chinese\">text2vec-large-chinese</a>",
               326,
               1.21,
@@ -16804,7 +16685,7 @@
               76.01
             ],
             [
-              54,
+              55,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/facebook/SONAR\">SONAR</a>",
               "",
               "",
@@ -16820,7 +16701,7 @@
               76.12
             ],
             [
-              55,
+              56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -16836,7 +16717,7 @@
               56.22
             ],
             [
-              66,
+              67,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://github.com/facebookresearch/LASER\">LASER2</a>",
               43,
               0.16,
@@ -16852,7 +16733,7 @@
               ""
             ],
             [
-              87,
+              88,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Labib11/MUG-B-1.6\">MUG-B-1.6</a>",
               335,
               1.25,
@@ -16868,7 +16749,7 @@
               ""
             ],
             [
-              106,
+              107,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-msmarco-specb-bitfit\">SGPT-125M-weightedmean-msmarco-specb-bitfit</a>",
               138,
               0.51,
@@ -16884,7 +16765,7 @@
               ""
             ],
             [
-              107,
+              108,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-nli-bitfit\">SGPT-125M-weightedmean-nli-bitfit</a>",
               138,
               0.51,
@@ -16900,7 +16781,7 @@
               ""
             ],
             [
-              110,
+              111,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-5.8B-weightedmean-nli-bitfit\">SGPT-5.8B-weightedmean-nli-bitfit</a>",
               5874,
               21.88,
@@ -16916,7 +16797,7 @@
               ""
             ],
             [
-              130,
+              131,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
               "",
               "",
@@ -16932,7 +16813,7 @@
               ""
             ],
             [
-              139,
+              140,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bigscience-data/sgpt-bloom-1b7-nli\">sgpt-bloom-1b7-nli</a>",
               1722,
               6.42,
@@ -16948,7 +16829,7 @@
               ""
             ],
             [
-              140,
+              141,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco\">sgpt-bloom-7b1-msmarco</a>",
               7068,
               26.33,
@@ -16964,7 +16845,7 @@
               ""
             ],
             [
-              165,
+              166,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-large-instruct\">multilingual-e5-large-instruct</a>",
               560,
               2.09,
@@ -16980,7 +16861,7 @@
               ""
             ],
             [
-              166,
+              167,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-3b\">udever-bloom-3b</a>",
               3003,
               11.19,
@@ -16996,7 +16877,7 @@
               84.07
             ],
             [
-              167,
+              168,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-7b1\">udever-bloom-7b1</a>",
               7069,
               26.33,
@@ -17012,7 +16893,7 @@
               84.68
             ],
             [
-              212,
+              214,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/LaBSE\">LaBSE</a>",
               471,
               1.75,
@@ -17028,7 +16909,7 @@
               ""
             ],
             [
-              213,
+              215,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2\">all-MiniLM-L12-v2</a>",
               33,
               0.12,
@@ -17044,7 +16925,7 @@
               ""
             ],
             [
-              216,
+              218,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/allenai-specter\">allenai-specter</a>",
               110,
               0.41,
@@ -17060,7 +16941,7 @@
               ""
             ],
             [
-              219,
+              221,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2\">distiluse-base-multilingual-cased-v2</a>",
               135,
               0.5,
@@ -17076,7 +16957,7 @@
               ""
             ],
             [
-              221,
+              223,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-large\">gtr-t5-large</a>",
               168,
               0.63,
@@ -17092,7 +16973,7 @@
               ""
             ],
             [
-              222,
+              224,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-xl\">gtr-t5-xl</a>",
               1240,
               4.62,
@@ -17108,7 +16989,7 @@
               ""
             ],
             [
-              226,
+              228,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2\">paraphrase-multilingual-MiniLM-L12-v2</a>",
               118,
               0.44,
@@ -17124,7 +17005,7 @@
               ""
             ],
             [
-              227,
+              229,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
               278,
               1.04,
@@ -17140,7 +17021,7 @@
               ""
             ],
             [
-              228,
+              230,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-base\">sentence-t5-base</a>",
               110,
               0.41,
@@ -17156,7 +17037,7 @@
               ""
             ],
             [
-              229,
+              231,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-large\">sentence-t5-large</a>",
               168,
               0.63,
@@ -17172,7 +17053,7 @@
               ""
             ],
             [
-              230,
+              232,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-xl\">sentence-t5-xl</a>",
               1240,
               4.62,
@@ -17188,7 +17069,7 @@
               ""
             ],
             [
-              232,
+              234,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-multilingual\">text2vec-base-multilingual</a>",
               118,
               0.44,
@@ -25850,8 +25731,8 @@
             [
               47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
+              278,
+              1.04,
               "",
               "",
               "",
@@ -28130,8 +28011,8 @@
             [
               67,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
+              326,
+              1.21,
               "",
               "",
               "",
@@ -32119,6 +32000,120 @@
             ],
             [
               102,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              34.94,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              103,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/spaces/mteb/leaderboard\">text2vec-base-multilingual</a>",
               "",
               "",
@@ -32232,7 +32227,7 @@
               ""
             ],
             [
-              103,
+              104,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-base-zh\">gte-base-zh</a>",
               102,
               0.38,
@@ -32346,7 +32341,7 @@
               ""
             ],
             [
-              104,
+              105,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-large-zh\">gte-large-zh</a>",
               326,
               1.21,
@@ -32460,7 +32455,7 @@
               ""
             ],
             [
-              105,
+              106,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small-zh\">gte-small-zh</a>",
               30,
               0.11,
@@ -32574,7 +32569,7 @@
               ""
             ],
             [
-              106,
+              107,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -32688,7 +32683,7 @@
               ""
             ],
             [
-              107,
+              108,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-3\">universal-sentence-encoder-multilingual-3</a>",
               "",
               "",
@@ -32802,7 +32797,7 @@
               ""
             ],
             [
-              108,
+              109,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/vprelovac/universal-sentence-encoder-multilingual-large-3\">universal-sentence-encoder-multilingual-large-3</a>",
               "",
               "",
@@ -32916,7 +32911,7 @@
               ""
             ],
             [
-              109,
+              110,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/xlm-roberta-base\">xlm-roberta-base</a>",
               279,
               1.04,
@@ -33030,7 +33025,7 @@
               ""
             ],
             [
-              110,
+              111,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/xlm-roberta-large\">xlm-roberta-large</a>",
               560,
               2.09,
@@ -33144,7 +33139,7 @@
               ""
             ],
             [
-              111,
+              112,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -33258,7 +33253,7 @@
               ""
             ],
             [
-              112,
+              113,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://platform.baichuan-ai.com/docs/text-Embedding\">Baichuan-text-embedding</a>",
               "",
               "",
@@ -33438,8 +33433,8 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               52.8,
               53.76,
               49.59,
@@ -33492,8 +33487,8 @@
             [
               6,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               51.42,
               51.48,
               47.3,
@@ -35886,8 +35881,8 @@
             [
               139,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               35.67,
               37.75,
               27.7,
@@ -36408,8 +36403,8 @@
             [
               185,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
+              2270,
+              8.46,
               "",
               39.41,
               "",
@@ -36573,8 +36568,8 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
+              326,
+              1.21,
               62.23,
               58.29,
               48.79,
@@ -37012,6 +37007,17 @@
             ],
             [
               43,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              46.47,
+              39.97,
+              38.4,
+              54.08,
+              53.42
+            ],
+            [
+              44,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -37022,7 +37028,7 @@
               49.86
             ],
             [
-              44,
+              45,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-small\">multilingual-e5-small</a>",
               118,
               0.44,
@@ -37033,7 +37039,7 @@
               48.93
             ],
             [
-              45,
+              46,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silk-road/luotuo-bert-medium\">luotuo-bert-medium</a>",
               328,
               1.22,
@@ -37044,7 +37050,7 @@
               48.26
             ],
             [
-              46,
+              47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-zh-v1.5\">bge-small-zh-v1.5</a>",
               24,
               0.09,
@@ -37055,7 +37061,7 @@
               49.22
             ],
             [
-              47,
+              48,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-3b\">udever-bloom-3b</a>",
               3003,
               11.19,
@@ -37066,7 +37072,7 @@
               49.54
             ],
             [
-              48,
+              49,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-560m\">udever-bloom-560m</a>",
               "",
               "",
@@ -37077,7 +37083,7 @@
               48.32
             ],
             [
-              49,
+              50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-1b1\">udever-bloom-1b1</a>",
               "",
               "",
@@ -37088,7 +37094,7 @@
               48.34
             ],
             [
-              50,
+              51,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-7b1\">udever-bloom-7b1</a>",
               7069,
               26.33,
@@ -37099,7 +37105,7 @@
               47.76
             ],
             [
-              51,
+              52,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-base\">multilingual-e5-base</a>",
               278,
               1.04,
@@ -37110,10 +37116,10 @@
               52.36
             ],
             [
-              52,
+              53,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
+              278,
+              1.04,
               39.67,
               39.24,
               35.36,
@@ -37121,7 +37127,7 @@
               36.77
             ],
             [
-              53,
+              54,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-chinese\">text2vec-base-chinese</a>",
               102,
               0.38,
@@ -37132,7 +37138,7 @@
               40.01
             ],
             [
-              54,
+              55,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/facebook/SONAR\">SONAR</a>",
               "",
               "",
@@ -37143,7 +37149,7 @@
               43.45
             ],
             [
-              55,
+              56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/sbert-chinese-general-v1\">sbert-chinese-general-v1</a>",
               102,
               0.38,
@@ -37154,7 +37160,7 @@
               24.23
             ],
             [
-              56,
+              57,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GanymedeNil/text2vec-large-chinese\">text2vec-large-chinese</a>",
               326,
               1.21,
@@ -37165,7 +37171,7 @@
               26.14
             ],
             [
-              57,
+              58,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -38271,8 +38277,8 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               88.35,
               96.11,
               81.52,
@@ -38441,8 +38447,8 @@
             [
               20,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               86.91,
               95.94,
               78.73,
@@ -39041,8 +39047,8 @@
             [
               80,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
+              2270,
+              8.46,
               84.48,
               97.32,
               70.29,
@@ -39511,8 +39517,8 @@
             [
               127,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               80.86,
               93.84,
               64.72,
@@ -40016,8 +40022,8 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
+              326,
+              1.21,
               91.55,
               92.54,
               90.56
@@ -40168,6 +40174,15 @@
             ],
             [
               18,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              82.94,
+              85.27,
+              80.62
+            ],
+            [
+              19,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v2\">stella-large-zh-v2</a>",
               163,
               0.61,
@@ -40176,7 +40191,7 @@
               78.51
             ],
             [
-              19,
+              20,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Amu/tao-8k\">tao-8k</a>",
               167,
               0.62,
@@ -40185,22 +40200,13 @@
               78.5
             ],
             [
-              20,
+              21,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Amu/tao\">tao</a>",
               163,
               0.61,
               82.68,
               86.85,
               78.5
-            ],
-            [
-              21,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-large\">winberta-large</a>",
-              "",
-              "",
-              82.38,
-              87.3,
-              77.46
             ],
             [
               22,
@@ -40213,6 +40219,15 @@
             ],
             [
               23,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-large\">winberta-large</a>",
+              "",
+              "",
+              82.38,
+              87.3,
+              77.46
+            ],
+            [
+              24,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://platform.baichuan-ai.com/docs/text-Embedding\">Baichuan-text-embedding</a>",
               "",
               "",
@@ -40221,7 +40236,7 @@
               79.33
             ],
             [
-              24,
+              25,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-zh-v1.5\">bge-large-zh-v1.5</a>",
               326,
               1.21,
@@ -40230,7 +40245,7 @@
               77.94
             ],
             [
-              25,
+              26,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/sbert-chinese-general-v1\">sbert-chinese-general-v1</a>",
               102,
               0.38,
@@ -40239,16 +40254,16 @@
               77.01
             ],
             [
-              26,
+              27,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
+              278,
+              1.04,
               80.9,
               86.7,
               75.1
             ],
             [
-              27,
+              28,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-base-zh\">gte-base-zh</a>",
               102,
               0.38,
@@ -40257,7 +40272,7 @@
               75.28
             ],
             [
-              28,
+              29,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Erin/mist-zh\">mist-zh</a>",
               51,
               0.19,
@@ -40266,7 +40281,7 @@
               75.26
             ],
             [
-              29,
+              30,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-zh-v2\">stella-base-zh-v2</a>",
               51,
               0.19,
@@ -40275,7 +40290,7 @@
               75.16
             ],
             [
-              30,
+              31,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-base-zh-v1.5\">bge-base-zh-v1.5</a>",
               102,
               0.38,
@@ -40284,7 +40299,7 @@
               75.41
             ],
             [
-              31,
+              32,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-base\">winberta-base</a>",
               "",
               "",
@@ -40293,7 +40308,7 @@
               73.44
             ],
             [
-              32,
+              33,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh\">stella-large-zh</a>",
               163,
               0.61,
@@ -40302,7 +40317,7 @@
               72.29
             ],
             [
-              33,
+              34,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-7b1\">udever-bloom-7b1</a>",
               7069,
               26.33,
@@ -40311,7 +40326,7 @@
               72.15
             ],
             [
-              34,
+              35,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-large-zh\">piccolo-large-zh</a>",
               163,
               0.61,
@@ -40320,7 +40335,7 @@
               72.92
             ],
             [
-              35,
+              36,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-zh-noinstruct\">bge-large-zh-noinstruct</a>",
               326,
               1.21,
@@ -40329,7 +40344,7 @@
               71.37
             ],
             [
-              36,
+              37,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-base-zh\">piccolo-base-zh</a>",
               51,
               0.19,
@@ -40338,7 +40353,7 @@
               70.89
             ],
             [
-              37,
+              38,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-3b\">udever-bloom-3b</a>",
               3003,
               11.19,
@@ -40347,7 +40362,7 @@
               69.86
             ],
             [
-              38,
+              39,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-zh\">stella-base-zh</a>",
               51,
               0.19,
@@ -40356,7 +40371,7 @@
               70.53
             ],
             [
-              39,
+              40,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-1b1\">udever-bloom-1b1</a>",
               "",
               "",
@@ -40365,7 +40380,7 @@
               68.58
             ],
             [
-              40,
+              41,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/liujiarik/lim_base_zh\">lim_base_zh</a>",
               102,
               0.38,
@@ -40374,7 +40389,7 @@
               69.7
             ],
             [
-              41,
+              42,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-560m\">udever-bloom-560m</a>",
               "",
               "",
@@ -40383,7 +40398,7 @@
               66.32
             ],
             [
-              42,
+              43,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-mistral-7b-instruct\">e5-mistral-7b-instruct</a>",
               7111,
               26.49,
@@ -40392,7 +40407,7 @@
               64.18
             ],
             [
-              43,
+              44,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GanymedeNil/text2vec-large-chinese\">text2vec-large-chinese</a>",
               326,
               1.21,
@@ -40401,7 +40416,7 @@
               64.04
             ],
             [
-              44,
+              45,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-zh-v1.5\">bge-small-zh-v1.5</a>",
               24,
               0.09,
@@ -40410,7 +40425,7 @@
               64.57
             ],
             [
-              45,
+              46,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small-zh\">gte-small-zh</a>",
               30,
               0.11,
@@ -40419,7 +40434,7 @@
               63.54
             ],
             [
-              46,
+              47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-large\">multilingual-e5-large</a>",
               560,
               2.09,
@@ -40428,7 +40443,7 @@
               61.6
             ],
             [
-              47,
+              48,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -40437,7 +40452,7 @@
               63.08
             ],
             [
-              48,
+              49,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentosa/ZNV-Embedding\">ZNV-Embedding</a>",
               6061,
               22.58,
@@ -40446,7 +40461,7 @@
               61.85
             ],
             [
-              49,
+              50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-chinese\">text2vec-base-chinese</a>",
               102,
               0.38,
@@ -40455,7 +40470,7 @@
               60.95
             ],
             [
-              50,
+              51,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-base\">multilingual-e5-base</a>",
               278,
               1.04,
@@ -40464,7 +40479,7 @@
               59.63
             ],
             [
-              51,
+              52,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silk-road/luotuo-bert-medium\">luotuo-bert-medium</a>",
               328,
               1.22,
@@ -40473,7 +40488,7 @@
               60.7
             ],
             [
-              52,
+              53,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-small\">multilingual-e5-small</a>",
               118,
               0.44,
@@ -40482,7 +40497,7 @@
               60.77
             ],
             [
-              53,
+              54,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-large\">m3e-large</a>",
               102,
               0.38,
@@ -40491,7 +40506,7 @@
               59.33
             ],
             [
-              54,
+              55,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-base\">m3e-base</a>",
               102,
               0.38,
@@ -40500,7 +40515,7 @@
               58
             ],
             [
-              55,
+              56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/m3e-ernie-xbase-zh\">m3e-ernie-xbase-zh</a>",
               "",
               "",
@@ -40509,7 +40524,7 @@
               59.99
             ],
             [
-              56,
+              57,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/facebook/SONAR\">SONAR</a>",
               "",
               "",
@@ -40518,7 +40533,7 @@
               55.18
             ],
             [
-              57,
+              58,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -41252,8 +41267,8 @@
             [
               2,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               60.54,
               67.5,
               30.82,
@@ -41274,8 +41289,8 @@
             [
               4,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               60.29,
               66.82,
               32.06,
@@ -42352,8 +42367,8 @@
             [
               102,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               54.58,
               63.09,
               30.89,
@@ -43012,8 +43027,8 @@
             [
               181,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
+              2270,
+              8.46,
               "",
               61.53,
               "",
@@ -43106,8 +43121,8 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
+              326,
+              1.21,
               72.34,
               91.11,
               90.07,
@@ -43193,6 +43208,17 @@
             ],
             [
               9,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/LdIR-reranker-large\">LdIR-reranker-large</a>",
+              "",
+              "",
+              68.58,
+              84.35,
+              86.45,
+              35.64,
+              67.86
+            ],
+            [
+              10,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-mrl-large-zh-v3.5-1792d\">stella-mrl-large-zh-v3.5-1792d</a>",
               326,
               1.21,
@@ -43203,7 +43229,7 @@
               66.43
             ],
             [
-              10,
+              11,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/TownsWu/PEG\">PEG</a>",
               163,
               0.61,
@@ -43214,7 +43240,7 @@
               69.43
             ],
             [
-              11,
+              12,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://help.aliyun.com/zh/open-search/vector-search-edition/hybrid-retrieval\">OpenSearch-text-hybrid</a>",
               "",
               "",
@@ -43225,7 +43251,7 @@
               66.38
             ],
             [
-              12,
+              13,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
               325,
               1.21,
@@ -43236,7 +43262,7 @@
               66.38
             ],
             [
-              13,
+              14,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/aspire/acge_text_embedding\">acge_text_embedding</a>",
               326,
               1.21,
@@ -43247,7 +43273,7 @@
               66.62
             ],
             [
-              14,
+              15,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/bge-reranker-large-1k\">bge-reranker-large-1k</a>",
               560,
               2.09,
@@ -43258,7 +43284,7 @@
               67.48
             ],
             [
-              15,
+              16,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-zh-v3-1792d\">stella-base-zh-v3-1792d</a>",
               102,
               0.38,
@@ -43269,7 +43295,7 @@
               66.49
             ],
             [
-              16,
+              17,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/srikanthmalla/BAAI-bge-reranker-large\">BAAI-bge-reranker-large</a>",
               560,
               2.09,
@@ -43280,7 +43306,7 @@
               67.6
             ],
             [
-              17,
+              18,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Pristinenlp/alime-embedding-large-zh\">alime-embedding-large-zh</a>",
               326,
               1.21,
@@ -43291,7 +43317,7 @@
               66.18
             ],
             [
-              18,
+              19,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Pristinenlp/alime-reranker-large-zh\">alime-reranker-large-zh</a>",
               560,
               2.09,
@@ -43302,7 +43328,7 @@
               68.26
             ],
             [
-              19,
+              20,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-large-zh\">gte-large-zh</a>",
               326,
               1.21,
@@ -43313,7 +43339,7 @@
               65.86
             ],
             [
-              20,
+              21,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/lier007/xiaobu-embedding\">xiaobu-embedding</a>",
               326,
               1.21,
@@ -43324,7 +43350,7 @@
               66.6
             ],
             [
-              21,
+              22,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/Dmeta-embedding-zh\">Dmeta-embedding-zh</a>",
               103,
               0.38,
@@ -43335,7 +43361,7 @@
               66.26
             ],
             [
-              22,
+              23,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/corto-ai/bge-reranker-large-onnx\">bge-reranker-large-onnx</a>",
               "",
               "",
@@ -43346,7 +43372,7 @@
               67.28
             ],
             [
-              23,
+              24,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-reranker-large\">bge-reranker-large</a>",
               560,
               2.09,
@@ -43357,7 +43383,7 @@
               67.28
             ],
             [
-              24,
+              25,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-reranker-base\">bge-reranker-base</a>",
               278,
               1.04,
@@ -43368,7 +43394,7 @@
               67.28
             ],
             [
-              25,
+              26,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/bge-reranker-base-1k\">bge-reranker-base-1k</a>",
               "",
               "",
@@ -43379,7 +43405,7 @@
               67.25
             ],
             [
-              26,
+              27,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-base-zh\">gte-base-zh</a>",
               102,
               0.38,
@@ -43390,7 +43416,7 @@
               66.36
             ],
             [
-              27,
+              28,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-zh\">stella-base-zh</a>",
               51,
               0.19,
@@ -43401,7 +43427,7 @@
               66.46
             ],
             [
-              28,
+              29,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small\">Dmeta-embedding-zh-small</a>",
               74,
               0.28,
@@ -43412,7 +43438,7 @@
               66.11
             ],
             [
-              29,
+              30,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-base-zh\">piccolo-base-zh</a>",
               51,
               0.19,
@@ -43423,7 +43449,18 @@
               66.46
             ],
             [
-              30,
+              31,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              66.57,
+              83.64,
+              83.74,
+              31.54,
+              67.37
+            ],
+            [
+              32,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
               161,
               0.6,
@@ -43434,7 +43471,7 @@
               67.37
             ],
             [
-              31,
+              33,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v2\">stella-large-zh-v2</a>",
               163,
               0.61,
@@ -43445,7 +43482,7 @@
               66.41
             ],
             [
-              32,
+              34,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Amu/tao\">tao</a>",
               163,
               0.61,
@@ -43456,7 +43493,7 @@
               66.38
             ],
             [
-              33,
+              35,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct\">gte-Qwen1.5-7B-instruct</a>",
               7099,
               26.45,
@@ -43467,7 +43504,7 @@
               68.11
             ],
             [
-              34,
+              36,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Amu/tao-8k\">tao-8k</a>",
               167,
               0.62,
@@ -43478,7 +43515,7 @@
               66.38
             ],
             [
-              35,
+              37,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small-zh\">gte-small-zh</a>",
               30,
               0.11,
@@ -43489,7 +43526,7 @@
               65.39
             ],
             [
-              36,
+              38,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-zh-v2\">stella-base-zh-v2</a>",
               51,
               0.19,
@@ -43500,7 +43537,7 @@
               66.35
             ],
             [
-              37,
+              39,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/akarum/cloudy-large-zh\">cloudy-large-zh</a>",
               326,
               1.21,
@@ -43511,7 +43548,7 @@
               66.83
             ],
             [
-              38,
+              40,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/wongctroman/hktv-fine-tuned-cloudy-large-zh-metaphor14\">hktv-fine-tuned-cloudy-large-zh-metaphor14</a>",
               326,
               1.21,
@@ -43522,7 +43559,7 @@
               66.83
             ],
             [
-              39,
+              41,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh\">stella-large-zh</a>",
               163,
               0.61,
@@ -43533,7 +43570,7 @@
               66.86
             ],
             [
-              40,
+              42,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-large-zh\">piccolo-large-zh</a>",
               163,
               0.61,
@@ -43544,7 +43581,7 @@
               66.96
             ],
             [
-              41,
+              43,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Erin/mist-zh\">mist-zh</a>",
               51,
               0.19,
@@ -43555,7 +43592,7 @@
               65.79
             ],
             [
-              42,
+              44,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-zh-v1.5\">bge-large-zh-v1.5</a>",
               326,
               1.21,
@@ -43566,7 +43603,7 @@
               65.74
             ],
             [
-              43,
+              45,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-base-zh-v1.5\">bge-base-zh-v1.5</a>",
               102,
               0.38,
@@ -43577,7 +43614,7 @@
               66.49
             ],
             [
-              44,
+              46,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-zh-noinstruct\">bge-large-zh-noinstruct</a>",
               326,
               1.21,
@@ -43588,7 +43625,7 @@
               66.16
             ],
             [
-              45,
+              47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/liujiarik/lim_base_zh\">lim_base_zh</a>",
               102,
               0.38,
@@ -43599,7 +43636,7 @@
               65.75
             ],
             [
-              46,
+              48,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-large\">winberta-large</a>",
               "",
               "",
@@ -43610,7 +43647,7 @@
               66.3
             ],
             [
-              47,
+              49,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/windberta-large\">windberta-large</a>",
               "",
               "",
@@ -43621,7 +43658,7 @@
               65.85
             ],
             [
-              48,
+              50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-mistral-7b-instruct\">e5-mistral-7b-instruct</a>",
               7111,
               26.49,
@@ -43632,7 +43669,7 @@
               66.9
             ],
             [
-              49,
+              51,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentosa/ZNV-Embedding\">ZNV-Embedding</a>",
               6061,
               22.58,
@@ -43643,7 +43680,7 @@
               66.25
             ],
             [
-              50,
+              52,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-base\">winberta-base</a>",
               "",
               "",
@@ -43654,7 +43691,7 @@
               67.18
             ],
             [
-              51,
+              53,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/m3e-ernie-xbase-zh\">m3e-ernie-xbase-zh</a>",
               "",
               "",
@@ -43665,7 +43702,7 @@
               64.31
             ],
             [
-              52,
+              54,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-zh-v1.5\">bge-small-zh-v1.5</a>",
               24,
               0.09,
@@ -43676,7 +43713,7 @@
               65.9
             ],
             [
-              53,
+              55,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-large\">m3e-large</a>",
               102,
               0.38,
@@ -43687,7 +43724,7 @@
               66.13
             ],
             [
-              54,
+              56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-base\">m3e-base</a>",
               102,
               0.38,
@@ -43698,7 +43735,7 @@
               66.03
             ],
             [
-              55,
+              57,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-7b1\">udever-bloom-7b1</a>",
               7069,
               26.33,
@@ -43709,7 +43746,7 @@
               67.88
             ],
             [
-              56,
+              58,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-3b\">udever-bloom-3b</a>",
               3003,
               11.19,
@@ -43720,7 +43757,7 @@
               66.49
             ],
             [
-              57,
+              59,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-1b1\">udever-bloom-1b1</a>",
               "",
               "",
@@ -43731,7 +43768,7 @@
               65.94
             ],
             [
-              58,
+              60,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-large\">multilingual-e5-large</a>",
               560,
               2.09,
@@ -43742,7 +43779,7 @@
               65.83
             ],
             [
-              59,
+              61,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-base\">multilingual-e5-base</a>",
               278,
               1.04,
@@ -43753,7 +43790,7 @@
               64.39
             ],
             [
-              60,
+              62,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -43764,7 +43801,7 @@
               66.65
             ],
             [
-              61,
+              63,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-small\">multilingual-e5-small</a>",
               118,
               0.44,
@@ -43775,7 +43812,7 @@
               65.24
             ],
             [
-              62,
+              64,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-560m\">udever-bloom-560m</a>",
               "",
               "",
@@ -43786,7 +43823,7 @@
               63.74
             ],
             [
-              63,
+              65,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-chinese\">text2vec-base-chinese</a>",
               102,
               0.38,
@@ -43797,7 +43834,7 @@
               65.95
             ],
             [
-              64,
+              66,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silk-road/luotuo-bert-medium\">luotuo-bert-medium</a>",
               328,
               1.22,
@@ -43808,7 +43845,7 @@
               65.76
             ],
             [
-              65,
+              67,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GanymedeNil/text2vec-large-chinese\">text2vec-large-chinese</a>",
               326,
               1.21,
@@ -43819,7 +43856,7 @@
               64.82
             ],
             [
-              66,
+              68,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/sbert-chinese-general-v1\">sbert-chinese-general-v1</a>",
               102,
               0.38,
@@ -43830,10 +43867,10 @@
               65.14
             ],
             [
-              67,
+              69,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
+              278,
+              1.04,
               44.91,
               50.19,
               50.39,
@@ -43841,7 +43878,7 @@
               64.49
             ],
             [
-              68,
+              70,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/facebook/SONAR\">SONAR</a>",
               "",
               "",
@@ -43852,7 +43889,7 @@
               55.35
             ],
             [
-              69,
+              71,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -44335,8 +44372,8 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               60.19,
               69.65,
               39.11,
@@ -44357,8 +44394,8 @@
             [
               2,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               59.36,
               68.2,
               34.72,
@@ -46623,8 +46660,8 @@
             [
               105,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               41.17,
               49.11,
               23.29,
@@ -47481,8 +47518,8 @@
             [
               168,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
+              2270,
+              8.46,
               "",
               53.96,
               "",
@@ -47920,8 +47957,8 @@
             [
               1,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
+              326,
+              1.21,
               76.36,
               47.16,
               89.14,
@@ -48444,7 +48481,7 @@
             ],
             [
               36,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
               161,
               0.6,
               69.4,
@@ -48459,6 +48496,21 @@
             ],
             [
               37,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              69.4,
+              39.15,
+              81.22,
+              84.57,
+              63.95,
+              57.12,
+              77.96,
+              80.59,
+              70.62
+            ],
+            [
+              38,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/Dmeta-embedding-zh-small\">Dmeta-embedding-zh-small</a>",
               74,
               0.28,
@@ -48473,7 +48525,7 @@
               68.3
             ],
             [
-              38,
+              39,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small-zh\">gte-small-zh</a>",
               30,
               0.11,
@@ -48488,7 +48540,7 @@
               67.69
             ],
             [
-              39,
+              40,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-large\">winberta-large</a>",
               "",
               "",
@@ -48503,7 +48555,7 @@
               64.67
             ],
             [
-              40,
+              41,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-large\">multilingual-e5-large</a>",
               560,
               2.09,
@@ -48518,7 +48570,7 @@
               58.25
             ],
             [
-              41,
+              42,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/windberta-large\">windberta-large</a>",
               "",
               "",
@@ -48533,7 +48585,7 @@
               63.66
             ],
             [
-              42,
+              43,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-7b1\">udever-bloom-7b1</a>",
               7069,
               26.33,
@@ -48548,7 +48600,7 @@
               62.44
             ],
             [
-              43,
+              44,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-zh-v1.5\">bge-small-zh-v1.5</a>",
               24,
               0.09,
@@ -48563,7 +48615,7 @@
               66.19
             ],
             [
-              44,
+              45,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-mistral-7b-instruct\">e5-mistral-7b-instruct</a>",
               7111,
               26.49,
@@ -48578,7 +48630,7 @@
               45.39
             ],
             [
-              45,
+              46,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-base\">multilingual-e5-base</a>",
               278,
               1.04,
@@ -48593,7 +48645,7 @@
               61.3
             ],
             [
-              46,
+              47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-base\">winberta-base</a>",
               "",
               "",
@@ -48608,7 +48660,7 @@
               59.76
             ],
             [
-              47,
+              48,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-small\">multilingual-e5-small</a>",
               118,
               0.44,
@@ -48623,7 +48675,7 @@
               58.09
             ],
             [
-              48,
+              49,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-3b\">udever-bloom-3b</a>",
               3003,
               11.19,
@@ -48638,7 +48690,7 @@
               56.54
             ],
             [
-              49,
+              50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/m3e-ernie-xbase-zh\">m3e-ernie-xbase-zh</a>",
               "",
               "",
@@ -48653,7 +48705,7 @@
               63.09
             ],
             [
-              50,
+              51,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentosa/ZNV-Embedding\">ZNV-Embedding</a>",
               6061,
               22.58,
@@ -48668,7 +48720,7 @@
               64.08
             ],
             [
-              51,
+              52,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-1b1\">udever-bloom-1b1</a>",
               "",
               "",
@@ -48683,7 +48735,7 @@
               56.07
             ],
             [
-              52,
+              53,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-base\">m3e-base</a>",
               102,
               0.38,
@@ -48698,7 +48750,7 @@
               51.11
             ],
             [
-              53,
+              54,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-large\">m3e-large</a>",
               102,
               0.38,
@@ -48713,7 +48765,7 @@
               44.02
             ],
             [
-              54,
+              55,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -48728,7 +48780,7 @@
               43.85
             ],
             [
-              55,
+              56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-560m\">udever-bloom-560m</a>",
               "",
               "",
@@ -48743,7 +48795,7 @@
               55.07
             ],
             [
-              56,
+              57,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silk-road/luotuo-bert-medium\">luotuo-bert-medium</a>",
               328,
               1.22,
@@ -48758,7 +48810,7 @@
               38.04
             ],
             [
-              57,
+              58,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GanymedeNil/text2vec-large-chinese\">text2vec-large-chinese</a>",
               326,
               1.21,
@@ -48773,7 +48825,7 @@
               42.65
             ],
             [
-              58,
+              59,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-chinese\">text2vec-base-chinese</a>",
               102,
               0.38,
@@ -48788,7 +48840,7 @@
               39.52
             ],
             [
-              59,
+              60,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/sbert-chinese-general-v1\">sbert-chinese-general-v1</a>",
               102,
               0.38,
@@ -48803,10 +48855,10 @@
               35.15
             ],
             [
-              60,
+              61,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
+              278,
+              1.04,
               22.92,
               10.15,
               28.85,
@@ -48818,7 +48870,7 @@
               14.17
             ],
             [
-              61,
+              62,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/facebook/SONAR\">SONAR</a>",
               "",
               "",
@@ -48833,7 +48885,7 @@
               17.05
             ],
             [
-              62,
+              63,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -50129,8 +50181,8 @@
             [
               7,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               84.97,
               86.4,
               84.31,
@@ -50656,8 +50708,8 @@
             [
               38,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               82.84,
               85.59,
               82.8,
@@ -52492,8 +52544,8 @@
             [
               146,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               74.23,
               79.76,
               70.04,
@@ -52849,8 +52901,8 @@
             [
               187,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
+              2270,
+              8.46,
               "",
               83.38,
               79.71,
@@ -53019,8 +53071,8 @@
             [
               3,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/iampanda/zpoint_large_embedding_zh\">zpoint_large_embedding_zh</a>",
-              "",
-              "",
+              326,
+              1.21,
               64.22,
               60.72,
               58.77,
@@ -53213,7 +53265,7 @@
             ],
             [
               16,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silverjam/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
               161,
               0.6,
               59.39,
@@ -53228,6 +53280,21 @@
             ],
             [
               17,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/jinaai/jina-embeddings-v2-base-zh\">jina-embeddings-v2-base-zh</a>",
+              161,
+              0.6,
+              59.39,
+              50.59,
+              51.29,
+              66.07,
+              75.74,
+              41.49,
+              38.11,
+              69.25,
+              82.56
+            ],
+            [
+              18,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v2\">stella-large-zh-v2</a>",
               163,
               0.61,
@@ -53242,7 +53309,7 @@
               79.37
             ],
             [
-              18,
+              19,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Amu/tao-8k\">tao-8k</a>",
               167,
               0.62,
@@ -53257,7 +53324,7 @@
               79.37
             ],
             [
-              19,
+              20,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Amu/tao\">tao</a>",
               163,
               0.61,
@@ -53272,7 +53339,7 @@
               79.36
             ],
             [
-              20,
+              21,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/lier007/xiaobu-embedding\">xiaobu-embedding</a>",
               326,
               1.21,
@@ -53287,7 +53354,7 @@
               81.19
             ],
             [
-              21,
+              22,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Pristinenlp/alime-embedding-large-zh\">alime-embedding-large-zh</a>",
               326,
               1.21,
@@ -53302,7 +53369,7 @@
               80.72
             ],
             [
-              22,
+              23,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh\">stella-large-zh</a>",
               163,
               0.61,
@@ -53317,7 +53384,7 @@
               75.71
             ],
             [
-              23,
+              24,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-large-zh\">piccolo-large-zh</a>",
               163,
               0.61,
@@ -53332,7 +53399,7 @@
               74.43
             ],
             [
-              24,
+              25,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/zhou-xl/bi-cse\">bi-cse</a>",
               560,
               2.09,
@@ -53347,7 +53414,7 @@
               75.38
             ],
             [
-              25,
+              26,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-large-zh\">gte-large-zh</a>",
               326,
               1.21,
@@ -53362,7 +53429,7 @@
               79.68
             ],
             [
-              26,
+              27,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Erin/mist-zh\">mist-zh</a>",
               51,
               0.19,
@@ -53377,7 +53444,7 @@
               79.57
             ],
             [
-              27,
+              28,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-zh-v2\">stella-base-zh-v2</a>",
               51,
               0.19,
@@ -53392,7 +53459,7 @@
               79.63
             ],
             [
-              28,
+              29,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-zh\">stella-base-zh</a>",
               51,
               0.19,
@@ -53407,7 +53474,7 @@
               72.63
             ],
             [
-              29,
+              30,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-zh-v1.5\">bge-large-zh-v1.5</a>",
               326,
               1.21,
@@ -53422,7 +53489,7 @@
               78.7
             ],
             [
-              30,
+              31,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-base-zh\">gte-base-zh</a>",
               102,
               0.38,
@@ -53437,7 +53504,7 @@
               81.46
             ],
             [
-              31,
+              32,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sensenova/piccolo-base-zh\">piccolo-base-zh</a>",
               51,
               0.19,
@@ -53452,7 +53519,7 @@
               70.6
             ],
             [
-              32,
+              33,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-large\">winberta-large</a>",
               "",
               "",
@@ -53467,7 +53534,7 @@
               79.63
             ],
             [
-              33,
+              34,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/windberta-large\">windberta-large</a>",
               "",
               "",
@@ -53482,7 +53549,7 @@
               79.74
             ],
             [
-              34,
+              35,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-base-zh-v1.5\">bge-base-zh-v1.5</a>",
               102,
               0.38,
@@ -53497,7 +53564,7 @@
               78.31
             ],
             [
-              35,
+              36,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-large-zh-noinstruct\">bge-large-zh-noinstruct</a>",
               326,
               1.21,
@@ -53512,7 +53579,7 @@
               78.41
             ],
             [
-              36,
+              37,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ClayAtlas/winberta-base\">winberta-base</a>",
               "",
               "",
@@ -53527,7 +53594,7 @@
               80.54
             ],
             [
-              37,
+              38,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/neofung/m3e-ernie-xbase-zh\">m3e-ernie-xbase-zh</a>",
               "",
               "",
@@ -53542,7 +53609,7 @@
               66.91
             ],
             [
-              38,
+              39,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-base\">m3e-base</a>",
               102,
               0.38,
@@ -53557,7 +53624,7 @@
               76.97
             ],
             [
-              39,
+              40,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/moka-ai/m3e-large\">m3e-large</a>",
               102,
               0.38,
@@ -53572,7 +53639,7 @@
               74.16
             ],
             [
-              40,
+              41,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/e5-mistral-7b-instruct\">e5-mistral-7b-instruct</a>",
               7111,
               26.49,
@@ -53587,7 +53654,7 @@
               81.81
             ],
             [
-              41,
+              42,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thenlper/gte-small-zh\">gte-small-zh</a>",
               30,
               0.11,
@@ -53602,7 +53669,7 @@
               76.51
             ],
             [
-              42,
+              43,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/BAAI/bge-small-zh-v1.5\">bge-small-zh-v1.5</a>",
               24,
               0.09,
@@ -53617,7 +53684,7 @@
               76.73
             ],
             [
-              43,
+              44,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-large\">multilingual-e5-large</a>",
               560,
               2.09,
@@ -53632,7 +53699,7 @@
               81.08
             ],
             [
-              44,
+              45,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-base\">multilingual-e5-base</a>",
               278,
               1.04,
@@ -53647,7 +53714,7 @@
               79.05
             ],
             [
-              45,
+              46,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-1b1\">udever-bloom-1b1</a>",
               "",
               "",
@@ -53662,7 +53729,7 @@
               79.53
             ],
             [
-              46,
+              47,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/intfloat/multilingual-e5-small\">multilingual-e5-small</a>",
               118,
               0.44,
@@ -53677,7 +53744,7 @@
               77.73
             ],
             [
-              47,
+              48,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/GanymedeNil/text2vec-large-chinese\">text2vec-large-chinese</a>",
               326,
               1.21,
@@ -53692,7 +53759,7 @@
               79.45
             ],
             [
-              48,
+              49,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/DMetaSoul/sbert-chinese-general-v1\">sbert-chinese-general-v1</a>",
               102,
               0.38,
@@ -53707,7 +53774,7 @@
               82.17
             ],
             [
-              49,
+              50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-chinese\">text2vec-base-chinese</a>",
               102,
               0.38,
@@ -53722,7 +53789,7 @@
               79.3
             ],
             [
-              50,
+              51,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://openai.com/blog/new-and-improved-embedding-model\">text-embedding-ada-002</a>",
               "",
               "",
@@ -53737,7 +53804,7 @@
               70.61
             ],
             [
-              51,
+              52,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/silk-road/luotuo-bert-medium\">luotuo-bert-medium</a>",
               328,
               1.22,
@@ -53752,7 +53819,7 @@
               73.22
             ],
             [
-              52,
+              53,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-560m\">udever-bloom-560m</a>",
               "",
               "",
@@ -53767,10 +53834,10 @@
               77.77
             ],
             [
-              53,
+              54,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/EdwardBurgin/paraphrase-multilingual-mpnet-base-v2\">paraphrase-multilingual-mpnet-base-v2</a>",
-              "",
-              "",
+              278,
+              1.04,
               39.11,
               15.69,
               20.27,
@@ -53782,7 +53849,7 @@
               80.84
             ],
             [
-              54,
+              55,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/facebook/SONAR\">SONAR</a>",
               "",
               "",
@@ -53797,7 +53864,7 @@
               50.18
             ],
             [
-              55,
+              56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/thtang/ALL_862873\">ALL_862873</a>",
               118,
               0.44,
@@ -53812,7 +53879,7 @@
               45.6
             ],
             [
-              66,
+              67,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://github.com/facebookresearch/LASER\">LASER2</a>",
               43,
               0.16,
@@ -53827,7 +53894,7 @@
               ""
             ],
             [
-              87,
+              88,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Labib11/MUG-B-1.6\">MUG-B-1.6</a>",
               335,
               1.25,
@@ -53842,7 +53909,7 @@
               ""
             ],
             [
-              89,
+              90,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/ManiShankar-AlpesAi/paraphrase-multilingual-mpnet-base-v2-KE_Sieve\">paraphrase-multilingual-mpnet-base-v2-KE_Sieve</a>",
               "",
               "",
@@ -53857,7 +53924,7 @@
               ""
             ],
             [
-              106,
+              107,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-msmarco-specb-bitfit\">SGPT-125M-weightedmean-msmarco-specb-bitfit</a>",
               138,
               0.51,
@@ -53872,7 +53939,7 @@
               ""
             ],
             [
-              107,
+              108,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Muennighoff/SGPT-125M-weightedmean-nli-bitfit\">SGPT-125M-weightedmean-nli-bitfit</a>",
               138,
               0.51,
@@ -53887,7 +53954,7 @@
               ""
             ],
             [
-              130,
+              131,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/amazon/Titan-text-embeddings-v2\">Titan-text-embeddings-v2</a>",
               "",
               "",
@@ -53902,7 +53969,7 @@
               ""
             ],
             [
-              139,
+              140,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bigscience-data/sgpt-bloom-1b7-nli\">sgpt-bloom-1b7-nli</a>",
               1722,
               6.42,
@@ -53917,7 +53984,7 @@
               ""
             ],
             [
-              140,
+              141,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/bigscience/sgpt-bloom-7b1-msmarco\">sgpt-bloom-7b1-msmarco</a>",
               7068,
               26.33,
@@ -53932,7 +53999,7 @@
               ""
             ],
             [
-              166,
+              167,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-3b\">udever-bloom-3b</a>",
               3003,
               11.19,
@@ -53947,7 +54014,7 @@
               81.52
             ],
             [
-              167,
+              168,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/izhx/udever-bloom-7b1\">udever-bloom-7b1</a>",
               7069,
               26.33,
@@ -53962,7 +54029,7 @@
               82.03
             ],
             [
-              213,
+              215,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/LaBSE\">LaBSE</a>",
               471,
               1.75,
@@ -53977,7 +54044,7 @@
               ""
             ],
             [
-              214,
+              216,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2\">all-MiniLM-L12-v2</a>",
               33,
               0.12,
@@ -53992,7 +54059,7 @@
               ""
             ],
             [
-              215,
+              217,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2\">all-MiniLM-L6-v2</a>",
               23,
               0.09,
@@ -54007,7 +54074,7 @@
               ""
             ],
             [
-              217,
+              219,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/allenai-specter\">allenai-specter</a>",
               110,
               0.41,
@@ -54022,7 +54089,7 @@
               ""
             ],
             [
-              219,
+              221,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/average_word_embeddings_komninos\">komninos</a>",
               134,
               0.5,
@@ -54037,7 +54104,7 @@
               ""
             ],
             [
-              220,
+              222,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2\">distiluse-base-multilingual-cased-v2</a>",
               135,
               0.5,
@@ -54052,7 +54119,7 @@
               ""
             ],
             [
-              222,
+              224,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-large\">gtr-t5-large</a>",
               168,
               0.63,
@@ -54067,7 +54134,7 @@
               ""
             ],
             [
-              223,
+              225,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/gtr-t5-xl\">gtr-t5-xl</a>",
               1240,
               4.62,
@@ -54082,7 +54149,7 @@
               ""
             ],
             [
-              229,
+              231,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-base\">sentence-t5-base</a>",
               110,
               0.41,
@@ -54097,7 +54164,7 @@
               ""
             ],
             [
-              230,
+              232,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-large\">sentence-t5-large</a>",
               168,
               0.63,
@@ -54112,7 +54179,7 @@
               ""
             ],
             [
-              231,
+              233,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/sentence-transformers/sentence-t5-xl\">sentence-t5-xl</a>",
               1240,
               4.62,
@@ -54127,7 +54194,7 @@
               ""
             ],
             [
-              233,
+              235,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/shibing624/text2vec-base-multilingual\">text2vec-base-multilingual</a>",
               118,
               0.44,
@@ -57076,8 +57143,8 @@
             [
               56,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               "",
               "",
               "",
@@ -58606,8 +58673,8 @@
             [
               101,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/biswa921/bge-m3\">bge-m3</a>",
-              "",
-              "",
+              2270,
+              8.46,
               "",
               "",
               "",
@@ -58810,8 +58877,8 @@
             [
               107,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               "",
               "",
               "",
@@ -60884,8 +60951,8 @@
             [
               168,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               "",
               "",
               "",
@@ -62751,8 +62818,8 @@
             [
               37,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/nvidia/NV-Embed-v1\">NV-Embed-v1</a>",
-              "",
-              "",
+              7851,
+              29.25,
               31.2
             ],
             [
@@ -62842,8 +62909,8 @@
             [
               50,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/djovak/multi-qa-MiniLM-L6-cos-v1\">multi-qa-MiniLM-L6-cos-v1</a>",
-              "",
-              "",
+              23,
+              0.09,
               31.05
             ],
             [
@@ -62898,8 +62965,8 @@
             [
               58,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral\">Linq-Embed-Mistral</a>",
-              "",
-              "",
+              7111,
+              26.49,
               30.98
             ],
             [
@@ -63924,7 +63991,7 @@
         },
         {
           "name": "English",
-          "html": "- **Total Datasets**: 165\n- **Total Languages**: 113\n- **Total Scores**: 38801\n- **Total Models**: 319\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
+          "html": "- **Total Datasets**: 165\n- **Total Languages**: 113\n- **Total Scores**: 38955\n- **Total Models**: 321\n\nMade with ❤️ for NLP. If this work is useful to you, please consider citing:\n\n```bibtex\n@article{muennighoff2022mteb,\n    doi = {10.48550/ARXIV.2210.07316},\n    url = {https://arxiv.org/abs/2210.07316},\n    author = {Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils},\n    title = {MTEB: Massive Text Embedding Benchmark},\n    publisher = {arXiv},\n    journal={arXiv preprint arXiv:2210.07316},  \n    year = {2022}\n}\n```",
           "headers": [
             "Rank",
             "Model",
