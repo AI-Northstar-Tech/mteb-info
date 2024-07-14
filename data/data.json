@@ -27,7 +27,7 @@
           "data": [
             [
               1,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               8192,
@@ -75,7 +75,7 @@
             ],
             [
               4,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               8192,
@@ -4326,10 +4326,10 @@
             [
               12,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
-              "",
-              "",
-              "",
-              "",
+              325,
+              1.21,
+              1792,
+              512,
               68.48,
               71.5,
               53.9,
@@ -6560,6 +6560,36 @@
             ],
             [
               181,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              1543,
+              5.75,
+              8192,
+              131072,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              182,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              435,
+              1.62,
+              8192,
+              8192,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              183,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dwzhu/e5-base-4k\">e5-base-4k</a>",
               110,
               0.41000000000000003,
@@ -6574,7 +6604,7 @@
               ""
             ],
             [
-              182,
+              184,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_base_cased\">flaubert_base_cased</a>",
               138,
               0.51,
@@ -6589,7 +6619,7 @@
               ""
             ],
             [
-              183,
+              185,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_base_uncased\">flaubert_base_uncased</a>",
               138,
               0.51,
@@ -6604,7 +6634,7 @@
               ""
             ],
             [
-              184,
+              186,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_large_cased\">flaubert_large_cased</a>",
               372,
               1.3900000000000001,
@@ -6619,7 +6649,7 @@
               ""
             ],
             [
-              185,
+              187,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/google-bert/bert-base-multilingual-cased\">bert-base-multilingual-cased</a>",
               179,
               0.67,
@@ -6634,7 +6664,7 @@
               ""
             ],
             [
-              186,
+              188,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/google-bert/bert-base-multilingual-uncased\">bert-base-multilingual-uncased</a>",
               168,
               0.63,
@@ -6649,7 +6679,7 @@
               ""
             ],
             [
-              187,
+              189,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-base\">instructor-base</a>",
               110,
               0.41000000000000003,
@@ -6664,7 +6694,7 @@
               ""
             ],
             [
-              188,
+              190,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-large\">instructor-large</a>",
               335,
               1.25,
@@ -6679,7 +6709,7 @@
               ""
             ],
             [
-              189,
+              191,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-xl\">instructor-xl</a>",
               1241,
               4.62,
@@ -6694,42 +6724,12 @@
               ""
             ],
             [
-              190,
+              192,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-en-v2\">stella-base-en-v2</a>",
               55,
               0.2,
               768,
               512,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              191,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
-              1543,
-              5.75,
-              8192,
-              131072,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            [
-              192,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
-              435,
-              1.62,
-              8192,
-              8192,
               "",
               "",
               "",
@@ -13630,7 +13630,7 @@
             ],
             [
               3,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               87.63,
@@ -13668,7 +13668,7 @@
             ],
             [
               5,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               86.67,
@@ -17550,8 +17550,8 @@
             [
               13,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
-              "",
-              "",
+              325,
+              1.21,
               71.5,
               46.32,
               50.63,
@@ -36108,7 +36108,7 @@
           "data": [
             [
               1,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               57.69,
@@ -36144,7 +36144,7 @@
             ],
             [
               3,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               56.7,
@@ -39772,8 +39772,8 @@
             [
               15,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
-              "",
-              "",
+              325,
+              1.21,
               53.9,
               41.94,
               40.34,
@@ -41544,7 +41544,7 @@
             ],
             [
               7,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               88.07,
@@ -41584,7 +41584,7 @@
             ],
             [
               11,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               87.74,
@@ -43522,8 +43522,8 @@
             [
               9,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
-              "",
-              "",
+              325,
+              1.21,
               88.1,
               90.77,
               85.44
@@ -44883,7 +44883,7 @@
             ],
             [
               3,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               61.21,
@@ -44960,7 +44960,7 @@
             ],
             [
               10,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               60.16,
@@ -47101,8 +47101,8 @@
             [
               15,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
-              "",
-              "",
+              325,
+              1.21,
               68.26,
               88.99,
               89.6,
@@ -48293,7 +48293,7 @@
           "data": [
             [
               1,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               61.01,
@@ -48447,7 +48447,7 @@
             ],
             [
               8,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               58.97,
@@ -52513,8 +52513,8 @@
             [
               11,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
-              "",
-              "",
+              325,
+              1.21,
               73.6,
               46.87,
               82.44,
@@ -55026,7 +55026,7 @@
             ],
             [
               20,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               84.51,
@@ -55043,7 +55043,7 @@
             ],
             [
               21,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               84.22,
@@ -58173,8 +58173,8 @@
             [
               11,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-large-zh-v3-1792d\">stella-large-zh-v3-1792d</a>",
-              "",
-              "",
+              325,
+              1.21,
               62.46,
               59.11,
               58.19,
@@ -65175,6 +65175,74 @@
             ],
             [
               140,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              1543,
+              5.75,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              88.23
+            ],
+            [
+              141,
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              435,
+              1.62,
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              87.74
+            ],
+            [
+              142,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dwzhu/e5-base-4k\">e5-base-4k</a>",
               112,
               0.42,
@@ -65208,7 +65276,7 @@
               86.52
             ],
             [
-              141,
+              143,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_base_cased\">flaubert_base_cased</a>",
               138,
               0.51,
@@ -65242,7 +65310,7 @@
               ""
             ],
             [
-              142,
+              144,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_base_uncased\">flaubert_base_uncased</a>",
               138,
               0.51,
@@ -65276,7 +65344,7 @@
               ""
             ],
             [
-              143,
+              145,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/flaubert/flaubert_large_cased\">flaubert_large_cased</a>",
               372,
               1.3900000000000001,
@@ -65310,7 +65378,7 @@
               ""
             ],
             [
-              144,
+              146,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/google-bert/bert-base-multilingual-cased\">bert-base-multilingual-cased</a>",
               179,
               0.67,
@@ -65344,7 +65412,7 @@
               ""
             ],
             [
-              145,
+              147,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/google-bert/bert-base-multilingual-uncased\">bert-base-multilingual-uncased</a>",
               168,
               0.63,
@@ -65378,7 +65446,7 @@
               ""
             ],
             [
-              146,
+              148,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-base\">instructor-base</a>",
               110,
               0.41000000000000003,
@@ -65412,7 +65480,7 @@
               86.43
             ],
             [
-              147,
+              149,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-large\">instructor-large</a>",
               335,
               1.25,
@@ -65446,7 +65514,7 @@
               86.88
             ],
             [
-              148,
+              150,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/hkunlp/instructor-xl\">instructor-xl</a>",
               1241,
               4.62,
@@ -65480,7 +65548,7 @@
               86.56
             ],
             [
-              149,
+              151,
               "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella-base-en-v2\">stella-base-en-v2</a>",
               55,
               0.2,
@@ -65512,74 +65580,6 @@
               "",
               "",
               87.45
-            ],
-            [
-              150,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
-              1543,
-              5.75,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              88.23
-            ],
-            [
-              151,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
-              435,
-              1.62,
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              87.74
             ],
             [
               152,
@@ -69255,7 +69255,7 @@
             ],
             [
               18,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_400M_v5\">stella_en_400M_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_400M_v5\">stella_en_400M_v5</a>",
               435,
               1.62,
               31.66
@@ -69311,7 +69311,7 @@
             ],
             [
               26,
-              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/infgrad/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
+              "<a target=\"_blank\" style=\"text-decoration: underline\" href=\"https://huggingface.co/dunzhang/stella_en_1.5B_v5\">stella_en_1.5B_v5</a>",
               1543,
               5.75,
               31.49
